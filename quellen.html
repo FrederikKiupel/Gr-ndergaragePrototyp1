@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weiterbilden: Angebote und Quellen · NETZKLAR</title>
+<meta name="description" content="Geprüfte Angebote aus Deutschland, Österreich und der Schweiz zu Hass im Netz, Cybermobbing, Zivilcourage und Fake News – für Lehrkräfte, Jugendliche, Eltern und Fachkräfte.">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1A2E" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NETZKLAR">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Weiterbilden: Angebote und Quellen · NETZKLAR">
+<meta property="og:description" content="Geprüfte Angebote aus Deutschland, Österreich und der Schweiz zu Hass im Netz, Cybermobbing, Zivilcourage und Fake News – für Lehrkräfte, Jugendliche, Eltern und Fachkräfte.">
+<!-- BILD: og:image, 1200 × 630 px, Wortmarke auf neutralem Grund – nach dem Hosting mit absoluter URL ergänzen -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231E40AF'/%3E%3Cpath d='M7 8h18v13H14l-7 5z' fill='none' stroke='white' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='m11.5 14.5 3 3 6-6' fill='none' stroke='%23EFF35F' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('nk-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<!-- Automatisch erzeugt von werkzeuge/bauen.py – Änderungen bitte in vorlagen/ oder inhalte/daten.json vornehmen. -->
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="kopf">
+  <a class="marke" href="index.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 4h18v12H10l-7 5V4z"/><path d="m8 10 2.6 2.6L16 7.4" stroke-linecap="square"/></svg><span>NETZKLAR</span><!-- NAME PRÜFEN --></a>
+  <div class="kopf__rechts">
+    <a class="hilfe" href="beratung.html#sofort-hilfe"><svg class="icon" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5"/><path d="M12 17.5h.01"/></svg><span>Hilfe bei Hass im Netz</span></a>
+    <nav class="reiter" aria-label="Zielgruppen">
+      <ul><li><a href="lehrkraefte.html" data-zg="lehrkraefte">Lehrkräfte</a></li><li><a href="schueler.html" data-zg="schueler">Schüler:innen</a></li><li><a href="eltern.html" data-zg="eltern">Eltern</a></li><li><a href="fachkraefte.html" data-zg="fachkraefte">Sozialarbeit &amp; Psychologie</a></li></ul>
+    </nav>
+    <button class="knopf knopf--zweit knopf--klein modus nur-js" type="button" data-modus><span aria-hidden="true">◐</span> <span class="vh">Modus: </span><span data-modus-wert>Automatisch</span></button>
+  </div>
+</header>
+<div class="rahmen">
+  <nav class="seitenleiste" aria-label="Inhalte">
+    <ul><li><a href="material.html" data-mit-zielgruppe>Material</a></li><li><a href="spiele.html">Spiele</a></li><li><a href="wissen.html">Wissen</a></li><li><a href="beratung.html">Beratung</a></li><li><a href="quellen.html" aria-current="page">Weiterbilden</a></li></ul>
+    <p class="seitenleiste__titel" id="sl-schulen">Für Schulen</p>
+    <ul aria-labelledby="sl-schulen"><li><a href="externe-angebote.html">Externe Angebote</a></li></ul>
+  </nav>
+  <main id="inhalt" tabindex="-1">
+<header class="bereich__kopf">
+  <h1>Weiterbilden</h1>
+  <p class="einleitung">Auf diesen Angeboten bauen unsere Einheiten auf. Hier können Sie sich weiter informieren – nach Land, Zielgruppe und Thema gefiltert.</p>
+</header>
+
+<form class="filter" data-filter="quellen" aria-label="Angebote filtern">
+  <div class="filter__feld">
+    <label for="q-land">Land</label>
+    <select id="q-land" name="land">
+      <option value="">Alle</option>
+      <option value="DE">Deutschland</option>
+      <option value="AT">Österreich</option>
+      <option value="CH">Schweiz</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="q-fuer">Für</label>
+    <select id="q-fuer" name="fuer">
+      <option value="">Alle</option>
+      <option value="lehrkraefte">Lehrkräfte</option>
+      <option value="schueler">Schüler:innen</option>
+      <option value="eltern">Eltern</option>
+      <option value="fachkraefte">Sozialarbeit &amp; Psychologie</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="q-thema">Thema</label>
+    <select id="q-thema" name="thema">
+      <option value="">Alle</option>
+      <option value="hass">Hass im Netz</option>
+      <option value="cybermobbing">Cybermobbing</option>
+      <option value="zivilcourage">Zivilcourage &amp; Gegenrede</option>
+      <option value="fake">Fake News</option>
+      <option value="hilfe">Hilfe &amp; Beratung</option>
+      <option value="recht">Recht</option>
+      <option value="unterricht">Unterrichtsmaterial</option>
+    </select>
+  </div>
+  <button class="knopf knopf--text nur-js" type="reset">Filter zurücksetzen</button>
+</form>
+<p class="status" data-filter-anzahl role="status"></p>
+
+<h2 class="vh">Angebote</h2>
+<ul class="zeilen" data-filter-liste><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler" data-thema="fake hass unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Journalismus &amp; Faktencheck · Grundschule bis Sek II; Community NewZee 14–25 Jahre; Workshop „Disinformation Self Defense“ Klasse 8–11</p>
+    <h3 class="zeile__titel"><a href="https://usethenews.de/" rel="noopener">#UseTheNews<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Allianz für Nachrichtenkompetenz mit einer kostenlosen Datenbank für Lehrmaterial, Workshops gegen Desinformation und Angeboten für junge Menschen.</p>
+    <ul class="quelle__artikel"><li><a href="https://usethenews.de/de/lehrmaterialien" rel="noopener">Lehrmaterialien (Datenbank)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://usethenews.de/de/aktuelles/disinformation-self-defense-holistic-foundation" rel="noopener">Disinformation Self Defense<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://usethenews.de/de/angebote/lehrkraefte" rel="noopener">Angebote für Lehrkräfte<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte fachkraefte eltern" data-thema="fake bilder unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Journalismus &amp; Faktencheck · Workshops 13–18 Jahre; Faktenchecker-Projekt 16–19 Jahre; Tipps für alle</p>
+    <h3 class="zeile__titel"><a href="https://correctiv.org/medienbildung/" rel="noopener">CORRECTIV (Salon5, „What the Fakt?!“, Faktencheck-Tipps)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Gemeinnütziges Recherchezentrum mit Faktencheck-Redaktion, frei zugänglichen Prüftipps und Workshops seiner Jugendredaktion Salon5, in denen Jugendliche selbst zu Faktenchecker:innen werden.</p>
+    <ul class="quelle__artikel"><li><a href="https://correctiv.org/projekte/salon5/ueber-uns/workshops" rel="noopener">Workshops bei Salon5 (u. a. „What the Fakt?!“)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/" rel="noopener">Wie erkenne ich Falschmeldungen? (10 Tipps)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://correctiv.org/faktencheck/hintergrund/2022/04/01/so-funktioniert-die-bilderrueckwaertssuche/" rel="noopener">So funktioniert die Bilderrückwärtssuche<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://correctiv.org/faktencheck/faktencheck-tipps/2023/07/21/wie-erkenne-ich-ob-eine-webseite-serioes-ist/" rel="noopener">Wie erkenne ich, ob eine Webseite seriös ist?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler" data-thema="fake unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Journalismus &amp; Faktencheck · Sek I/II; Material „fit for news“ Klasse 5–8</p>
+    <h3 class="zeile__titel"><a href="https://journalismus-macht-schule.org/" rel="noopener">Journalismus macht Schule<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Bundesweite Initiative, die Journalist:innen für Werkstattgespräche über Nachrichten und Desinformation in Schulen vermittelt und Lehrkräfte fortbildet.</p>
+    <ul class="quelle__artikel"><li><a href="https://journalismus-macht-schule.org/journalistinnenbesuche/" rel="noopener">Journalist:innenbesuche<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://journalismus-macht-schule.org/materialsammlung/" rel="noopener">Materialsammlung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="fake unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Journalismus &amp; Faktencheck · 10–15 Jahre (Workshops); Grundschule 6–12 Jahre im EU-Projekt PRiME</p>
+    <h3 class="zeile__titel"><a href="https://www.lie-detectors.org/" rel="noopener">Lie Detectors<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Organisation, die Profi-Journalist:innen in Schulklassen schickt, damit Kinder und Jugendliche Desinformation erkennen und Nachrichten kritisch bewerten lernen.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.lie-detectors.org/teachers" rel="noopener">Teachers<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.lie-detectors.org/whats-new/welcome-to-prime-an-eu-initiative-to-bring-media-literacy-into-more-primary-schools-cgy2d" rel="noopener">Welcome to PRiME – EU-Initiative für Medienbildung an Grundschulen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler" data-thema="fake bilder unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Journalismus &amp; Faktencheck · Grundschule bis Klasse 11 (Fake-Einheiten ab Klasse 5)</p>
+    <h3 class="zeile__titel"><a href="https://www.br.de/sogehtmedien/index.html" rel="noopener">so geht MEDIEN<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Kostenloses Medienkompetenz-Angebot der Öffentlich-Rechtlichen mit Erklärvideos, Quiz, Arbeitsblättern und Stundenabläufen, u. a. zu Fakes, Deepfakes und Recherche.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.br.de/sogehtmedien/stimmt-das/index.html" rel="noopener">Stimmt das? Fakes entlarven (Themenübersicht)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.br.de/sogehtmedien/stimmt-das/luegen-erkennen/index.html" rel="noopener">Unterrichtseinheit: Fakes und Desinformation im Netz erkennen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.br.de/sogehtmedien/stimmt-das/deepfakes/index.html" rel="noopener">Unterrichtseinheit: Deepfakes – Wie Videos gefälscht werden<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.br.de/sogehtmedien/stimmt-das/fake-news-durchschauen/index.html" rel="noopener">Unterrichtseinheit: Die Tricks von Fake News-Machern durchschauen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="fachkraefte lehrkraefte" data-thema="hass zivilcourage recht fake">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · ab ca. 14 / Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://www.amadeu-antonio-stiftung.de/" rel="noopener">Amadeu Antonio Stiftung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Stiftung gegen Rechtsextremismus, Rassismus und Antisemitismus mit Ratgebern zu Hate Speech, Gegenrede und Verschwörungserzählungen.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.amadeu-antonio-stiftung.de/digitale-zivilgesellschaft/das-koennen-sie-tun/" rel="noopener">Das können Sie gegen Hate Speech tun<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.amadeu-antonio-stiftung.de/digitale-zivilgesellschaft/was-ist-hate-speech/" rel="noopener">Was ist Hate Speech?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.amadeu-antonio-stiftung.de/publikationen/verschwoerungserzaehlungen-begegnen-drei-faltflyer-fuer-die-praxis/" rel="noopener">Verschwörungserzählungen begegnen – drei Faltflyer für die Praxis<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern lehrkraefte schueler fachkraefte" data-thema="cybermobbing hilfe eltern recht unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · 8–19</p>
+    <h3 class="zeile__titel"><a href="https://www.buendnis-gegen-cybermobbing.de/" rel="noopener">Bündnis gegen Cybermobbing e. V.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Verein, der zu Cybermobbing aufklärt, Präventionsprogramme für Schulen anbietet, Studien durchführt und Betroffene an Hilfsangebote vermittelt.</p>
+    <ul class="quelle__artikel"><li><a href="https://buendnis-gegen-cybermobbing.de/ratgeber/fuer-eltern.html" rel="noopener">Für Eltern – Mein Kind wird im Internet gemobbt<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://buendnis-gegen-cybermobbing.de/ratgeber/fuer-schulen.html" rel="noopener">Für Lehrer &amp; Erzieher<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://buendnis-gegen-cybermobbing.de/hilfe.html" rel="noopener">Hilfe bei Cybermobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://buendnis-gegen-cybermobbing.de/hilfe/helpline.html" rel="noopener">Helpline<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="cybermobbing hilfe unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · ca. 10–19</p>
+    <h3 class="zeile__titel"><a href="https://www.cybermobbing-hilfe.de/" rel="noopener">Cybermobbing-Hilfe e. V.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Verein mit Peer-Online-Beratung für Kinder und Jugendliche sowie Präventions-Projekttagen und dem Schulprogramm „WIR gegen Cybermobbing!“.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.cybermobbing-hilfe.de/cybermobbing/" rel="noopener">Tipps &amp; Hilfe – Cybermobbing erkennen und handeln<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.cybermobbing-hilfe.de/praevention/" rel="noopener">Präventions-Workshops<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://beratung.cybermobbing-hilfe.de/#/" rel="noopener">Online-Beratung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="fachkraefte lehrkraefte" data-thema="hass zivilcourage fake">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · Erwachsene / Fachkräfte</p>
+    <h3 class="zeile__titel"><a href="https://www.das-nettz.de/" rel="noopener">Das NETTZ<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Vernetzungsstelle, die zivilgesellschaftliche Initiativen gegen Hass im Netz sichtbar macht, stärkt und mit Politik und Plattformen zusammenbringt.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.das-nettz.de/glossar" rel="noopener">Glossar<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.das-nettz.de/glossar/hate-speech" rel="noopener">Hate Speech (Glossareintrag)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.das-nettz.de/publikationen/handlungsempfehlungen-zu-massnahmen-gegen-hass-im-netz" rel="noopener">Handlungsempfehlungen zu Maßnahmen gegen Hass im Netz (2023)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.das-nettz.de/interventionsatlas-gegen-hass-im-netz" rel="noopener">Interventionsatlas gegen Hass im Netz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern" data-thema="eltern hass fake cybermobbing">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · Eltern von Kindern 0–17</p>
+    <h3 class="zeile__titel"><a href="https://www.elternguide.online/" rel="noopener">Elternguide.online<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Elternportal mit nach Alter (0–17) sortierten Beiträgen zu Apps, Spielen und sozialen Netzwerken.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.elternguide.online/hetze-im-netz/" rel="noopener">Hetze im Netz: erkennen, verstehen und handeln<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.elternguide.online/konflikte-im-netz/" rel="noopener">Konflikte im Netz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.elternguide.online/extremismus-populismus-und-desinformation-im-netz/" rel="noopener">Extremismus, Populismus und Desinformation im Netz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="fachkraefte eltern schueler" data-thema="hass hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · ab ca. 14 / junge Erwachsene / Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://hateaid.org/" rel="noopener">HateAid<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Beratungsstelle für Betroffene digitaler Gewalt mit kostenloser Beratung, Anleitungen zur Beweissicherung und Prozesskostenfinanzierung.</p>
+    <ul class="quelle__artikel"><li><a href="https://hateaid.org/hasskommentare-und-digitale-gewalt-melden/" rel="noopener">Hasskommentare und digitale Gewalt melden, aber richtig<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://hateaid.org/rechtssichere-screenshots/" rel="noopener">Rechtssichere Screenshots erstellen: Wie geht das?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://hateaid.org/akute-bedrohung-digitale-gewalt/" rel="noopener">Was tun bei akuter Bedrohung: 8 Regeln für den Notfall<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://hateaid.org/betroffenenberatung/" rel="noopener">Betroffenenberatung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte fachkraefte schueler" data-thema="zivilcourage hass unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · ab ca. 14 / Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://www.ichbinhier.eu/" rel="noopener">ichbinhier e. V.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Verein für digitale Zivilcourage, der mit einer Community, Workshops und dem kostenlosen Digital Democracy Lab respektvolle Gegenrede fördert.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.ichbinhier.eu/bildung/digital-democracy-lab/level-3-neue-werkzeuge-der-digitalen-zivilcourage/algorithmen-verstaerken-hass-im-netz-wie-du-dagegenhalten-kannst" rel="noopener">Algorithmen verstärken Hass im Netz: Wie du dagegenhalten kannst<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.ichbinhier.eu/bildung/digital-democracy-lab/level-3-neue-werkzeuge-der-digitalen-zivilcourage/kopiervorlagen-fuer-digitale-zivilcourage" rel="noopener">Kopiervorlagen für digitale Zivilcourage<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.ichbinhier.eu/hass-im-netz-begegnen-warum-digitale-zivilcourage-wichtig-ist" rel="noopener">Hass im Netz begegnen: Wie digitale Zivilcourage Diskussionen verändert<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.ichbinhier.eu/bildung/digital-democracy-lab" rel="noopener">Digitale Zivilcourage lernen | Digital Democracy Lab<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler eltern lehrkraefte" data-thema="cybermobbing fake eltern unterricht hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · 6–12</p>
+    <h3 class="zeile__titel"><a href="https://www.internet-abc.de/" rel="noopener">Internet-ABC<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Werbefreies Portal, das Kindern das Internet erklärt, mit eigenen Bereichen für Eltern und Grundschullehrkräfte.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.internet-abc.de/eltern/cybermobbing-oder-mobbing-im-internet/" rel="noopener">Cybermobbing oder: Mobbing im und über das Internet<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.internet-abc.de/kinder/lexikon/c/cybermobbing/" rel="noopener">Cybermobbing – einfach erklärt (Kinderlexikon)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.internet-abc.de/lehrkraefte/unterrichtsmaterialien-lernmodul-luegner-und-betrueger/" rel="noopener">Lernmodul 3.1: Fiese Tricks, Lügen und Betrug im Internet<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler" data-thema="cybermobbing hass hilfe zivilcourage">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · ca. 12–21 (keine Altersgrenze angegeben)</p>
+    <h3 class="zeile__titel"><a href="https://www.juuuport.de/" rel="noopener">JUUUPORT e. V.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Peer-Beratungsplattform, auf der junge ehrenamtliche Scouts Jugendlichen kostenlos und vertraulich bei Online-Problemen helfen.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.juuuport.de/infos/ratgeber/cybermobbing" rel="noopener">Cybermobbing: Tipps und Hilfe<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.juuuport.de/infos/ratgeber/hass-im-netz" rel="noopener">Hass im Netz – geht gar nicht!<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.juuuport.de/hilfe/beratung" rel="noopener">Beratung (Infoseite)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="fachkraefte lehrkraefte" data-thema="hass hilfe zivilcourage recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · ab ca. 16 / Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://www.neuemedienmacher.de/" rel="noopener">Neue deutsche Medienmacher*innen (NdM)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Verein von Medienschaffenden für vielfältigen Journalismus, mit Glossar und Werkzeugen gegen Hass im Netz.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.neuemedienmacher.de/wissen-tools/gegen-hass-im-netz" rel="noopener">Wissen &amp; Tools gegen Hass im Netz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.neuemedienmacher.de/wissen-tools/gegen-hass-im-netz/tipps-fuer-betroffene" rel="noopener">Tipps für Betroffene<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.neuemedienmacher.de/wissen-tools/gegen-hass-im-netz/tipps-fuer-community-arbeit" rel="noopener">Tipps für Community-Arbeit<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.neuemedienmacher.de/glossar" rel="noopener">Glossar<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler eltern" data-thema="hilfe cybermobbing eltern">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · Kinder, Jugendliche, junge Erwachsene; Eltern</p>
+    <h3 class="zeile__titel"><a href="https://www.nummergegenkummer.de/" rel="noopener">Nummer gegen Kummer e. V.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Bundesweites, kostenloses und anonymes Beratungsangebot per Telefon, Mail und Chat für Kinder, Jugendliche und Eltern.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.nummergegenkummer.de/kinder-und-jugendberatung/" rel="noopener">Beratung für Kinder und Jugendliche<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.nummergegenkummer.de/elternberatung/" rel="noopener">Beratung für Eltern und andere Bezugspersonen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.nummergegenkummer.de/kinder-und-jugendberatung/faq-online-beratung/" rel="noopener">FAQ Online-Beratung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler eltern lehrkraefte fachkraefte" data-thema="eltern unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Verein / Stiftung · Workshops ab Klasse 6 (ca. 11–14); Eltern und Fachkräfte</p>
+    <h3 class="zeile__titel"><a href="https://smiley-ev.de/" rel="noopener">smiley e. V.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Medienkompetenz-Verein mit Workshops für Schulklassen, Elternabenden und Fortbildungen für Fachkräfte zu Social Media.</p>
+    <ul class="quelle__artikel"><li><a href="https://smiley-ev.de/angebote.html" rel="noopener">Angebote<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://smiley-ev.de/faq.html" rel="noopener">FAQ<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte fachkraefte" data-thema="hass fake zivilcourage unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Unternehmen &amp; Plattform · Sek I/II (keine genaue Angabe)</p>
+    <h3 class="zeile__titel"><a href="https://medien-in-die-schule.de/" rel="noopener">Medien in die Schule<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Offene Unterrichtsmaterialien zu Medienkompetenz, u. a. eine Einheit „Hass in der Demokratie begegnen“ mit Modulen zu Hate Speech und Desinformation.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/" rel="noopener">Unterrichtseinheit „Hass in der Demokratie begegnen“<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/modul-5-desinformation-und-hate-speech/" rel="noopener">Modul 5: Desinformation und Hate Speech<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern schueler" data-thema="cybermobbing hass eltern hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Unternehmen &amp; Plattform · Nutzung ab 13 Jahren; Teen-Konten unter 16 bzw. 18</p>
+    <h3 class="zeile__titel"><a href="https://about.instagram.com/de-de/safety" rel="noopener">Meta / Instagram – Sicherheitsbereich<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Offizielle Instagram-Seiten zu Schutzfunktionen gegen Mobbing, Teen-Konten und Elternaufsicht über den Meta-Familienbereich.</p>
+    <ul class="quelle__artikel"><li><a href="https://about.instagram.com/de-de/community/anti-bullying" rel="noopener">Gegen Mobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://about.instagram.com/de-de/community/parents" rel="noopener">Eltern-Leitfaden<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern lehrkraefte schueler" data-thema="cybermobbing zivilcourage hass fake eltern hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Unternehmen &amp; Plattform · Kinder und Jugendliche ca. 8–18 Jahre sowie Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://www.teachtoday.de/" rel="noopener">Teachtoday<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Medienkompetenz-Portal mit Elternratgebern, Erste-Hilfe-Tipps bei Cybermobbing, interaktiven Lernmodulen und Themen zu digitaler Zivilcourage und Desinformation.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.teachtoday.de/Ratgeber/Sicherheit_Risiken/3952_Erste_Hilfe_bei_Cybermobbing.htm" rel="noopener">Erste Hilfe bei Cybermobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.teachtoday.de/Themen/Digitale_Gesellschaft/2921_Digitale_Zivilcourage.htm" rel="noopener">Digitale Zivilcourage<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.teachtoday.de/Themen/Digitale_Gesellschaft/3778_Desinformation_und_KI.htm" rel="noopener">Desinformation und KI<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.teachtoday.de/Aktuelles/Aktionen/3464_Kampagne_Gegen_Hass_im_Netz.htm" rel="noopener">Kampagne „Gegen Hass im Netz“<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern schueler" data-thema="cybermobbing hass eltern hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Unternehmen &amp; Plattform · ab 13 Jahren (Nutzung), Eltern von Teens</p>
+    <h3 class="zeile__titel"><a href="https://www.tiktok.com/safety/de-de/" rel="noopener">TikTok Sicherheitszentrum<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Offizielle Sicherheits- und Elternseiten von TikTok mit Anleitungen zum Melden, zu Filtern und zum Begleiteten Modus.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.tiktok.com/safety/de-de/bullying-prevention" rel="noopener">Mobbing-Prävention<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.tiktok.com/safety/de-de/guardians-guide/" rel="noopener">Leitfaden für Erziehungsberechtigte<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.tiktok.com/safety/de-de/countering-hate/" rel="noopener">Hassreden und hasserfülltem Verhalten entgegentreten<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="hass recht zivilcourage unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Polizei · Klasse 5–13 (ca. 10–19)</p>
+    <h3 class="zeile__titel"><a href="https://praevention.polizei-bw.de/" rel="noopener">Polizei Baden-Württemberg – „Zivilcourage im Netz“ und „Digital ist real“<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Polizeiliche Präventionsangebote für Schulen, u. a. eine LKA-Doppelstunde zu Hate Speech ab Klasse 7 und eine Kampagne gegen Cybergrooming für Klasse 5–7.</p>
+    <p class="zeile__meta quelle__notiz">Eigene Programmseiten waren bei der Recherche nicht abrufbar. Die Programme sind über Pressemitteilungen des Innenministeriums belegt.</p><ul class="quelle__artikel"><li><a href="https://im.baden-wuerttemberg.de/de/service/presse-und-oeffentlichkeitsarbeit/pressemitteilung/pid/praeventionsprogramm-zivilcourage-im-netz" rel="noopener">Präventionsprogramm „Zivilcourage im Netz“ (Pressemitteilung IM BW, 18.09.2020)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://im.baden-wuerttemberg.de/de/service/presse-und-oeffentlichkeitsarbeit/pressemitteilung/pid/polizei-baden-wuerttemberg-staerkt-junge-menschen-im-umgang-mit-gefahren-im-netz" rel="noopener">Polizei BW stärkt junge Menschen im Umgang mit Gefahren im Netz – „Digital ist real“ (Pressemitteilung IM BW, 15.10.2026)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://praevention.polizei-bw.de/" rel="noopener">Prävention – Polizei Baden-Württemberg<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte eltern schueler" data-thema="cybermobbing recht zivilcourage unterricht hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Polizei · ab Klasse 7 (Verklickt!)</p>
+    <h3 class="zeile__titel"><a href="https://www.polizei-beratung.de/" rel="noopener">ProPK – Polizeiliche Kriminalprävention der Länder und des Bundes (Medienpaket „Verklickt!“)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Bundesweites Polizei-Präventionsportal mit Tipps zu Cybermobbing, Zivilcourage und Medienpaketen für die Schule.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.polizei-beratung.de/themen-und-tipps/gefahren-im-internet/cybermobbing/folgen-fuer-opfer/" rel="noopener">Cybermobbing: Folgen für Opfer – Tipps für Betroffene und Eltern<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.polizei-beratung.de/themen-und-tipps/gefahren-im-internet/cybermobbing/tipps-fuer-lehrer/" rel="noopener">In der Schule Cybermobbing vorbeugen (Tipps für Lehrer)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.polizei-beratung.de/themen-und-tipps/gefahren-im-internet/cybermobbing/" rel="noopener">Cybermobbing ist digitale Gewalt (mit Hinweis auf Medienpaket „Verklickt!“)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.polizei-beratung.de/themen-und-tipps/zivilcourage/" rel="noopener">Aktion-tu-was: Einfache Regeln für mehr Zivilcourage<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte eltern" data-thema="cybermobbing hass eltern unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Programm · Mentor:innen Klasse 8–10; Elternangebote für Eltern von Kindern und Jugendlichen</p>
+    <h3 class="zeile__titel"><a href="https://digitale-helden.de/" rel="noopener">Digitale Helden<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Gemeinnütziges Mentorenprogramm, bei dem ältere Schüler:innen zu Ansprechpersonen für jüngere bei Themen wie Cybermobbing ausgebildet werden, ergänzt um Elternwebinare.</p>
+    <p class="zeile__meta quelle__notiz">Die Website ließ sich bei der Recherche nicht automatisch auslesen. Bitte vor dem Einsatz selbst prüfen.</p>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte fachkraefte" data-thema="cybermobbing zivilcourage fake unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Programm · Lehrkräfte aller Schularten</p>
+    <h3 class="zeile__titel"><a href="https://fobizz.com/was-ist-fobizz" rel="noopener">fobizz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Kommerzielle Plattform mit Online-Fortbildungen, KI-Tools und Materialien für Lehrkräfte, darunter Kurse zu Cybermobbing, digitaler Zivilcourage und Nachrichtenkompetenz.</p>
+    <p class="zeile__meta quelle__notiz">Kostenpflichtig: Basis-Konto kostenlos, Fortbildungen und Schullizenzen gegen Gebühr.</p><ul class="quelle__artikel"><li><a href="https://fobizz.com/de/gewaltpraevention-schule/" rel="noopener">Gewaltprävention in der Schule<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://fobizz.com/de/demokratiebildung/" rel="noopener">Demokratiebildung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://fobizz.com/preise/" rel="noopener">Preise &amp; Lizenzen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler eltern" data-thema="cybermobbing zivilcourage unterricht eltern">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Programm · Klasse 5–7 (ca. 10–13 Jahre)</p>
+    <h3 class="zeile__titel"><a href="https://www.tk.de/lebenswelten/gesunde-schule/gemeinsam-klasse-sein-2138192" rel="noopener">Gemeinsam Klasse sein<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Anti-Mobbing-Programm mit fünf Projekttagen, das in Klasse 5 (teils bis 7) den Klassenzusammenhalt stärkt und Mobbing sowie Cybermobbing vorbeugt.</p>
+    <p class="zeile__meta quelle__notiz">Die Materialien gibt es nach einer Fortbildung per Zugangscode.</p><ul class="quelle__artikel"><li><a href="https://www.tk.de/lebenswelten/gesunde-schule/gemeinsam-klasse-sein-2138192" rel="noopener">Gemeinsam Klasse sein (TK-Lebenswelten)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.gemeinsam-klasse-sein.de/anti-mobbing" rel="noopener">Online-Plattform Anti-Mobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.schulministerium.nrw/gemeinsam-klasse-sein" rel="noopener">Gemeinsam Klasse sein (Schulministerium NRW)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.tk.de/presse/themen/praevention/gesund-leben/mobbing-gemeinsam-klasse-sein-2214796" rel="noopener">Fast 400 Schulen engagieren sich gegen Mobbing (TK-Presse)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte fachkraefte schueler eltern" data-thema="cybermobbing zivilcourage unterricht eltern">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Programm · Klasse 7–10 (ca. 12–16 Jahre)</p>
+    <h3 class="zeile__titel"><a href="https://www.medienhelden.info/" rel="noopener">Medienhelden<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Wissenschaftlich evaluiertes Präventionsprogramm gegen Cybermobbing für die Klassen 7 bis 10, das über Rollenspiele Perspektiven von Betroffenen, Täter:innen und Zuschauenden erfahrbar macht.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.medienhelden.info/das-programm.html" rel="noopener">Das Programm<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.medienhelden.info/parentmedia.html" rel="noopener">PARENT MEDIA<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://mobil-krankenkasse.de/lebenswelten/projekte-fuer-schulen/Medienhelden.html" rel="noopener">Prävention von Cybermobbing (Mobil Krankenkasse)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="fake unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Spiel · Jugendliche und Erwachsene (Altersangabe auf der Seite nicht gefunden; Einsatz ab ca. 14 Jahren sinnvoll)</p>
+    <h3 class="zeile__titel"><a href="https://www.getbadnews.com/en" rel="noopener">Bad News (Prebunking-Spiel)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Browserspiel, in dem man selbst Desinformation verbreitet und so sechs typische Manipulationstechniken kennenlernt – nach dem Impf-Prinzip (Prebunking).</p>
+    <ul class="quelle__artikel"><li><a href="https://www.getbadnews.com/de" rel="noopener">Bad News – deutsche Version<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.cam.ac.uk/stories/goviral" rel="noopener">Cambridge game ‘pre-bunks’ coronavirus conspiracies<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="fake bilder unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Spiel · Fakefinder ab 14 Jahren (school: Kernzielgruppe Klasse 8–10); Fakefinder Kids ab 8 Jahren</p>
+    <h3 class="zeile__titel"><a href="https://swrfakefinder.de/" rel="noopener">SWR Fakefinder (inkl. Fakefinder Kids und Fakefinder school)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Kostenloses Browserspiel, in dem Spieler:innen in simulierten Gruppenchats Posts als Fake, kein Fake oder Satire einordnen und dabei Recherchetechniken lernen.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-deine-news-challenge-100.html" rel="noopener">SWR Fakefinder – deine News-Challenge<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-kids-100.html" rel="noopener">Fakefinder Kids – ab 8 Jahren<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.swr.de/unternehmen/medienkompetenz/unterrichtseinheit-fakefinder-100.pdf" rel="noopener">Infobogen für Lehrkräfte: Fakefinder school (PDF)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.swr.de/unternehmen/medienkompetenz/fakefinder-kids-infobogen-100.pdf" rel="noopener">Infobogen für Lehrkräfte: Fakefinder Kids (PDF)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler eltern" data-thema="hass fake cybermobbing zivilcourage unterricht eltern">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · Klasse 5–13 (einzelne Materialien ab Klasse 3)</p>
+    <h3 class="zeile__titel"><a href="https://bitte-was.de/" rel="noopener">BITTE WAS?! – Kontern gegen Fake und Hass<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Landesprojekt mit Unterrichtsmodulen, Schulworkshops, Online-Escape-Room und Online-Elternabenden gegen Fake News, Hass und Mobbing im Netz.</p>
+    <ul class="quelle__artikel"><li><a href="https://bitte-was.de/fuer-lehrkraefte/lehrmaterial-und-downloads" rel="noopener">Material für den Unterricht<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://bitte-was.de/eltern" rel="noopener">Für Eltern<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://bitte-was.de/fileadmin/Redaktion/downloads/SocialMediaundDemokratie/BW_DaGegenRede_Konzept.pdf" rel="noopener">Unterrichtsmodul Da.Gegen.Rede (Konzept, PDF)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler fachkraefte" data-thema="hass fake unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · ab ca. 10 (Junges Politik-Lexikon), Themenblätter ab Klasse 8</p>
+    <h3 class="zeile__titel"><a href="https://www.bpb.de/" rel="noopener">bpb – Bundeszentrale für politische Bildung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Bundesbehörde mit Hintergrundtexten, Lexika und Unterrichtsmaterialien u. a. zu Hate Speech und Desinformation.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.bpb.de/shop/materialien/themenblaetter/270493/hate-speech-gruppenbezogene-menschenfeindlichkeit-im-netz/" rel="noopener">Hate Speech – Gruppenbezogene Menschenfeindlichkeit im Netz (Themenblätter im Unterricht Nr. 118)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.bpb.de/themen/medien-journalismus/desinformation/519735/ist-diese-meldung-ein-fake/" rel="noopener">Ist diese Meldung ein Fake?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.bpb.de/kurz-knapp/lexika/das-junge-politik-lexikon/320271/fake-news/" rel="noopener">Fake News (Das junge Politik-Lexikon)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.bpb.de/themen/medien-journalismus/facts-contexts/546327/hassrede-im-unterricht-behandeln/" rel="noopener">Hassrede im Unterricht behandeln<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="fachkraefte lehrkraefte eltern" data-thema="hilfe hass recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · alle</p>
+    <h3 class="zeile__titel"><a href="https://demokratiezentrum-bw.de/" rel="noopener">Demokratiezentrum Baden-Württemberg<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Landeszentrum in drei Bereichen: Demokratie stärken, Extremismus vorbeugen und Betroffene unterstützen, u. a. mit Opferberatung und Antisemitismus-Meldestelle.</p>
+    <ul class="quelle__artikel"><li><a href="https://demokratiezentrum-bw.de/beratung-von-betroffenen/" rel="noopener">Beratung von Betroffenen rechter Gewalt (Leuchtlinie)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://demokratiezentrum-bw.de/meldestelle-antisemitismus/" rel="noopener">Recherche- und Informationsstelle Antisemitismus (RIAS) BW<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern fachkraefte" data-thema="eltern hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · Eltern von Kindern 0–17</p>
+    <h3 class="zeile__titel"><a href="https://www.medienfokus-bw.de/" rel="noopener">Eltern-Medienmentoren / MedienFokus BW<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Landesweite Initiative zur Medienkompetenz, die u. a. Eltern zu ehrenamtlichen Medienmentoren schult, damit sie andere Eltern beraten.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.medienfokus-bw.de/angebote/eltern/" rel="noopener">Eltern – MedienFokus BW<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.medienfokus-bw.de/veranstaltung/schulung-zu-eltern-medienmentorinnen-mentoren/" rel="noopener">Schulung zu Eltern-Medienmentorinnen/-mentoren<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="cybermobbing hass fake hilfe zivilcourage">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · 12–19</p>
+    <h3 class="zeile__titel"><a href="https://www.handysektor.de/" rel="noopener">Handysektor<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Jugendportal mit Artikeln, Videos, Infografiken und einem Erste-Hilfe-Bereich rund um Smartphone, Apps und Social Media.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.handysektor.de/artikel/tipps-gegen-cybermobbing/" rel="noopener">Cybermobbing: 8 Tipps für Betroffene<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.handysektor.de/artikel/was-tun-gegen-hetze-im-netz/" rel="noopener">Was tun gegen Hetze im Netz?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.handysektor.de/artikel/communityfrage-fake-news-richtig-erkennen/" rel="noopener">Communityfrage: Fake News richtig erkennen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.handysektor.de/cybermobbing-gegen-hass-im-netz/" rel="noopener">Cybermobbing: Hilfe für Betroffene und Zuschauende<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler eltern fachkraefte" data-thema="cybermobbing hass fake zivilcourage unterricht eltern hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · 6–19</p>
+    <h3 class="zeile__titel"><a href="https://www.klicksafe.de/" rel="noopener">klicksafe<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Bundesweites Portal mit Infos, Tipps und Unterrichtsmaterial zu Online-Risiken für Kinder, Jugendliche, Eltern und Fachkräfte.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.klicksafe.de/cybermobbing" rel="noopener">Cybermobbing – was tun? Hilfe und Tipps<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.klicksafe.de/hate-speech/strategien-gegen-hate-speech" rel="noopener">Wie reagiert man bei Hate Speech? (Strategien gegen Hate Speech)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.klicksafe.de/news/vom-bystander-zum-upstander-tipps-fuer-jugendliche-bei-cybermobbing" rel="noopener">Vom Bystander zum Upstander – Tipps für Jugendliche bei Cybermobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.klicksafe.de/desinformation-und-meinung/fake-news" rel="noopener">Fake News – Aufklärung &amp; Unterstützung für Kinder<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte schueler eltern" data-thema="fake unterricht hass">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · Klasse 5–13</p>
+    <h3 class="zeile__titel"><a href="https://www.lpb-bw.de/" rel="noopener">Landeszentrale für politische Bildung Baden-Württemberg (LpB BW)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Landeszentrale mit Unterrichtsmaterialien („mach&#x27;s klar!“), Workshops zur politischen Medienbildung und Angeboten gegen Desinformation.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.lpb-bw.de/medienpaedagogik" rel="noopener">Fachbereich Medienpädagogik<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.lpb-bw.de/publikation-anzeige/mk-2018-30-fake-news-ich-mach-mir-die-welt-wie-sie-mir-gefaellt" rel="noopener">MK 2018-30 Fake news – ich mach mir die Welt, wie sie mir gefällt!<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.lpb-bw.de/themen/politische-bildung/politische-medienbildung" rel="noopener">Politische Medienbildung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="unterricht cybermobbing fake hass">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · ab Klasse 7 (ca. 12–19)</p>
+    <h3 class="zeile__titel"><a href="https://www.lmz-bw.de/mediapeers" rel="noopener">Media Peer Academy (MPA)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Peer-Programm, in dem Schülerinnen und Schüler ab Klasse 7 zu Media Peers ausgebildet werden und ihr Wissen an Mitschüler und Erwachsene weitergeben.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.lmz-bw.de/medienbildung/themen-von-a-bis-f/cybermobbing/praevention-und-intervention" rel="noopener">Cybermobbing – Prävention und Intervention (LMZ)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.lmz-bw.de/medienbildung/themen-von-f-bis-z/hatespeech-und-fake-news/fake-news" rel="noopener">Fake News (LMZ)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.lmz-bw.de/medienbildung/themen-von-f-bis-z/hatespeech-und-fake-news/hatespeech" rel="noopener">Hatespeech (LMZ)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="schueler lehrkraefte" data-thema="cybermobbing fake unterricht zivilcourage">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · Sekundarstufe I (ca. 11–16); seit 2024/25 auch Grundschulen</p>
+    <h3 class="zeile__titel"><a href="https://www.medienscouts-nrw.de/" rel="noopener">Medienscouts NRW<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Peer-Education-Programm, das Schülerinnen und Schüler sowie Beratungslehrkräfte zu Medienscouts für ihre Schule qualifiziert.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.medienscouts-nrw.de/weiterfuehrende-schulen/" rel="noopener">Für weiterführende Schulen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.medienscouts-nrw.de/fuer-medienscouts/" rel="noopener">Für Medienscouts (Infos zu Aufbauworkshops)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="eltern" data-thema="eltern cybermobbing fake hass">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · Eltern von Kindern 3–17</p>
+    <h3 class="zeile__titel"><a href="https://www.schau-hin.info/" rel="noopener">SCHAU HIN! Was Dein Kind mit Medien macht.<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Elternratgeber mit alltagsnahen Tipps zur Medienerziehung von Kindern und Jugendlichen.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.schau-hin.info/cybermobbing" rel="noopener">Cybermobbing: Das können Eltern tun, um ihre Kinder zu schützen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.schau-hin.info/sicherheit-risiken/extremismus-in-sozialen-medien-was-eltern-wissen-sollten" rel="noopener">Extremismus in sozialen Medien: Was Eltern wissen sollten<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.schau-hin.info/sicherheit-risiken/psychische-gesundheit-auf-social-media-risiken-durch-falschinformationen" rel="noopener">Psychische Gesundheit auf Social Media: Risiken durch Falschinformationen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="DE" data-fuer="lehrkraefte fachkraefte" data-thema="cybermobbing unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Deutschland · Staatlich / Land · Klasse 1–13</p>
+    <h3 class="zeile__titel"><a href="https://zsl-bw.de/,Lde/startseite/beratung/beratung-starkstaerkerwir-praevention" rel="noopener">stark.stärker.WIR. / „Mobbing stoppen – stark.stärker.WIR.“<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Landesweites Präventionsrahmenkonzept, mit dem Schulen Gewalt-, Mobbing- und Suchtprävention sowie Gesundheitsförderung dauerhaft auf Schul-, Klassen- und Einzelebene verankern.</p>
+    <p class="zeile__meta quelle__notiz">Das Konzept „Mobbing stoppen“ ist online nur über das Serviceportal Baden-Württemberg dokumentiert.</p><ul class="quelle__artikel"><li><a href="https://zsl-bw.de/,Lde/15981099" rel="noopener">Prävention von Gewalt und Mobbing (ZSL)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.heidelberg.de/-/Lebenslagen/gewalt-an-schulen/leb5001199" rel="noopener">Gewalt an Schulen (Serviceportal BW, Spiegelung bei heidelberg.de)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="schueler eltern lehrkraefte" data-thema="fake bilder">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Verein / Stiftung · Jugendliche und Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://www.mimikama.org/" rel="noopener">Mimikama<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Österreichische Faktencheck-Organisation, die Falschmeldungen, Betrugsmaschen und Desinformation prüft und Ratgeber zum Erkennen von Fakes und KI-Inhalten veröffentlicht.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.mimikama.org/ueber-uns/" rel="noopener">Über uns<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/" rel="noopener">KI-Bilder und KI-Videos erkennen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.mimikama.org/so-erkennst-du-fakes-im-netz/" rel="noopener">So erkennst du Fakes im Netz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="schueler eltern" data-thema="cybermobbing hass hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Verein / Stiftung · Kinder und Jugendliche (ca. 6–19 Jahre) und Bezugspersonen</p>
+    <h3 class="zeile__titel"><a href="https://www.rataufdraht.at/" rel="noopener">Rat auf Draht 147<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Österreichs Notruf für Kinder, Jugendliche und Bezugspersonen mit Telefon-, Chat- und Online-Beratung sowie Ratgeberartikeln zu Cybermobbing.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.rataufdraht.at/themenubersicht/handy-internet/was-tun-gegen-cyber-mobbing" rel="noopener">Was tun gegen Cyber-Mobbing?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.rataufdraht.at/themenubersicht/handy-internet/mobbing-in-der-whatsapp-gruppe" rel="noopener">Mobbing in der WhatsApp Gruppe<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="eltern lehrkraefte schueler fachkraefte" data-thema="cybermobbing hass zivilcourage fake bilder hilfe recht eltern unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Verein / Stiftung · Kinder ab ca. 3 Jahren (Elternbroschüren) bis Jugendliche; Material „Hass im Netz kontern“ ab 9 Jahren</p>
+    <h3 class="zeile__titel"><a href="https://www.saferinternet.at/" rel="noopener">Saferinternet.at<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Zentrale österreichische Anlaufstelle für sichere Internetnutzung mit Ratgebern, Unterrichtsmaterial und Elternangeboten zu Cybermobbing, Hass im Netz, Fakes und Deepfakes.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.saferinternet.at/themen/cybermobbing" rel="noopener">Cybermobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.saferinternet.at/was-kann-man-gegen-hass-im-netz-tun" rel="noopener">Was kann man gegen Hass im Netz tun?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.saferinternet.at/wie-ueberprueft-man-onlineinhalte" rel="noopener">Wie überprüft man Onlineinhalte?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.saferinternet.at/zielgruppen/schulen/unterrichtsbeispiele/hass-im-netz-kontern" rel="noopener">Unterrichtsbeispiel „Hass im Netz kontern“<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="eltern fachkraefte lehrkraefte schueler" data-thema="hass hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Verein / Stiftung · alle</p>
+    <h3 class="zeile__titel"><a href="https://www.stopline.at/" rel="noopener">Stopline<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Österreichische Online-Meldestelle für Darstellungen sexuellen Kindesmissbrauchs und nationalsozialistische Wiederbetätigung im Internet.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.stopline.at/de/melden" rel="noopener">Melden<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="schueler eltern fachkraefte" data-thema="hass hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Verein / Stiftung · alle Altersgruppen</p>
+    <h3 class="zeile__titel"><a href="https://zara.or.at/de/beratungsstellen" rel="noopener">ZARA – Beratungsstelle #GegenHassimNetz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Kostenlose juristische und psychosoziale Beratung für Betroffene und Zeug:innen von Hass im Netz, inklusive Löschanträgen und Rechtshilfefonds.</p>
+    <ul class="quelle__artikel"><li><a href="https://zara.or.at/beratung/" rel="noopener">Beratung &amp; Melden<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="lehrkraefte" data-thema="fake unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Staatlich / Land · Primarstufe und Sekundarstufe I</p>
+    <h3 class="zeile__titel"><a href="https://eeducation.at/" rel="noopener">eEducation Austria<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Österreichisches Netzwerk für digitale Schulentwicklung mit prototypischen Aufgaben zur Medienbildung, u. a. zu Gerüchten, Propaganda und „Fact or Fake?“ in der Primarstufe.</p>
+    <ul class="quelle__artikel"><li><a href="https://eeducation.at/ressourcen/materialien/medienbildung" rel="noopener">Medienbildung (Ressourcen)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://eeducation.at/ressourcen/materialien/medienbildung/materialien-medienbildung" rel="noopener">Materialien Medienbildung<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="AT" data-fuer="schueler lehrkraefte" data-thema="hass fake cybermobbing zivilcourage unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Österreich · Staatlich / Land · alle Schulstufen (Volksschule bis AHS/BHS, Berufsschule); AMS-Maßnahmen 15–25 Jahre</p>
+    <h3 class="zeile__titel"><a href="https://oead.at/starkeschule" rel="noopener">OeAD – „Extremismusprävention macht Schule“ (jetzt „Starke Schule, starke Gesellschaft“)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Staatlich finanzierte, kostenlose Workshops für Schulen zu Demokratie, Extremismus, Konflikten, digitalen Lebenswelten (u. a. Verschwörungstheorien, Cybermobbing) und psychischer Gesundheit.</p>
+    <p class="zeile__meta quelle__notiz">Das Programm „Extremismusprävention macht Schule“ läuft seit Oktober 2025 als „Starke Schule, starke Gesellschaft“ weiter.</p><ul class="quelle__artikel"><li><a href="https://oead.at/starkeschule" rel="noopener">Starke Schule, starke Gesellschaft<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="schueler" data-thema="cybermobbing hass zivilcourage hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Verein / Stiftung · Kinder und Jugendliche (ca. bis 25 Jahre)</p>
+    <h3 class="zeile__titel"><a href="https://www.147.ch/de/" rel="noopener">Beratung + Hilfe 147 (Pro Juventute)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Kostenlose, vertrauliche Beratung für Kinder und Jugendliche in der Schweiz per Telefon, WhatsApp, E-Mail und Peer-Chat, mit Ratgebern zu Mobbing und Hate Speech.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.147.ch/de/article/cybermobbing-und-mobbing/mobbing-das-kannst-du-tun/" rel="noopener">Mobbing: Das kannst du tun<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://147.ch/de/digitales-leben/mobbing-im-internet/was-ist-hate-speech" rel="noopener">Tipps gegen Hass im Netz (Was ist Hate Speech?)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="schueler lehrkraefte fachkraefte" data-thema="zivilcourage hass unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Verein / Stiftung · Primar- und Oberstufe (Lehrplan 21 Zyklen 2–3), Berufsschulen</p>
+    <h3 class="zeile__titel"><a href="https://www.ncbi.ch/" rel="noopener">NCBI Schweiz<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Verein gegen Vorurteile, Rassismus und Diskriminierung mit Gewaltpräventionsprogrammen für Schulen wie Peacemaker und Workshops zu Antisemitismus und Islamfeindlichkeit.</p>
+    <ul class="quelle__artikel"><li><a href="https://ncbi.ch/gewaltpraevention/peacemaker/" rel="noopener">Peacemaker<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://ncbi.ch/abbau-von-vorurteilen/antisemitismus/" rel="noopener">Antisemitismus<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="schueler fachkraefte eltern" data-thema="hass zivilcourage hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Verein / Stiftung · Jugendliche und Erwachsene</p>
+    <h3 class="zeile__titel"><a href="https://stophatespeech.ch/" rel="noopener">Stop Hate Speech<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Projekt, das mit Forschung, dem Erkennungsalgorithmus „Bot Dog“ und Gegenrede-Strategien gegen Hass im Netz vorgeht und Betroffene unterstützt.</p>
+    <ul class="quelle__artikel"><li><a href="https://stophatespeech.ch/pages/wie-auf-hate-speech-reagieren" rel="noopener">Wie auf Hate Speech reagieren?<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://stophatespeech.ch/pages/ich-bin-betroffen" rel="noopener">Ich bin betroffen<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="schueler eltern lehrkraefte fachkraefte" data-thema="cybermobbing eltern unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Verein / Stiftung · Kindergarten bis Berufsbildung</p>
+    <h3 class="zeile__titel"><a href="https://www.zischtig.ch/" rel="noopener">zischtig.ch<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Schweizer Verein für Medienbildung mit Workshops für Schulklassen, Elternabenden und Weiterbildungen für Lehr- und Fachpersonen.</p>
+    <ul class="quelle__artikel"><li><a href="https://zischtig.ch/alle_angebote/" rel="noopener">Alle Angebote<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://zischtig.ch/ermutigung-und-tipps/" rel="noopener">Ermutigung und Tipps (Elternarbeit)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="eltern lehrkraefte schueler" data-thema="cybermobbing hilfe recht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Polizei · Kinder und Jugendliche (Schulalter)</p>
+    <h3 class="zeile__titel"><a href="https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/jugend.html" rel="noopener">Kantonspolizei St. Gallen – Prävention Jugend<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Jugenddienst der Kantonspolizei, der Jugendliche, Eltern und Schulen berät und Präventionsvorträge an Schulen hält.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/jugend.html" rel="noopener">Jugend (Jugenddienst)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/cybercrime.html" rel="noopener">Cybercrime<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="schueler lehrkraefte eltern" data-thema="cybermobbing hilfe eltern unterricht">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Programm · 3.–9. Klasse (ca. 8–15 Jahre)</p>
+    <h3 class="zeile__titel"><a href="https://www.projuventute.ch/de/medienprofis" rel="noopener">Pro Juventute Medienprofis<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Workshops für Schulklassen zu fairem Verhalten online, Schutz vor Sextortion und Cybergrooming sowie wählbaren Vertiefungen wie Cybermobbing.</p>
+    <p class="zeile__meta quelle__notiz">Kostenpflichtig: Schulworkshops gegen Gebühr pro Klasse.</p><ul class="quelle__artikel"><li><a href="https://www.projuventute.ch/de/medienprofis" rel="noopener">Medienprofis – Schulworkshops<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.projuventute.ch/de/eltern/medien-internet/10-tipps-cybermobbing" rel="noopener">Cybermobbing: schnelles Handeln ist nötig<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.projuventute.ch/de/elternberatung" rel="noopener">Elternberatung 24/7<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li><li class="zeile" data-land="CH" data-fuer="eltern lehrkraefte fachkraefte" data-thema="cybermobbing fake eltern hilfe">
+  <div class="zeile__haupt">
+    <p class="zeile__vor">Schweiz · Staatlich / Land · Babys bis Jugendliche ab 14 Jahren</p>
+    <h3 class="zeile__titel"><a href="https://www.jugendundmedien.ch/" rel="noopener">Jugend und Medien<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></h3>
+    <p class="zeile__meta">Informationsplattform des Bundes zur Medienkompetenz mit Ratgebern nach Altersstufen und Themen, u. a. Cybermobbing und Meldewege der Plattformen.</p>
+    <ul class="quelle__artikel"><li><a href="https://www.jugendundmedien.ch/topics/cybermobbing" rel="noopener">Cybermobbing<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.jugendundmedien.ch/milestones/kinder-und-jugendliche-zwischen-10-und-14-jahren" rel="noopener">Kinder und Jugendliche zwischen 10 und 14 Jahren<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li><li><a href="https://www.bsv.admin.ch/de/nationale-plattform-jugend-und-medien-jugendundmedien" rel="noopener">Nationale Plattform Jugend und Medien (BSV)<span class="extern" aria-hidden="true">↗</span><span class="vh"> (externer Link)</span></a></li></ul>
+  </div>
+</li></ul>
+<p class="leer" data-filter-leer hidden>Für diese Auswahl gibt es keinen Eintrag. Setzen Sie einen Filter zurück.</p>
+<p class="randnotiz">Alle Links wurden bei der Recherche geprüft. Angebote ändern sich – bitte vor dem Einsatz im Unterricht erneut öffnen. NETZKLAR ist mit keinem dieser Träger verbunden. <!-- TEXT PRÜFEN --></p>
+  </main>
+</div>
+<footer class="fuss">
+  <p>NETZKLAR – Material gegen Hass, Hetze und Fake News im Netz. Inhalte fachlich verantwortet von: [Name der Fachredaktion] <!-- TEXT PRÜFEN --></p>
+  <ul>
+    <li><a href="impressum.html">Impressum</a></li>
+    <li><a href="datenschutz.html">Datenschutz</a></li>
+    <li><a href="barrierefreiheit.html">Barrierefreiheit</a></li>
+  </ul>
+</footer>
+<script src="assets/data.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!--meta {
+  "title": "Material",
+  "description": "Arbeitsblätter, Folien, Karten, Vorlagen und Leitfäden zu Hass, Hetze und Fake News im Netz – gefiltert nach Zielgruppe, Art und Alter.",
+  "nav": "material"
+} -->
+<header class="bereich__kopf">
+  <h1>Material</h1>
+  <p class="einleitung">Arbeitsblätter, Folien, Karten und Leitfäden zu allen Einheiten. Filtern Sie nach Zielgruppe, Art und Alter in Jahren.</p>
+</header>
+
+<form class="filter" data-filter="kontext" aria-label="Material filtern">
+  <div class="filter__feld">
+    <label for="f-fuer">Zielgruppe</label>
+    <select id="f-fuer" name="fuer">
+      <option value="">Alle</option>
+      <option value="lehrkraefte">Lehrkräfte</option>
+      <option value="schueler">Schüler:innen</option>
+      <option value="eltern">Eltern</option>
+      <option value="fachkraefte">Sozialarbeit &amp; Psychologie</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="f-typ">Art</label>
+    <select id="f-typ" name="typ">
+      <option value="">Alle</option>
+      {{optionen:material:typ}}
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="f-alter">Alter</label>
+    <select id="f-alter" name="alter">
+      <option value="">Alle</option>
+      <option value="6">6 Jahre</option>
+      <option value="7">7 Jahre</option>
+      <option value="8">8 Jahre</option>
+      <option value="9">9 Jahre</option>
+      <option value="10">10 Jahre</option>
+      <option value="11">11 Jahre</option>
+      <option value="12">12 Jahre</option>
+      <option value="13">13 Jahre</option>
+      <option value="14">14 Jahre</option>
+      <option value="15">15 Jahre</option>
+      <option value="16">16 Jahre</option>
+      <option value="17">17 Jahre</option>
+      <option value="18">18 Jahre</option>
+      <option value="19">19 Jahre</option>
+    </select>
+  </div>
+  <button class="knopf knopf--text nur-js" type="reset" data-filter-reset>Filter zurücksetzen</button>
+</form>
+<p class="status" data-filter-anzahl role="status"></p>
+
+<h2 class="vh">Ergebnisse</h2>
+{{material_liste}}
+<p class="leer" data-filter-leer hidden>Für diese Auswahl gibt es noch kein Material. Setzen Sie einen Filter zurück.</p>
+<p class="randnotiz">Die Dateien werden gerade fachlich erstellt und folgen in Kürze. <!-- TEXT PRÜFEN --></p>

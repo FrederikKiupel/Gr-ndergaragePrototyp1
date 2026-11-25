@@ -1,0 +1,104 @@
+<!--meta {
+  "title": "NETZKLAR – Material gegen Hass, Hetze und Fake News im Netz",
+  "description": "Unterrichtsstunden, Gesprächseinheiten, Beratungsbausteine und Lernspiele zu Hass, Hetze und Fake News im Netz – für Lehrkräfte, Schüler:innen, Eltern und Fachkräfte. Kostenlos und ohne Anmeldung.",
+  "ld": {"@context": "https://schema.org", "@type": "WebSite", "name": "NETZKLAR", "inLanguage": "de", "description": "Lern- und Materialplattform zu Hass, Hetze und Fake News im Netz"}
+} -->
+<section class="held start" aria-labelledby="start-titel">
+  {{zeichenfeld}}
+  <h1 id="start-titel">Hass und Fake News <span class="hell">erkennen.</span> Gemeinsam <span class="hell">gegenhalten.</span><!-- TEXT PRÜFEN: Claim --></h1>
+  <p class="held__unter">Fertige Unterrichtsstunden, Gesprächsleitfäden, Beratungsbausteine und Lernspiele zu Hass, Hetze und Fake News – kostenlos und ohne Anmeldung.</p>
+  <div class="held__satz">
+    <p class="label label--gedimmt">In einem Satz zum passenden Material</p>
+    <form class="satz satz--gross" action="lehrkraefte.html" method="get" data-startsatz>
+      <p class="satz__text">Ich bin
+        <span class="wahl"><label class="vh" for="s-rolle">Rolle</label><select id="s-rolle" data-feld="rolle">
+          <option value="lehrkraefte" selected>Lehrkraft</option>
+          <option value="schueler">Schüler:in</option>
+          <option value="eltern">Elternteil</option>
+          <option value="fachkraefte">Sozialarbeiter:in</option>
+          <option value="fachkraefte">Psycholog:in</option>
+        </select></span>
+        und brauche
+        <span class="wahl"><label class="vh" for="s-was">Angebot</label><select id="s-was" name="umfang" data-feld="was">
+          <option value="1">1 Stunde</option>
+          <option value="2">2 Stunden</option>
+          <option value="3">3 Stunden</option>
+          <option value="4" selected>4 Stunden</option>
+          <option value="5">5 Stunden</option>
+          <option value="6">6 Stunden</option>
+          <option value="7">7 Stunden</option>
+          <option value="8">8 Stunden</option>
+          <option value="9">9 Stunden</option>
+          <option value="10">10 Stunden</option>
+        </select></span>
+        für
+        <span class="wahl"><label class="vh" for="s-fuer">Für wen</label><select id="s-fuer" name="klasse" data-feld="fuer">
+          <option value="5">die 5. Klasse</option>
+          <option value="6">die 6. Klasse</option>
+          <option value="7">die 7. Klasse</option>
+          <option value="8" selected>die 8. Klasse</option>
+          <option value="9">die 9. Klasse</option>
+          <option value="10">die 10. Klasse</option>
+          <option value="11">die 11. Klasse</option>
+          <option value="12">die 12. Klasse</option>
+          <option value="13">die 13. Klasse</option>
+        </select>.</span>
+      </p>
+      <button class="knopf knopf--gross knopf--pfeil" type="submit">Material zeigen</button>
+      <div class="vorschau nur-js" data-vorschau aria-live="polite"></div>
+    </form>
+  </div>
+  <div class="weiter-hinweis" data-weiter-hinweis hidden></div>
+</section>
+
+<section class="tueren" aria-labelledby="tueren-titel">
+  <div class="tueren__raster">
+    <div class="tueren__intro">
+      <h2 id="tueren-titel">Eine Plattform, vier Türen.</h2>
+      <p>Jede Zielgruppe hat ihren eigenen Bereich – aber überall gilt dieselbe Ordnung: ein klarer Zeitplan, ein Hinweis zur Durchführung und Material, das sofort einsetzbar ist.</p>
+    </div>
+    {{tueren}}
+  </div>
+</section>
+
+<section class="abschnitt" aria-labelledby="schnell-titel">
+  <h2 id="schnell-titel">Direkt loslegen</h2>
+  <ul class="zeilen zeilen--links">
+    <li class="zeile"><a class="zeile__link" href="einheit-lk-vorfall.html">
+      <span class="zeile__titel">Nach einem Vorfall in der Klasse</span>
+      <span class="zeile__meta">Eine behutsame Stunde für Lehrkräfte · 45 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="einheit-lk-1.html">
+      <span class="zeile__titel">Erste Stunde: Was ist Hass im Netz?</span>
+      <span class="zeile__meta">Einstieg ohne Vorwissen · Klasse 5–13 · 45 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="lehrkraefte.html?klasse=8&amp;umfang=8">
+      <span class="zeile__titel">Reihe: 8 Stunden zu Hass im Netz</span>
+      <span class="zeile__meta">Von der Definition bis zu eigenen Klassenchat-Regeln</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="einheit-lk-10.html">
+      <span class="zeile__titel">Fake News: Fakten checken wie Profis</span>
+      <span class="zeile__meta">Drei Prüffragen für die Klasse · 45 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="lehrkraefte.html?thema=fake&amp;umfang=4">
+      <span class="zeile__titel">Reihe: 4 Stunden zu Fake News</span>
+      <span class="zeile__meta">Erkennen, prüfen, Bilder und Deepfakes, Feindbilder</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="spiel-faktencheck.html">
+      <span class="zeile__titel">Spiel: Erst prüfen, dann teilen</span>
+      <span class="zeile__meta">Für Schüler:innen · 8 Posts · etwa 4 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="spiel-moderation.html">
+      <span class="zeile__titel">Spiel: Moderationsschicht</span>
+      <span class="zeile__meta">Für Schüler:innen · 8 Kommentare · etwa 5 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="einheit-el-2.html">
+      <span class="zeile__titel">Mit meinem Kind über Hass im Netz sprechen</span>
+      <span class="zeile__meta">Für Eltern · 20 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="einheit-fk-1.html">
+      <span class="zeile__titel">Baustein für die Einzelberatung</span>
+      <span class="zeile__meta">Für Sozialarbeit und Psychologie · 50 Min.</span>
+    </a></li>
+  </ul>
+</section>

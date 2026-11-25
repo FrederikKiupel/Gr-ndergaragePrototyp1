@@ -1,0 +1,49 @@
+<!--meta {
+  "title": "Externe Schulungs- und Präventionsangebote",
+  "description": "Fachleute an die Schule holen: Vorträge, Workshops, Projekttage und Fortbildungen von Polizei, Vereinen und Landesbehörden zu Hass im Netz.",
+  "nav": "externe"
+} -->
+<header class="bereich__kopf">
+  <h1>Externe Schulungs- und Präventionsangebote</h1>
+  <p class="einleitung">Holen Sie Fachleute an Ihre Schule: Polizei, Vereine, Landesmedienanstalten und andere Partner bieten Vorträge, Workshops und Projekttage an.</p>
+</header>
+
+<div class="hinweis" role="note" aria-label="Hinweis">
+  <svg class="icon" aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 21h20L12 3z"/><path d="M12 10v5"/><path d="M12 18h.01"/></svg>
+  <p><strong>Hinweis:</strong> Die Einträge sind Beispiele für die Art der Angebote. Echte Partner und Kontakte werden gerade gesammelt. <!-- TEXT PRÜFEN --></p>
+</div>
+
+<form class="filter" data-filter aria-label="Angebote filtern">
+  <div class="filter__feld">
+    <label for="f-typ">Anbieter</label>
+    <select id="f-typ" name="typ">
+      <option value="">Alle</option>
+      {{optionen:externe:typ}}
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="f-format">Format</label>
+    <select id="f-format" name="format">
+      <option value="">Alle</option>
+      {{optionen:externe:format}}
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="f-fuer">Für</label>
+    <select id="f-fuer" name="fuer">
+      <option value="">Alle</option>
+      <option value="schueler">Schüler:innen</option>
+      <option value="lehrkraefte">Lehrkräfte</option>
+      <option value="eltern">Eltern</option>
+      <option value="fachkraefte">Sozialarbeit &amp; Psychologie</option>
+    </select>
+  </div>
+  <button class="knopf knopf--text nur-js" type="reset" data-filter-reset>Filter zurücksetzen</button>
+</form>
+<p class="status" data-filter-anzahl role="status"></p>
+
+<h2 class="vh">Angebote</h2>
+{{externe_liste}}
+<p class="leer" data-filter-leer hidden>Für diese Auswahl gibt es noch kein Angebot. Setzen Sie einen Filter zurück.</p>
+
+<p class="randnotiz">Ihr Angebot fehlt? Schreiben Sie uns an [E-Mail-Adresse folgt]. <!-- TEXT PRÜFEN --></p>

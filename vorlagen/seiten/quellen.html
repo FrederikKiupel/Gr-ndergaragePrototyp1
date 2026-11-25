@@ -1,0 +1,51 @@
+<!--meta {
+  "title": "Weiterbilden: Angebote und Quellen",
+  "description": "Geprüfte Angebote aus Deutschland, Österreich und der Schweiz zu Hass im Netz, Cybermobbing, Zivilcourage und Fake News – für Lehrkräfte, Jugendliche, Eltern und Fachkräfte.",
+  "nav": "quellen"
+} -->
+<header class="bereich__kopf">
+  <h1>Weiterbilden</h1>
+  <p class="einleitung">Auf diesen Angeboten bauen unsere Einheiten auf. Hier können Sie sich weiter informieren – nach Land, Zielgruppe und Thema gefiltert.</p>
+</header>
+
+<form class="filter" data-filter="quellen" aria-label="Angebote filtern">
+  <div class="filter__feld">
+    <label for="q-land">Land</label>
+    <select id="q-land" name="land">
+      <option value="">Alle</option>
+      <option value="DE">Deutschland</option>
+      <option value="AT">Österreich</option>
+      <option value="CH">Schweiz</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="q-fuer">Für</label>
+    <select id="q-fuer" name="fuer">
+      <option value="">Alle</option>
+      <option value="lehrkraefte">Lehrkräfte</option>
+      <option value="schueler">Schüler:innen</option>
+      <option value="eltern">Eltern</option>
+      <option value="fachkraefte">Sozialarbeit &amp; Psychologie</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="q-thema">Thema</label>
+    <select id="q-thema" name="thema">
+      <option value="">Alle</option>
+      <option value="hass">Hass im Netz</option>
+      <option value="cybermobbing">Cybermobbing</option>
+      <option value="zivilcourage">Zivilcourage &amp; Gegenrede</option>
+      <option value="fake">Fake News</option>
+      <option value="hilfe">Hilfe &amp; Beratung</option>
+      <option value="recht">Recht</option>
+      <option value="unterricht">Unterrichtsmaterial</option>
+    </select>
+  </div>
+  <button class="knopf knopf--text nur-js" type="reset">Filter zurücksetzen</button>
+</form>
+<p class="status" data-filter-anzahl role="status"></p>
+
+<h2 class="vh">Angebote</h2>
+{{quellen_liste}}
+<p class="leer" data-filter-leer hidden>Für diese Auswahl gibt es keinen Eintrag. Setzen Sie einen Filter zurück.</p>
+<p class="randnotiz">Alle Links wurden bei der Recherche geprüft. Angebote ändern sich – bitte vor dem Einsatz im Unterricht erneut öffnen. NETZKLAR ist mit keinem dieser Träger verbunden. <!-- TEXT PRÜFEN --></p>

@@ -1,0 +1,85 @@
+<!--meta {
+  "title": "Für Lehrkräfte",
+  "description": "Unterrichtsstunden zu Hass, Hetze und Fake News im Netz in einem Satz zusammenstellen: Klasse, Alter, Vorwissen und Anlass wählen – und 45-Minuten-Einheiten direkt einsetzen oder drucken.",
+  "zielgruppe": "lehrkraefte"
+} -->
+<header class="bereich__kopf">
+  <h1>Für Lehrkräfte</h1>
+  <p class="einleitung">Stellen Sie in einem Satz Ihre Unterrichtsstunde oder Reihe zusammen. Zu Hass im Netz, zu Fake News oder zu beidem – von 1 bis 10 Stunden. Jede Stunde dauert 45 Minuten und besteht aus Materialblöcken, die Sie direkt einsetzen können.</p>
+</header>
+
+<div class="weiter-hinweis" data-weiter-hinweis data-zielgruppe="lehrkraefte" hidden></div>
+
+<form class="satz" action="lehrkraefte.html" method="get" data-konfigurator="lehrkraefte">
+  <p class="satz__text">Ich unterrichte
+    <span class="wahl"><label class="vh" for="k-klasse">Klassenstufe</label><select id="k-klasse" name="klasse">
+      <option value="5">die 5. Klasse</option>
+      <option value="6">die 6. Klasse</option>
+      <option value="7">die 7. Klasse</option>
+      <option value="8" selected>die 8. Klasse</option>
+      <option value="9">die 9. Klasse</option>
+      <option value="10">die 10. Klasse</option>
+      <option value="11">die 11. Klasse</option>
+      <option value="12">die 12. Klasse</option>
+      <option value="13">die 13. Klasse</option>
+    </select>,</span>
+    die Schüler:innen sind
+    <span class="wahl"><label class="vh" for="k-alter">Alter der Schüler:innen</label><select id="k-alter" name="alter">
+      <option value="10">10 Jahre</option>
+      <option value="11">11 Jahre</option>
+      <option value="12">12 Jahre</option>
+      <option value="13" selected>13 Jahre</option>
+      <option value="14">14 Jahre</option>
+      <option value="15">15 Jahre</option>
+      <option value="16">16 Jahre</option>
+      <option value="17">17 Jahre</option>
+      <option value="18">18 Jahre</option>
+      <option value="19">19 Jahre</option>
+    </select></span>
+    alt und haben
+    <span class="wahl"><label class="vh" for="k-vorwissen">Vorwissen</label><select id="k-vorwissen" name="vorwissen">
+      <option value="keins" selected data-hinweis="Die Reihe beginnt mit der ersten Stunde">kaum</option>
+      <option value="etwas" data-hinweis="Die erste Grundlagenstunde wird übersprungen">etwas</option>
+      <option value="viel" data-hinweis="Die Reihe beginnt bei den Vertiefungen">schon viel</option>
+    </select></span>
+    Vorwissen. Thema:
+    <span class="wahl"><label class="vh" for="k-thema">Thema</label><select id="k-thema" name="thema">
+      <option value="hass" selected data-hinweis="Grundreihe mit 8 Stunden">Hass &amp; Hetze</option>
+      <option value="fake" data-hinweis="Reihe mit 4 Stunden: erkennen, prüfen, Bilder, Feindbilder">Fake News</option>
+      <option value="beides" data-hinweis="Beide Reihen im Wechsel, bis zu 12 Stunden">beides</option>
+    </select>,</span>
+    Anlass:
+    <span class="wahl"><label class="vh" for="k-anlass">Anlass</label><select id="k-anlass" name="anlass">
+      <option value="praevention" selected data-hinweis="Ohne konkreten Anlass">Prävention</option>
+      <option value="vorfall" data-hinweis="Beginnt mit einer behutsamen Sonderstunde">ein Vorfall</option>
+      <option value="projekt" data-hinweis="Endet mit einem gemeinsamen Ergebnis">Projektwoche</option>
+    </select>.</span>
+    Ich brauche
+    <span class="wahl"><label class="vh" for="k-umfang">Umfang</label><select id="k-umfang" name="umfang">
+      <option value="1" data-hinweis="45 Minuten">1 Stunde</option>
+      <option value="2" data-hinweis="90 Minuten">2 Stunden</option>
+      <option value="3" data-hinweis="135 Minuten">3 Stunden</option>
+      <option value="4" selected data-hinweis="180 Minuten">4 Stunden</option>
+      <option value="5" data-hinweis="225 Minuten">5 Stunden</option>
+      <option value="6" data-hinweis="270 Minuten">6 Stunden</option>
+      <option value="7" data-hinweis="315 Minuten">7 Stunden</option>
+      <option value="8" data-hinweis="360 Minuten">8 Stunden</option>
+      <option value="9" data-hinweis="405 Minuten">9 Stunden</option>
+      <option value="10" data-hinweis="450 Minuten">10 Stunden</option>
+    </select>.</span>
+  </p>
+  <button class="knopf knopf--runter" type="submit">Zur Reihe</button>
+</form>
+
+<section class="reihe" id="reihe" aria-labelledby="reihe-titel" tabindex="-1">
+  <h2 id="reihe-titel">Ihre Reihe</h2>
+  <div data-reihe-ausgabe>
+    <p class="leer">Wählen Sie oben Ihre Angaben und die Reihe erscheint sofort.</p>
+  </div>
+  <noscript><p>Der Konfigurator braucht JavaScript. Alle Stunden finden Sie unten im Überblick.</p></noscript>
+</section>
+
+<section class="abschnitt" aria-labelledby="alle-titel">
+  <h2 id="alle-titel">Alle Stunden im Überblick</h2>
+  {{alle_einheiten:lehrkraefte}}
+</section>

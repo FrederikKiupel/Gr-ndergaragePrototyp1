@@ -1,0 +1,45 @@
+<!--meta {
+  "title": "Für Sozialarbeit und Psychologie",
+  "description": "Beratungsbausteine à 50 Minuten zu Hass im Netz: Betroffene begleiten und mit Jugendlichen arbeiten, die Hass verbreiten – für Einzelberatung und Gruppenarbeit.",
+  "zielgruppe": "fachkraefte"
+} -->
+<header class="bereich__kopf">
+  <h1>Für Sozialarbeit und Psychologie</h1>
+  <p class="einleitung">Bausteine à 50 Minuten für die Arbeit mit jungen Menschen – zur Begleitung von Betroffenen und für die Arbeit mit Jugendlichen, die Hass verbreiten.</p>
+</header>
+
+<div class="weiter-hinweis" data-weiter-hinweis data-zielgruppe="fachkraefte" hidden></div>
+
+<form class="satz" action="fachkraefte.html" method="get" data-konfigurator="fachkraefte">
+  <p class="satz__text">Ich arbeite in
+    <span class="wahl"><label class="vh" for="k-setting">Setting</label><select id="k-setting" name="setting">
+      <option value="einzel" selected data-hinweis="Hinweise für 1:1-Gespräche">der Einzelberatung</option>
+      <option value="gruppe" data-hinweis="Hinweise für die Arbeit in Gruppen">der Gruppenarbeit</option>
+    </select></span>
+    mit
+    <span class="wahl"><label class="vh" for="k-thema">Mit wem Sie arbeiten</label><select id="k-thema" name="thema">
+      <option value="betroffene" selected data-hinweis="3 Bausteine zur Begleitung">Betroffenen</option>
+      <option value="ausuebende" data-hinweis="1 Baustein zur Täterarbeit">Hassverbreitenden</option>
+      <option value="verschwoerung" data-hinweis="1 Baustein zu Verschwörungserzählungen">Verschwörungsgläubigen</option>
+    </select></span>
+    und brauche
+    <span class="wahl"><label class="vh" for="k-umfang">Umfang</label><select id="k-umfang" name="umfang">
+      <option value="1">einen Baustein</option>
+      <option value="alle" selected>alle Bausteine</option>
+    </select>.</span>
+  </p>
+  <button class="knopf knopf--runter" type="submit">Zu den Bausteinen</button>
+</form>
+
+<section class="reihe" id="reihe" aria-labelledby="reihe-titel" tabindex="-1">
+  <h2 id="reihe-titel">Ihre Bausteine</h2>
+  <div data-reihe-ausgabe>
+    <p class="leer">Wählen Sie oben Ihre Angaben und die Reihe erscheint sofort.</p>
+  </div>
+  <noscript><p>Der Konfigurator braucht JavaScript. Alle Bausteine finden Sie unten im Überblick.</p></noscript>
+</section>
+
+<section class="abschnitt" aria-labelledby="alle-titel">
+  <h2 id="alle-titel">Alle Bausteine im Überblick</h2>
+  {{alle_einheiten:fachkraefte}}
+</section>

@@ -1,0 +1,57 @@
+<!--meta {
+  "title": "Für Eltern",
+  "description": "Gesprächseinheiten von 20 Minuten: So sprechen Sie mit Ihrem Kind über Hass im Netz – vorbeugend oder wenn schon etwas passiert ist.",
+  "zielgruppe": "eltern"
+} -->
+<header class="bereich__kopf">
+  <h1>Für Eltern</h1>
+  <p class="einleitung">Kurze Gesprächseinheiten von 20 Minuten helfen Ihnen, mit Ihrem Kind über Hass im Netz zu sprechen – vorbeugend oder wenn schon etwas passiert ist.</p>
+</header>
+
+<div class="weiter-hinweis" data-weiter-hinweis data-zielgruppe="eltern" hidden></div>
+
+<form class="satz" action="eltern.html" method="get" data-konfigurator="eltern">
+  <p class="satz__text">Mein Kind ist
+    <span class="wahl"><label class="vh" for="k-kind">Alter Ihres Kindes</label><select id="k-kind" name="kind">
+      <option value="6">6 Jahre</option>
+      <option value="7">7 Jahre</option>
+      <option value="8">8 Jahre</option>
+      <option value="9">9 Jahre</option>
+      <option value="10">10 Jahre</option>
+      <option value="11" selected>11 Jahre</option>
+      <option value="12">12 Jahre</option>
+      <option value="13">13 Jahre</option>
+      <option value="14">14 Jahre</option>
+      <option value="15">15 Jahre</option>
+      <option value="16">16 Jahre</option>
+      <option value="17">17 Jahre</option>
+    </select></span>
+    alt. Anlass ist
+    <span class="wahl"><label class="vh" for="k-anlass">Anlass</label><select id="k-anlass" name="anlass">
+      <option value="praevention" selected data-hinweis="Bevor etwas passiert">Vorsorge</option>
+      <option value="vorfall" data-hinweis="Beginnt mit „Wenn es passiert ist“">ein Vorfall</option>
+      <option value="fake" data-hinweis="Beginnt mit „Kettenbriefe, Gerüchte, Fake News“">Kettenbriefe &amp; Fake News</option>
+    </select>,</span>
+    und ich brauche
+    <span class="wahl"><label class="vh" for="k-umfang">Umfang</label><select id="k-umfang" name="umfang">
+      <option value="1" selected data-hinweis="20 Minuten">ein erstes Gespräch</option>
+      <option value="alle" data-hinweis="100 Minuten, verteilt auf mehrere Tage">alle 5 Gespräche</option>
+    </select>.</span>
+  </p>
+  <button class="knopf knopf--runter" type="submit">Zu den Gesprächen</button>
+</form>
+
+<p class="randnotiz">Ist Ihr Kind gerade betroffen? <a href="beratung.html#sofort-hilfe">Hier finden Sie sofort Unterstützung</a>, zum Beispiel beim Elterntelefon.</p>
+
+<section class="reihe" id="reihe" aria-labelledby="reihe-titel" tabindex="-1">
+  <h2 id="reihe-titel">Ihre Reihe</h2>
+  <div data-reihe-ausgabe>
+    <p class="leer">Wählen Sie oben Ihre Angaben und die Reihe erscheint sofort.</p>
+  </div>
+  <noscript><p>Der Konfigurator braucht JavaScript. Alle Gespräche finden Sie unten im Überblick.</p></noscript>
+</section>
+
+<section class="abschnitt" aria-labelledby="alle-titel">
+  <h2 id="alle-titel">Alle Gespräche im Überblick</h2>
+  {{alle_einheiten:eltern}}
+</section>

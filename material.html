@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Material · NETZKLAR</title>
+<meta name="description" content="Arbeitsblätter, Folien, Karten, Vorlagen und Leitfäden zu Hass, Hetze und Fake News im Netz – gefiltert nach Zielgruppe, Art und Alter.">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1A2E" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NETZKLAR">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Material · NETZKLAR">
+<meta property="og:description" content="Arbeitsblätter, Folien, Karten, Vorlagen und Leitfäden zu Hass, Hetze und Fake News im Netz – gefiltert nach Zielgruppe, Art und Alter.">
+<!-- BILD: og:image, 1200 × 630 px, Wortmarke auf neutralem Grund – nach dem Hosting mit absoluter URL ergänzen -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231E40AF'/%3E%3Cpath d='M7 8h18v13H14l-7 5z' fill='none' stroke='white' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='m11.5 14.5 3 3 6-6' fill='none' stroke='%23EFF35F' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('nk-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<!-- Automatisch erzeugt von werkzeuge/bauen.py – Änderungen bitte in vorlagen/ oder inhalte/daten.json vornehmen. -->
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="kopf">
+  <a class="marke" href="index.html"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 4h18v12H10l-7 5V4z"/><path d="m8 10 2.6 2.6L16 7.4" stroke-linecap="square"/></svg><span>NETZKLAR</span><!-- NAME PRÜFEN --></a>
+  <div class="kopf__rechts">
+    <a class="hilfe" href="beratung.html#sofort-hilfe"><svg class="icon" aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5"/><path d="M12 17.5h.01"/></svg><span>Hilfe bei Hass im Netz</span></a>
+    <nav class="reiter" aria-label="Zielgruppen">
+      <ul><li><a href="lehrkraefte.html" data-zg="lehrkraefte">Lehrkräfte</a></li><li><a href="schueler.html" data-zg="schueler">Schüler:innen</a></li><li><a href="eltern.html" data-zg="eltern">Eltern</a></li><li><a href="fachkraefte.html" data-zg="fachkraefte">Sozialarbeit &amp; Psychologie</a></li></ul>
+    </nav>
+    <button class="knopf knopf--zweit knopf--klein modus nur-js" type="button" data-modus><span aria-hidden="true">◐</span> <span class="vh">Modus: </span><span data-modus-wert>Automatisch</span></button>
+  </div>
+</header>
+<div class="rahmen">
+  <nav class="seitenleiste" aria-label="Inhalte">
+    <ul><li><a href="material.html" aria-current="page" data-mit-zielgruppe>Material</a></li><li><a href="spiele.html">Spiele</a></li><li><a href="wissen.html">Wissen</a></li><li><a href="beratung.html">Beratung</a></li><li><a href="quellen.html">Weiterbilden</a></li></ul>
+    <p class="seitenleiste__titel" id="sl-schulen">Für Schulen</p>
+    <ul aria-labelledby="sl-schulen"><li><a href="externe-angebote.html">Externe Angebote</a></li></ul>
+  </nav>
+  <main id="inhalt" tabindex="-1">
+<header class="bereich__kopf">
+  <h1>Material</h1>
+  <p class="einleitung">Arbeitsblätter, Folien, Karten und Leitfäden zu allen Einheiten. Filtern Sie nach Zielgruppe, Art und Alter in Jahren.</p>
+</header>
+
+<form class="filter" data-filter="kontext" aria-label="Material filtern">
+  <div class="filter__feld">
+    <label for="f-fuer">Zielgruppe</label>
+    <select id="f-fuer" name="fuer">
+      <option value="">Alle</option>
+      <option value="lehrkraefte">Lehrkräfte</option>
+      <option value="schueler">Schüler:innen</option>
+      <option value="eltern">Eltern</option>
+      <option value="fachkraefte">Sozialarbeit &amp; Psychologie</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="f-typ">Art</label>
+    <select id="f-typ" name="typ">
+      <option value="">Alle</option>
+      <option value="Arbeitsblatt">Arbeitsblatt</option><option value="Brief">Brief</option><option value="Checkliste">Checkliste</option><option value="Folie">Folie</option><option value="Karten">Karten</option><option value="Leitfaden">Leitfaden</option><option value="Vorlage">Vorlage</option>
+    </select>
+  </div>
+  <div class="filter__feld">
+    <label for="f-alter">Alter</label>
+    <select id="f-alter" name="alter">
+      <option value="">Alle</option>
+      <option value="6">6 Jahre</option>
+      <option value="7">7 Jahre</option>
+      <option value="8">8 Jahre</option>
+      <option value="9">9 Jahre</option>
+      <option value="10">10 Jahre</option>
+      <option value="11">11 Jahre</option>
+      <option value="12">12 Jahre</option>
+      <option value="13">13 Jahre</option>
+      <option value="14">14 Jahre</option>
+      <option value="15">15 Jahre</option>
+      <option value="16">16 Jahre</option>
+      <option value="17">17 Jahre</option>
+      <option value="18">18 Jahre</option>
+      <option value="19">19 Jahre</option>
+    </select>
+  </div>
+  <button class="knopf knopf--text nur-js" type="reset" data-filter-reset>Filter zurücksetzen</button>
+</form>
+<p class="status" data-filter-anzahl role="status"></p>
+
+<h2 class="vh">Ergebnisse</h2>
+<ul class="zeilen" data-filter-liste><li class="zeile" data-fuer="lehrkraefte" data-typ="Folie" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Folie</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Drei Beispielkommentare</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-1.html">Stunde 1: Was ist Hass im Netz?</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-1.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 1 Seite zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Merkmale von Hass im Netz erkennen</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-1.html">Stunde 1: Was ist Hass im Netz?</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Merkmale von Hass im Netz erkennen als PDF, 2 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Karten" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Rollenkarten: Vier Perspektiven</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-2.html">Stunde 2: Was Hass mit Menschen macht</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-2.html#m2">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte eltern" data-typ="Karten" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 3 Seiten</p>
+    <h3 class="zeile__titel">Aussagen-Karten: Meinung oder Hetze?</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-3.html">Stunde 3: Meinung oder Hetze?</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Aussagen-Karten: Meinung oder Hetze? als PDF, 3 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · PDF, 3 Seiten</p>
+    <h3 class="zeile__titel">Infotexte: Wie Hass sich verbreitet</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-4.html">Stunde 4: Wie Hass sich verbreitet</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Infotexte: Wie Hass sich verbreitet als PDF, 3 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Karten" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 4 Seiten</p>
+    <h3 class="zeile__titel">Fallkarten: Was ist strafbar?</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-5.html">Stunde 5: Was ist strafbar?</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Fallkarten: Was ist strafbar? als PDF, 4 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte schueler" data-typ="Karten" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Strategiekarten Gegenrede</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-6.html">Stunde 6: Gegenrede: Was ich sagen kann</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-6.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte schueler eltern" data-typ="Checkliste" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Checkliste</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Notfallkarte: Melden, sichern, Hilfe holen</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Schüler:innen, Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-7.html">Stunde 7: Melden, sichern, Hilfe holen</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Notfallkarte: Melden, sichern, Hilfe holen als PDF, 1 Seite hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Vorlage" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Vorlage</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Vorlage: Klassenchat-Regeln</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-8.html">Stunde 8: Unsere Regeln für den Klassenchat</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-8.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 1 Seite zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte fachkraefte" data-typ="Leitfaden" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Leitfaden</span> · PDF, 4 Seiten</p>
+    <h3 class="zeile__titel">Leitfaden: Nach einem Vorfall in der Klasse</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-vorfall.html">Nach einem Vorfall in der Klasse</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Leitfaden: Nach einem Vorfall in der Klasse als PDF, 4 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="eltern lehrkraefte" data-typ="Brief" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Brief</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Elternbrief: So sprechen Sie mit Ihrem Kind über Hass im Netz</h3>
+    <p class="zeile__meta">Für Eltern, Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-el-2.html">Gespräch 2: Über Hass im Netz sprechen</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Elternbrief: So sprechen Sie mit Ihrem Kind über Hass im Netz als PDF, 1 Seite hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Karten" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Gesprächskarten für Familien</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-el-2.html">Gespräch 2: Über Hass im Netz sprechen</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-el-2.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern fachkraefte schueler" data-typ="Checkliste" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Checkliste</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Checkliste: Beweise sichern</h3>
+    <p class="zeile__meta">Für Eltern, Sozialarbeit &amp; Psychologie, Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-el-3.html">Gespräch 3: Wenn es passiert ist</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-el-3.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 1 Seite zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Vorlage" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Vorlage</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Ressourcenkarte</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-fk-1.html">Baustein 1: Erstgespräch: stabilisieren und einordnen</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-fk-1.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 1 Seite zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Vorlage" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Vorlage</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Beweisprotokoll</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-fk-2.html">Baustein 2: Beweise sichern und Optionen klären</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-fk-2.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Karten" data-stufe="">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Motivkarten</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-fk-4.html">Baustein 4: Arbeit mit Jugendlichen, die Hass verbreiten</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-fk-4.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Folie" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Folie</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Fünf Schlagzeilen</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-9.html">Stunde 9: Was sind Fake News?</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-9.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 1 Seite zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Karten" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Begriffe und Beispiele zu Fake News</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-9.html">Stunde 9: Was sind Fake News?</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Begriffe und Beispiele zu Fake News als PDF, 2 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte schueler" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Prüfprotokoll: Drei Prüffragen</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-10.html">Stunde 10: Fakten checken wie Profis</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Prüfprotokoll: Drei Prüffragen als PDF, 1 Seite hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Bild-Detektiv</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-11.html">Stunde 11: Bilder, Videos, Deepfakes</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-11.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte fachkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Faktensandwich</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-lk-12.html">Stunde 12: Wenn Lügen Hass schüren</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-lk-12.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 1 Seite zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler eltern" data-typ="Checkliste" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Checkliste</span> · PDF, 1 Seite</p>
+    <h3 class="zeile__titel">Erst prüfen, dann teilen</h3>
+    <p class="zeile__meta">Für Schüler:innen, Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-sc-4.html">Einheit 4: Echt oder fake?</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Erst prüfen, dann teilen als PDF, 1 Seite hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Leitfaden" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Leitfaden</span> · PDF, 2 Seiten</p>
+    <h3 class="zeile__titel">Kettenbriefe und Gerüchte</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-el-5.html">Gespräch 5: Kettenbriefe, Gerüchte, Fake News</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-el-5.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als PDF, 2 Seiten zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Leitfaden" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Leitfaden</span> · PDF, 3 Seiten</p>
+    <h3 class="zeile__titel">Gesprächsleitfaden Verschwörungserzählungen</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-fk-5.html">Baustein 5: Verschwörungserzählungen im Gespräch</a></p>
+  </div>
+  <span class="zeile__aktion"><!-- DATEI: Gesprächsleitfaden Verschwörungserzählungen als PDF, 3 Seiten hinterlegen und hier verlinken --><span class="platzhalter-datei">Download folgt</span></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Chat-Zeilen einordnen und eigener Reaktionsplan</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-gaming-chat.html">Fiese Sprüche beim Zocken</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-gaming-chat.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Die zweite Gruppe</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-klassengruppe-ausgrenzung.html">Plötzlich raus aus der Gruppe</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-klassengruppe-ausgrenzung.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Foto-Situationen mit Lösung und Hilfe-Schritten</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-fotos-von-anderen.html">Erst fragen, dann posten</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-fotos-von-anderen.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Drei Fragen vor dem Teilen mit vier Beispielen</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-nur-ein-meme.html">Nur ein Meme?</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-nur-ein-meme.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Gefühlskarte und Erste-Hilfe-Kasten</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-gefuehle-nach-kommentar.html">Was ein Kommentar mit mir macht</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-gefuehle-nach-kommentar.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Entscheidungsprotokoll mit Nachdenkfragen</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-escape-room-netz.html">Escape-Room gegen Fake und Hass</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-escape-room-netz.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Ist das Bild echt?</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-bildtricks-fakefinder.html">Bildtricks durchschauen</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-bildtricks-fakefinder.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="schueler" data-typ="Arbeitsblatt" data-stufe="u">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Werbe-Checkliste mit Beispielen</h3>
+    <p class="zeile__meta">Für Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-werbung-influencer.html">Ist das Werbung?</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-werbung-influencer.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="u">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">drei entschärfte Kettennachrichten</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-gruselnachrichten-gs.html">Gruselnachrichten auf dem Handy</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-gruselnachrichten-gs.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="u">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Petzen oder Hilfe holen?</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-hilfe-holen-gs.html">Hilfe holen ist kein Petzen</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-hilfe-holen-gs.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="u">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Gerüchte-Karten mit Ampel (auch in einfacher Sprache)</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-geruechte-klassenchat.html">Gerüchte im Klassenchat</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-geruechte-klassenchat.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="u">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Stein oder Pflaster?</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-s-woerter-die-wehtun.html">Wörter, die wehtun</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-s-woerter-die-wehtun.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Karten" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Karten</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Vier entschärfte Beispiel-Posts</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-antisemitismus-rassismus-online.html">Rassismus und Antisemitismus online</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-antisemitismus-rassismus-online.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Kommentarspalte mit Kurzglossar</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-queerfeindlichkeit-netz.html">Queerfeindlichkeit im Netz</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-queerfeindlichkeit-netz.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Eine erfundene Köder-Kette</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-memes-kurzvideos-radikalisierung.html">Radikalisierung über Memes und Kurzvideos</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-memes-kurzvideos-radikalisierung.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Ein Audio kurz vor der Wahl</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-desinformation-wahlen.html">Desinformation vor Wahlen</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-desinformation-wahlen.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Spätschicht Halle 3</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-hass-team-chat-betrieb.html">Hass im Team-Chat</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-hass-team-chat-betrieb.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Ein Bild in der Klassengruppe</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-deepfake-mobbing.html">Deepfake-Mobbing</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-deepfake-mobbing.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Zehn Fälle</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-kommentarspalten-moderieren.html">Kommentarspalten moderieren</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-kommentarspalten-moderieren.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Vier Muster</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-projekttag-demokratie-netz.html">Projekttag Demokratie im Netz</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-projekttag-demokratie-netz.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Beobachtungsfragen und Feed-Protokoll</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-video-tiktok-algorithmus.html">Wie TikTok mich kennt</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-video-tiktok-algorithmus.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Begriffe und Account-Übersicht</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-video-tricks-stimmungsmacher.html">Die Tricks der Stimmungsmacher</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-video-tricks-stimmungsmacher.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Hörauftrag und Eskalationstreppe</h3>
+    <p class="zeile__meta">Für Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-podcast-frauenhass-manosphaere.html">Frauenhass in der Manosphäre</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-podcast-frauenhass-manosphaere.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte schueler" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Sechs Tricks und ihre Warnsignale</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-spiel-bad-news.html">Bad News im Unterricht</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-spiel-bad-news.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="lehrkraefte schueler" data-typ="Arbeitsblatt" data-stufe="m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Die Meldetreppe</h3>
+    <p class="zeile__meta">Für Lehrkräfte, Schüler:innen</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-l-arbeitsblatt-dsa-meldewege.html">Meldewege nach dem DSA</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-l-arbeitsblatt-dsa-meldewege.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Checkliste" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Checkliste</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Chat-Einstellungen im Spiel</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-e-gaming-chats.html">Gaming-Chats begleiten</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-e-gaming-chats.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Checkliste" data-stufe="u m">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Checkliste</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Bereit für den ersten Account?</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-e-erster-account.html">Der erste eigene Account</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-e-erster-account.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Satzanfänge für das Gespräch</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-e-kind-mobbt.html">Wenn das eigene Kind mobbt</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-e-kind-mobbt.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Wenn jemand mit Bildern droht</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-e-sextortion.html">Erpressung mit Nacktbildern</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-e-sextortion.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Was Eltern über KI-Fakes wissen sollten</h3>
+    <p class="zeile__meta">Für Eltern</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-e-ki-fakes.html">KI-Fakes im Familienalltag</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-e-ki-fakes.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="eltern lehrkraefte fachkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Fallkarten für die Kleingruppen</h3>
+    <p class="zeile__meta">Für Eltern, Lehrkräfte, Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-e-elternabend-extremismus.html">Elternabend: Extreme Botschaften im Netz</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-e-elternabend-extremismus.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Gesprächsfragen zum gemeinsamen Prüfen</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-f-desinfo-beratung.html">Desinformation in der Beratung</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-f-desinfo-beratung.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Hinwendung einordnen</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-f-distanzierung.html">Distanzierung begleiten</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-f-distanzierung.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Ablaufkarte Erstberatung</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-f-sextortion-erstberatung.html">Erstberatung bei Sextortion</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-f-sextortion-erstberatung.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">M1 Ablauf und Rollenkarten</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-f-fallberatung-hass.html">Kollegiale Fallberatung zu Hass im Netz</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-f-fallberatung-hass.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Warnzeichen für Überlastung</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-f-selbstfuersorge-gruppe.html">Gemeinsam stark nach Online-Hass</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-f-selbstfuersorge-gruppe.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li><li class="zeile" data-fuer="fachkraefte lehrkraefte" data-typ="Arbeitsblatt" data-stufe="u m o">
+  <div class="zeile__haupt">
+    <p class="zeile__vor"><span class="typ">Arbeitsblatt</span> · Online, druckbar</p>
+    <h3 class="zeile__titel">Zuschauende im Klassenchat</h3>
+    <p class="zeile__meta">Für Sozialarbeit &amp; Psychologie, Lehrkräfte</p>
+    <p class="zeile__meta">Gehört zu: <a href="einheit-r-f-peer-projekt.html">Peer-Projekt gegen Cybermobbing starten</a></p>
+  </div>
+  <span class="zeile__aktion"><a class="knopf knopf--zweit knopf--klein" href="einheit-r-f-peer-projekt.html#m1">Inhalt ansehen</a><!-- DATEI: zusätzlich als Online, druckbar zum Download hinterlegen --></span>
+</li></ul>
+<p class="leer" data-filter-leer hidden>Für diese Auswahl gibt es noch kein Material. Setzen Sie einen Filter zurück.</p>
+<p class="randnotiz">Die Dateien werden gerade fachlich erstellt und folgen in Kürze. <!-- TEXT PRÜFEN --></p>
+  </main>
+</div>
+<footer class="fuss">
+  <p>NETZKLAR – Material gegen Hass, Hetze und Fake News im Netz. Inhalte fachlich verantwortet von: [Name der Fachredaktion] <!-- TEXT PRÜFEN --></p>
+  <ul>
+    <li><a href="impressum.html">Impressum</a></li>
+    <li><a href="datenschutz.html">Datenschutz</a></li>
+    <li><a href="barrierefreiheit.html">Barrierefreiheit</a></li>
+  </ul>
+</footer>
+<script src="assets/data.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

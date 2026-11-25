@@ -1,0 +1,1463 @@
+{
+  "_hinweis": "Demo-Texte – fachlich prüfen. Links in hilfe/weiterlesen stammen aus der geprüften Quellenliste.",
+  "geschichten": [
+    {
+      "id": "klassenchat-foto",
+      "titel": "Das Foto im Klassenchat",
+      "rolle": "zuschauer",
+      "alter": "ab 10 Jahren",
+      "dauer": 6,
+      "thema": "cybermobbing",
+      "kurz": "Im Klassenchat taucht ein peinliches Foto von Mia auf. Alle lachen. Du siehst es – und entscheidest, was du tust.",
+      "lernpunkte": [
+        "Jede Reaktion – auch ein Lach-Emoji – zeigt dem Absender: Das kommt an. Nicht mitmachen ist der erste Schritt.",
+        "Betroffene erst privat unterstützen: Fragen, wie es ihnen geht, und zeigen, dass sie nicht allein sind.",
+        "Ruhig widersprechen wirkt oft mehr als Beleidigen – und andere trauen sich dann eher, sich anzuschließen.",
+        "Beweise sichern (Screenshot mit Datum und Namen) und das Foto bei der Plattform melden.",
+        "Eine erwachsene Vertrauensperson einbeziehen, wenn es nicht aufhört. Das ist kein Petzen, sondern Hilfe holen."
+      ],
+      "start": "start",
+      "szenen": {
+        "start": {
+          "ort": "Dienstagabend, Klassenchat der 7b",
+          "text": [
+            "Du liegst auf dem Bett, als dein Handy vibriert. Jonas hat etwas in den Klassenchat gestellt."
+          ],
+          "chat": [
+            {
+              "von": "Jonas",
+              "text": "Schaut mal, Mia beim Sport 😂😂 [Foto]"
+            },
+            {
+              "von": "Lea",
+              "text": "😂😂😂"
+            },
+            {
+              "von": "Tim",
+              "text": "wie peinlich lol"
+            }
+          ],
+          "frage": "Was machst du?",
+          "wahl": [
+            {
+              "text": "Ich schicke auch ein Lach-Emoji, damit ich nicht auffalle.",
+              "ziel": "mitlachen",
+              "folge": "Dein Emoji ist das vierte. Jonas schreibt: „Seht ihr, alle finden’s lustig.“"
+            },
+            {
+              "text": "Ich sage nichts und lege das Handy weg.",
+              "ziel": "schweigen"
+            },
+            {
+              "text": "Ich schreibe Mia privat, ob alles okay ist.",
+              "ziel": "privat"
+            },
+            {
+              "text": "Ich schreibe in die Gruppe: „Löscht das bitte, das ist nicht okay.“",
+              "ziel": "gruppe"
+            }
+          ]
+        },
+        "mitlachen": {
+          "ort": "Mittwochmorgen",
+          "text": [
+            "Mia ist heute nicht in der Schule. In der Pause zeigt dir jemand aus der Parallelklasse das Foto – es wurde weitergeleitet. Unter dem Foto steht dein Emoji."
+          ],
+          "frage": "Wie gehst du damit um?",
+          "wahl": [
+            {
+              "text": "Ich schreibe Mia, dass mir das leid tut, und frage, ob ich helfen kann.",
+              "ziel": "spaet"
+            },
+            {
+              "text": "Ist doch nicht meine Schuld, ich hab nur ein Emoji geschickt.",
+              "ziel": "ende-teil-des-problems"
+            }
+          ]
+        },
+        "schweigen": {
+          "ort": "Mittwochmorgen",
+          "text": [
+            "Das Foto hat inzwischen über 40 Reaktionen. Mia sitzt in der Pause allein auf der Treppe und schaut auf ihr Handy."
+          ],
+          "frage": "Was machst du jetzt?",
+          "wahl": [
+            {
+              "text": "Ich setze mich zu ihr und frage, wie es ihr geht.",
+              "ziel": "pause"
+            },
+            {
+              "text": "Ich melde das Foto in der App und sage es unserer Klassenlehrerin.",
+              "ziel": "erwachsene",
+              "folge": "Du meldest das Foto als Belästigung und gehst nach der Stunde zu Frau Kaya."
+            },
+            {
+              "text": "Ich halte mich raus. Das geht mich nichts an.",
+              "ziel": "ende-wegschauen"
+            }
+          ]
+        },
+        "privat": {
+          "ort": "Privatchat mit Mia",
+          "chat": [
+            {
+              "von": "Du",
+              "ich": true,
+              "text": "Hey, ich hab das Foto gesehen. Das ist echt fies. Geht’s dir gut?"
+            },
+            {
+              "von": "Mia",
+              "text": "Ich schäme mich so. Bitte sag niemandem, dass ich geweint habe."
+            }
+          ],
+          "frage": "Wie antwortest du?",
+          "wahl": [
+            {
+              "text": "„Mach ich nicht. Willst du, dass ich morgen mit dir zur Vertrauenslehrerin gehe?“",
+              "ziel": "erwachsene",
+              "folge": "Mia schreibt nach einer Weile: „Okay. Aber nur, wenn du mitkommst.“"
+            },
+            {
+              "text": "„Ich mache Screenshots, falls du Hilfe holen willst, und melde das Foto.“",
+              "ziel": "beweise"
+            },
+            {
+              "text": "„Versprochen, ich sag nichts.“ – und dann lasse ich es dabei.",
+              "ziel": "ende-allein-getroestet"
+            }
+          ]
+        },
+        "gruppe": {
+          "ort": "Klassenchat der 7b",
+          "chat": [
+            {
+              "von": "Du",
+              "ich": true,
+              "text": "Löscht das bitte, das ist nicht okay."
+            },
+            {
+              "von": "Jonas",
+              "text": "chill mal, ist nur spaß"
+            },
+            {
+              "von": "Lea",
+              "text": "stimmt eigentlich, war fies"
+            }
+          ],
+          "frage": "Jonas wiegelt ab. Wie reagierst du?",
+          "wahl": [
+            {
+              "text": "Ich bleibe ruhig: „Für Mia ist es kein Spaß. Bitte lösch es.“",
+              "ziel": "geloescht"
+            },
+            {
+              "text": "Ich schreibe: „Du bist so ein Loser, Jonas.“",
+              "ziel": "eskalation"
+            }
+          ]
+        },
+        "eskalation": {
+          "ort": "Klassenchat der 7b",
+          "text": [
+            "Jetzt geht es nicht mehr um das Foto, sondern um dich. Jonas und Tim schicken Sticker über dich. Lea schreibt nichts mehr."
+          ],
+          "frage": "Und jetzt?",
+          "wahl": [
+            {
+              "text": "Ich entschuldige mich für das „Loser“ und bleibe beim Punkt: Das Foto muss weg.",
+              "ziel": "geloescht",
+              "folge": "Tim schreibt: „ok fair“. Die Stimmung kippt."
+            },
+            {
+              "text": "Ich verlasse die Gruppe.",
+              "ziel": "ende-raus"
+            }
+          ]
+        },
+        "geloescht": {
+          "ort": "Eine halbe Stunde später",
+          "text": [
+            "Zwei weitere aus der Klasse schreiben, dass sie das Foto auch nicht okay finden. Jonas löscht es mit einem genervten Emoji."
+          ],
+          "frage": "Ist die Sache damit erledigt?",
+          "wahl": [
+            {
+              "text": "Ich schreibe Mia privat, dass das Foto weg ist und sie nicht allein ist.",
+              "ziel": "ende-unterschied"
+            },
+            {
+              "text": "Ja, Thema erledigt.",
+              "ziel": "ende-geloescht-nicht-vergessen"
+            }
+          ]
+        },
+        "pause": {
+          "ort": "Auf der Treppe",
+          "text": [
+            "Mia zuckt erst mit den Schultern. Dann erzählt sie, dass das Foto auch in anderen Gruppen ist und sie heute nicht zum Sport will."
+          ],
+          "frage": "Was schlägst du vor?",
+          "wahl": [
+            {
+              "text": "„Lass uns zusammen zu Frau Kaya gehen. Ich komme mit.“",
+              "ziel": "erwachsene"
+            },
+            {
+              "text": "„Ignorier das einfach, das geht vorbei.“",
+              "ziel": "ende-allein-getroestet"
+            }
+          ]
+        },
+        "beweise": {
+          "ort": "Am Abend",
+          "text": [
+            "Du machst Screenshots vom Foto und den Kommentaren – mit Datum, Uhrzeit und Namen. Dann meldest du das Foto in der App. Mia erzählt ihrer Mutter davon und schickt ihr deine Screenshots."
+          ],
+          "frage": "Wie geht es weiter?",
+          "wahl": [
+            {
+              "text": "Ich biete an, auch in der Schule zu erzählen, was ich gesehen habe.",
+              "ziel": "erwachsene"
+            }
+          ]
+        },
+        "spaet": {
+          "ort": "Privatchat mit Mia",
+          "chat": [
+            {
+              "von": "Du",
+              "ich": true,
+              "text": "Das mit dem Emoji war blöd von mir. Tut mir leid. Kann ich irgendwas tun?"
+            },
+            {
+              "von": "Mia",
+              "text": "Warum hast du mitgelacht? … Aber danke, dass du schreibst."
+            }
+          ],
+          "frage": "Was jetzt?",
+          "wahl": [
+            {
+              "text": "Ich lösche mein Emoji und biete an, mit ihr zu einer Lehrkraft zu gehen.",
+              "ziel": "ende-wiedergutmachen"
+            }
+          ]
+        },
+        "erwachsene": {
+          "ort": "Am nächsten Tag in der Schule",
+          "text": [
+            "Frau Kaya nimmt sich Zeit. Sie spricht mit Jonas, das Foto wird gelöscht und auch in den anderen Gruppen gemeldet. In der Klassenstunde sprecht ihr darüber, was im Chat okay ist und was nicht."
+          ],
+          "frage": "Mia fragt dich danach, ob du morgen in der Pause wieder mit ihr sitzt.",
+          "wahl": [
+            {
+              "text": "„Klar.“",
+              "ziel": "ende-gemeinsam"
+            }
+          ]
+        },
+        "ende-unterschied": {
+          "ende": {
+            "art": "gut",
+            "titel": "Du hast den Unterschied gemacht",
+            "text": [
+              "Das Foto ist gelöscht, und Mia weiß, dass sie nicht allein ist. Du hast nicht beleidigt, sondern ruhig gesagt, was nicht okay ist – deshalb haben sich andere angeschlossen."
+            ],
+            "lernen": [
+              "Ruhiger Widerspruch gibt anderen den Mut, sich anzuschließen.",
+              "Danach die betroffene Person privat stärken – das wirkt oft am längsten nach.",
+              "Wenn das Foto schon weitergeleitet wurde: erwachsene Vertrauensperson einbeziehen."
+            ]
+          }
+        },
+        "ende-gemeinsam": {
+          "ende": {
+            "art": "gut",
+            "titel": "Gemeinsam gestoppt",
+            "text": [
+              "Du hast Mia begleitet und eine Erwachsene einbezogen. Das Foto ist aus allen Gruppen verschwunden, und die Klasse hat eigene Regeln für den Chat."
+            ],
+            "lernen": [
+              "Hilfe holen ist kein Petzen – es schützt die betroffene Person.",
+              "Beweise mit Datum und Namen helfen Lehrkräften, schnell zu handeln.",
+              "Gemeinsame Chat-Regeln machen klar, was in der Klasse gilt."
+            ]
+          }
+        },
+        "ende-wiedergutmachen": {
+          "ende": {
+            "art": "teils",
+            "titel": "Ein Fehler, der sich wiedergutmachen ließ",
+            "text": [
+              "Dein Emoji hat erst mitgeholfen, dass sich das Foto verbreitet. Aber du hast dich entschuldigt und Hilfe angeboten – Mia hat das angenommen."
+            ],
+            "lernen": [
+              "Auch Likes und Emojis verstärken Mobbing.",
+              "Sich zu entschuldigen und aktiv zu helfen ist mutig – es ist nie zu spät dafür."
+            ]
+          }
+        },
+        "ende-allein-getroestet": {
+          "ende": {
+            "art": "teils",
+            "titel": "Getröstet, aber noch nicht geschützt",
+            "text": [
+              "Mia ist froh, dass du für sie da bist. Das Foto geht aber weiter herum, und sie traut sich nicht, jemandem davon zu erzählen."
+            ],
+            "lernen": [
+              "Zuhören ist wichtig – und der erste Schritt.",
+              "Ermutige Betroffene, sich Hilfe zu holen, und biete an, mitzukommen.",
+              "Auch anonyme Beratung hilft: Das Kinder- und Jugendtelefon erreicht man kostenlos unter 116 111."
+            ]
+          }
+        },
+        "ende-geloescht-nicht-vergessen": {
+          "ende": {
+            "art": "teils",
+            "titel": "Gelöscht ist nicht vergessen",
+            "text": [
+              "Das Foto ist aus dem Klassenchat verschwunden. Aber jemand hatte es schon gespeichert – und Mia weiß nicht, dass du für sie eingestanden bist."
+            ],
+            "lernen": [
+              "Was einmal im Netz ist, kann weiterverbreitet werden – deshalb zählt jede Minute.",
+              "Sag der betroffenen Person, dass du auf ihrer Seite stehst."
+            ]
+          }
+        },
+        "ende-raus": {
+          "ende": {
+            "art": "teils",
+            "titel": "Raus aus der Gruppe",
+            "text": [
+              "Du hast dich selbst geschützt – das ist in Ordnung. Aber das Foto ist noch da, und Mia ist mit den anderen allein."
+            ],
+            "lernen": [
+              "Beleidigungen lenken vom eigentlichen Problem ab und geben dem Absender eine Vorlage.",
+              "Wenn dir eine Situation zu viel wird: Hol dir Unterstützung, statt allein weiterzumachen."
+            ]
+          }
+        },
+        "ende-wegschauen": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Wegschauen",
+            "text": [
+              "Niemand hat etwas gesagt. Für Jonas sieht es so aus, als fänden es alle in Ordnung. Mia geht ein paar Tage nicht zur Schule."
+            ],
+            "lernen": [
+              "Schweigen wird oft als Zustimmung verstanden.",
+              "Schon eine private Nachricht an die betroffene Person kann viel verändern.",
+              "Es ist nicht zu spät: Du kannst immer noch mit Mia oder einer Lehrkraft sprechen."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              }
+            ]
+          }
+        },
+        "ende-teil-des-problems": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Teil des Problems",
+            "text": [
+              "Das Foto verbreitet sich weiter, und unter jeder Kopie steht, wer gelacht hat. Mia bleibt zu Hause. Fotos von anderen ohne Erlaubnis zu verbreiten, kann sogar rechtliche Folgen haben."
+            ],
+            "lernen": [
+              "Jede Reaktion verstärkt die Verbreitung.",
+              "Du kannst deine Reaktion jederzeit zurücknehmen und dich bei der betroffenen Person melden."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              }
+            ]
+          }
+        }
+      },
+      "weiterlesen": [
+        {
+          "anbieter": "klicksafe",
+          "titel": "Vom Bystander zum Upstander",
+          "url": "https://www.klicksafe.de/news/vom-bystander-zum-upstander-tipps-fuer-jugendliche-bei-cybermobbing",
+          "kurz": "Was du tun kannst, wenn du Cybermobbing mitbekommst."
+        },
+        {
+          "anbieter": "JUUUPORT",
+          "titel": "Cybermobbing: Tipps und Hilfe",
+          "url": "https://www.juuuport.de/infos/ratgeber/cybermobbing",
+          "kurz": "Ratgeber von Jugendlichen für Jugendliche."
+        },
+        {
+          "anbieter": "Handysektor",
+          "titel": "Cybermobbing: Hilfe für Betroffene und Zuschauende",
+          "url": "https://www.handysektor.de/cybermobbing-gegen-hass-im-netz/",
+          "kurz": "Tipps für beide Seiten."
+        },
+        {
+          "anbieter": "147 (Schweiz)",
+          "titel": "Mobbing: Das kannst du tun",
+          "url": "https://www.147.ch/de/article/cybermobbing-und-mobbing/mobbing-das-kannst-du-tun/",
+          "kurz": "Tipps für Zuschauende."
+        }
+      ]
+    },
+    {
+      "id": "kommentare-video",
+      "titel": "Kommentare unter meinem Video",
+      "rolle": "betroffen",
+      "alter": "ab 12 Jahren",
+      "dauer": 7,
+      "thema": "hass",
+      "kurz": "Du hast ein Video von dir gepostet. Am nächsten Morgen stehen darunter Dutzende gemeine Kommentare – auch einer von jemandem aus deiner Schule.",
+      "lernpunkte": [
+        "Es ist nie deine Schuld, wenn andere dich angreifen.",
+        "Nicht zurückschlagen: Wer mit Hass antwortet, gibt den Angreifenden neue Munition.",
+        "Erst Beweise sichern (Screenshots mit Datum, Uhrzeit, Profilname), dann melden und blockieren – erst danach löschen.",
+        "Mit einer Vertrauensperson reden. Kostenlose, anonyme Beratung gibt es zum Beispiel beim Kinder- und Jugendtelefon (116 111) oder online bei JUUUPORT.",
+        "Manche Kommentare sind strafbar. Beratungsstellen wie HateAid helfen dabei, das einzuschätzen."
+      ],
+      "start": "start",
+      "szenen": {
+        "start": {
+          "ort": "Samstagmorgen",
+          "text": [
+            "Gestern hast du ein kurzes Video gepostet, in dem du singst. Heute hat es tausend Aufrufe – und 63 Kommentare."
+          ],
+          "chat": [
+            {
+              "von": "@x_blank_x",
+              "text": "wie kann man so peinlich sein 🤮"
+            },
+            {
+              "von": "@realtalk_88",
+              "text": "Geh doch zurück, wo du herkommst"
+            },
+            {
+              "von": "@lenny.k",
+              "text": "morgen lachen alle in der schule über dich"
+            }
+          ],
+          "frage": "Dein Herz rast. Was machst du als Erstes?",
+          "wahl": [
+            {
+              "text": "Ich antworte allen wütend und beleidige zurück.",
+              "ziel": "zurueck"
+            },
+            {
+              "text": "Ich lösche sofort das Video und alle Kommentare.",
+              "ziel": "geloescht"
+            },
+            {
+              "text": "Ich mache Screenshots, melde die schlimmsten Kommentare und blockiere die Accounts.",
+              "ziel": "sichern"
+            },
+            {
+              "text": "Ich zeige es meiner großen Schwester.",
+              "ziel": "vertrauen"
+            }
+          ]
+        },
+        "zurueck": {
+          "ort": "Eine Stunde später",
+          "text": [
+            "Jetzt sind es über hundert Kommentare. Jemand hat einen Screenshot von deiner Beleidigung gemacht und schreibt: „Seht ihr, so ist die wirklich.“"
+          ],
+          "frage": "Was jetzt?",
+          "wahl": [
+            {
+              "text": "Ich höre auf zu antworten, sichere Beweise und melde die Kommentare.",
+              "ziel": "sichern",
+              "folge": "Es fällt dir schwer, aber du legst das Antworten sein."
+            },
+            {
+              "text": "Ich mache weiter. Die sollen sehen, dass ich mich wehre.",
+              "ziel": "ende-hass-mit-hass"
+            }
+          ]
+        },
+        "geloescht": {
+          "ort": "Montag in der Schule",
+          "text": [
+            "Das Video ist weg. Aber Lenny zeigt in der Pause einen Screenshot davon herum. Als du es einer Lehrerin erzählen willst, hast du keinen Beweis mehr."
+          ],
+          "frage": "Was tust du?",
+          "wahl": [
+            {
+              "text": "Ich erzähle es trotzdem meiner Klassenlehrerin.",
+              "ziel": "schule",
+              "folge": "Herr Brandt hört zu. Er sagt: „Gut, dass du kommst. Auch ohne Screenshot können wir etwas tun.“"
+            },
+            {
+              "text": "Ich sage nichts und poste nie wieder etwas.",
+              "ziel": "ende-allein"
+            }
+          ]
+        },
+        "sichern": {
+          "ort": "Samstagmittag",
+          "text": [
+            "Du hast Screenshots mit Datum, Uhrzeit und Profilnamen gespeichert. Zwei Kommentare hat die Plattform schon entfernt, die Accounts sind blockiert. Lennys Kommentar ist noch da – und er ist aus deiner Schule."
+          ],
+          "frage": "Was ist dein nächster Schritt?",
+          "wahl": [
+            {
+              "text": "Ich suche mir anonym Rat bei einer Online-Beratung von Jugendlichen für Jugendliche.",
+              "ziel": "beratung"
+            },
+            {
+              "text": "Ich zeige alles meiner großen Schwester.",
+              "ziel": "vertrauen"
+            }
+          ]
+        },
+        "vertrauen": {
+          "ort": "Zu Hause",
+          "text": [
+            "Deine Schwester liest die Kommentare und sagt: „Das ist nicht okay – und das ist nicht deine Schuld.“ Der Kommentar mit der Herkunft könnte sogar strafbar sein."
+          ],
+          "frage": "Was macht ihr zusammen?",
+          "wahl": [
+            {
+              "text": "Wir sichern alle Beweise, melden die Kommentare und holen uns Rat bei einer Beratungsstelle gegen Hass im Netz.",
+              "ziel": "ende-nicht-allein"
+            },
+            {
+              "text": "Wir sprechen mit der Schule wegen Lenny.",
+              "ziel": "schule"
+            }
+          ]
+        },
+        "beratung": {
+          "ort": "Online-Beratung",
+          "text": [
+            "Eine Beraterin, kaum älter als du, antwortet am selben Tag. Sie schreibt, dass viele so etwas erleben, und erklärt dir, was du tun kannst: Beweise behalten, mit jemandem in der Schule reden, Accounts blockieren."
+          ],
+          "frage": "Was machst du mit dem Rat?",
+          "wahl": [
+            {
+              "text": "Ich gehe am Montag mit den Screenshots zu meiner Klassenlehrerin.",
+              "ziel": "schule"
+            },
+            {
+              "text": "Ich warte erst mal ab.",
+              "ziel": "ende-halber-weg"
+            }
+          ]
+        },
+        "schule": {
+          "ort": "Montag, Gespräch mit Herrn Brandt",
+          "text": [
+            "Herr Brandt spricht mit Lenny und dessen Eltern. Lenny löscht den Kommentar und entschuldigt sich. In der Klasse geht es in der nächsten Stunde um Hass im Netz – ohne dass dein Name fällt."
+          ],
+          "frage": "Wie fühlst du dich?",
+          "wahl": [
+            {
+              "text": "Erleichtert. Ich weiß jetzt, wen ich fragen kann.",
+              "ziel": "ende-schule-zieht-mit"
+            }
+          ]
+        },
+        "ende-nicht-allein": {
+          "ende": {
+            "art": "gut",
+            "titel": "Du bist nicht allein geblieben",
+            "text": [
+              "Du hast Beweise gesichert, gemeldet und dir Hilfe geholt. Die Beratungsstelle prüft mit dir, ob ihr Anzeige erstattet. Die schlimmsten Kommentare sind weg."
+            ],
+            "lernen": [
+              "Beweise sichern, melden, blockieren – in dieser Reihenfolge.",
+              "Mit Unterstützung lassen sich auch rechtliche Schritte prüfen."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              },
+              {
+                "titel": "HateAid-Beratung",
+                "url": "https://hateaid.org/betroffenenberatung/"
+              }
+            ]
+          }
+        },
+        "ende-schule-zieht-mit": {
+          "ende": {
+            "art": "gut",
+            "titel": "Die Schule zieht mit",
+            "text": [
+              "Weil du dich jemandem anvertraut hast, konnte die Schule handeln. Lenny hat verstanden, was sein Kommentar angerichtet hat."
+            ],
+            "lernen": [
+              "Wenn jemand aus deinem Umfeld beteiligt ist, kann die Schule helfen.",
+              "Hilfe holen ist ein Zeichen von Stärke."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              },
+              {
+                "titel": "HateAid-Beratung",
+                "url": "https://hateaid.org/betroffenenberatung/"
+              }
+            ]
+          }
+        },
+        "ende-halber-weg": {
+          "ende": {
+            "art": "teils",
+            "titel": "Auf halbem Weg",
+            "text": [
+              "Du hast Beweise und weißt, was du tun kannst. Aber Lennys Kommentar ist noch da, und du grübelst jeden Abend darüber."
+            ],
+            "lernen": [
+              "Abwarten ist okay – aber du musst es nicht allein aushalten.",
+              "Das Kinder- und Jugendtelefon erreichst du kostenlos und anonym unter 116 111."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              },
+              {
+                "titel": "HateAid-Beratung",
+                "url": "https://hateaid.org/betroffenenberatung/"
+              }
+            ]
+          }
+        },
+        "ende-hass-mit-hass": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Hass mit Hass beantwortet",
+            "text": [
+              "Der Streit wird immer größer, und deine eigenen Beleidigungen werden gegen dich verwendet. Das ist nicht deine Schuld – aber es macht es schwerer, Hilfe zu bekommen."
+            ],
+            "lernen": [
+              "Angreifende wollen eine Reaktion. Nicht antworten nimmt ihnen die Bühne.",
+              "Es ist nie zu spät, aufzuhören, Beweise zu sichern und Hilfe zu holen."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              },
+              {
+                "titel": "HateAid-Beratung",
+                "url": "https://hateaid.org/betroffenenberatung/"
+              }
+            ]
+          }
+        },
+        "ende-allein": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Allein mit allem",
+            "text": [
+              "Du ziehst dich zurück und postest nichts mehr. Genau das wollten die Angreifenden. Du hast nichts falsch gemacht – und du verdienst Unterstützung."
+            ],
+            "lernen": [
+              "Viele Betroffene ziehen sich zurück. Darüber zu reden hilft.",
+              "Auch ohne Beweise kannst du dir Hilfe holen – in der Schule oder anonym unter 116 111."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              },
+              {
+                "titel": "JUUUPORT-Beratung",
+                "url": "https://www.juuuport.de/hilfe/beratung"
+              },
+              {
+                "titel": "HateAid-Beratung",
+                "url": "https://hateaid.org/betroffenenberatung/"
+              }
+            ]
+          }
+        }
+      },
+      "weiterlesen": [
+        {
+          "anbieter": "Handysektor",
+          "titel": "Cybermobbing: 8 Tipps für Betroffene",
+          "url": "https://www.handysektor.de/artikel/tipps-gegen-cybermobbing/",
+          "kurz": "Kurz und klar, was du tun kannst."
+        },
+        {
+          "anbieter": "HateAid",
+          "titel": "Rechtssichere Screenshots erstellen",
+          "url": "https://hateaid.org/rechtssichere-screenshots/",
+          "kurz": "So sicherst du Beweise richtig."
+        },
+        {
+          "anbieter": "JUUUPORT",
+          "titel": "Hass im Netz – geht gar nicht!",
+          "url": "https://www.juuuport.de/infos/ratgeber/hass-im-netz",
+          "kurz": "Was du gegen Hass tun kannst."
+        },
+        {
+          "anbieter": "Nummer gegen Kummer",
+          "titel": "Beratung für Kinder und Jugendliche",
+          "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/",
+          "kurz": "Telefon, Mail und Chat – anonym."
+        }
+      ]
+    },
+    {
+      "id": "eilmeldung-familienchat",
+      "titel": "Die Eilmeldung im Familienchat",
+      "rolle": "zuschauer",
+      "alter": "ab 13 Jahren",
+      "dauer": 6,
+      "thema": "fake",
+      "kurz": "Dein Onkel teilt im Familienchat eine Meldung über Jugendliche aus deinem Viertel. Sie macht alle wütend. Aber stimmt sie überhaupt?",
+      "lernpunkte": [
+        "Starke Gefühle wie Wut oder Angst sind ein Warnsignal: erst prüfen, dann teilen.",
+        "Querlesen: Die Quelle in einem neuen Tab suchen statt nur auf der Seite selbst zu bleiben.",
+        "Bilder mit der Bilder-Rückwärtssuche prüfen – oft sind sie alt oder stammen von woanders.",
+        "Widersprechen ohne bloßzustellen: Fakt zuerst, dann der Hinweis auf die Falschmeldung, dann wieder der Fakt.",
+        "Falschmeldungen über Gruppen schüren Hass gegen echte Menschen. Nicht weiterleiten schützt sie."
+      ],
+      "start": "start",
+      "szenen": {
+        "start": {
+          "ort": "Sonntagabend, Familienchat",
+          "chat": [
+            {
+              "von": "Onkel Ralf",
+              "text": "EILMELDUNG!!! Jugendliche vom Jugendzentrum Nord haben gestern eine Seniorin überfallen. Die Zeitung verschweigt es natürlich! Teilen!!! [Foto]"
+            },
+            {
+              "von": "Tante Petra",
+              "text": "Unglaublich. Die sollte man alle wegsperren."
+            }
+          ],
+          "text": [],
+          "frage": "Du gehst selbst manchmal ins Jugendzentrum Nord. Was machst du?",
+          "wahl": [
+            {
+              "text": "Ich leite es an meine Klassengruppe weiter – die sollen das wissen.",
+              "ziel": "weitergeleitet"
+            },
+            {
+              "text": "Ich schreibe sofort: „Was für ein Schwachsinn, Onkel Ralf!“",
+              "ziel": "streit"
+            },
+            {
+              "text": "Ich prüfe erst mal, ob das stimmt.",
+              "ziel": "pruefen"
+            },
+            {
+              "text": "Ich ignoriere den Chat.",
+              "ziel": "ignorieren"
+            }
+          ]
+        },
+        "pruefen": {
+          "ort": "Ein paar Minuten später",
+          "text": [
+            "Du suchst die Meldung bei der Lokalzeitung und der Polizei der Stadt – nichts. Dann machst du eine Bilder-Rückwärtssuche: Das Foto ist drei Jahre alt und stammt aus einer anderen Stadt."
+          ],
+          "frage": "Wie gehst du mit dem Ergebnis um?",
+          "wahl": [
+            {
+              "text": "Ich schreibe freundlich in den Familienchat, was ich herausgefunden habe – mit Link.",
+              "ziel": "richtigstellen"
+            },
+            {
+              "text": "Ich sage es nur meiner Mutter.",
+              "ziel": "mutter"
+            },
+            {
+              "text": "Ich weiß jetzt Bescheid, das reicht mir.",
+              "ziel": "ende-gewusst-aber-geschwiegen"
+            }
+          ]
+        },
+        "richtigstellen": {
+          "ort": "Familienchat",
+          "chat": [
+            {
+              "von": "Du",
+              "ich": true,
+              "text": "Ich hab nachgeschaut: Das Foto ist von 2023 und aus einer anderen Stadt. Polizei und Zeitung melden nichts dazu. Im Jugendzentrum Nord sind übrigens viele aus meiner Klasse – die sind echt okay."
+            },
+            {
+              "von": "Onkel Ralf",
+              "text": "Hm. Das hat mir ein Kollege geschickt."
+            }
+          ],
+          "frage": "Onkel Ralf ist unsicher. Was schreibst du?",
+          "wahl": [
+            {
+              "text": "„Passiert jedem mal. Löschst du es, bevor es weitergeht?“",
+              "ziel": "ende-gestoppt"
+            },
+            {
+              "text": "„Typisch, du glaubst echt alles.“",
+              "ziel": "ende-recht-aber-verloren"
+            }
+          ]
+        },
+        "mutter": {
+          "ort": "In der Küche",
+          "text": [
+            "Deine Mutter ist überrascht und schreibt selbst in den Chat, dass die Meldung falsch ist. Onkel Ralf ist eingeschnappt, löscht sie aber."
+          ],
+          "frage": "Noch etwas?",
+          "wahl": [
+            {
+              "text": "Ich frage Onkel Ralf beim nächsten Treffen, woher er die Meldung hatte.",
+              "ziel": "ende-gestoppt"
+            },
+            {
+              "text": "Nein, erledigt.",
+              "ziel": "ende-halb-gestoppt"
+            }
+          ]
+        },
+        "streit": {
+          "ort": "Familienchat",
+          "chat": [
+            {
+              "von": "Onkel Ralf",
+              "text": "Werd nicht frech. Du weißt doch gar nichts."
+            },
+            {
+              "von": "Tante Petra",
+              "text": "Die Jugend heute…"
+            }
+          ],
+          "frage": "Der Ton wird schärfer. Was jetzt?",
+          "wahl": [
+            {
+              "text": "Ich atme durch, prüfe die Meldung und schreibe dann sachlich, was stimmt.",
+              "ziel": "pruefen",
+              "folge": "Du schreibst: „Sorry für den Ton. Ich schau mal nach.“"
+            },
+            {
+              "text": "Ich schreibe noch schärfer zurück.",
+              "ziel": "ende-recht-aber-verloren"
+            }
+          ]
+        },
+        "ignorieren": {
+          "ort": "Am nächsten Tag",
+          "text": [
+            "In der Schule erzählt jemand, dass die Meldung inzwischen in vielen Gruppen herumgeht. Vor dem Jugendzentrum steht jemand und beschimpft die Jugendlichen."
+          ],
+          "frage": "Willst du doch noch etwas tun?",
+          "wahl": [
+            {
+              "text": "Ja, ich prüfe die Meldung und sage es in meinen Gruppen.",
+              "ziel": "pruefen"
+            },
+            {
+              "text": "Nein, ist nicht mein Problem.",
+              "ziel": "ende-schneeball"
+            }
+          ]
+        },
+        "weitergeleitet": {
+          "ort": "Klassengruppe",
+          "text": [
+            "Nach zehn Minuten haben drei Leute die Meldung weitergeschickt. Dann schreibt Aylin: „Das ist Quatsch, mein Bruder arbeitet im Jugendzentrum. Das Foto ist uralt.“"
+          ],
+          "frage": "Was machst du?",
+          "wahl": [
+            {
+              "text": "Ich schreibe: „Sorry, hab’s nicht geprüft. Bitte nicht weiterleiten.“ – und lösche meinen Post.",
+              "ziel": "ende-korrigiert"
+            },
+            {
+              "text": "Ich lasse es so stehen, ist ja nur eine Nachricht.",
+              "ziel": "ende-schneeball"
+            }
+          ]
+        },
+        "ende-gestoppt": {
+          "ende": {
+            "art": "gut",
+            "titel": "Die Falschmeldung ist gestoppt",
+            "text": [
+              "Du hast geprüft, freundlich richtiggestellt und Onkel Ralf einen Ausweg gelassen. Er löscht die Nachricht und schreibt: „Danke fürs Nachschauen.“"
+            ],
+            "lernen": [
+              "Prüfen dauert oft nur zwei Minuten.",
+              "Wer niemanden bloßstellt, wird eher gehört.",
+              "Fakt zuerst – die Falschmeldung nur kurz erwähnen."
+            ]
+          }
+        },
+        "ende-korrigiert": {
+          "ende": {
+            "art": "teils",
+            "titel": "Fehler korrigiert",
+            "text": [
+              "Du hast die Meldung erst geteilt, aber deinen Fehler schnell zugegeben. Ein paar Kopien sind noch unterwegs, doch deine Korrektur hat andere zum Nachdenken gebracht."
+            ],
+            "lernen": [
+              "Jede:r fällt mal auf etwas herein.",
+              "Eine öffentliche Korrektur hilft mehr als stilles Löschen."
+            ]
+          }
+        },
+        "ende-halb-gestoppt": {
+          "ende": {
+            "art": "teils",
+            "titel": "Halb gestoppt",
+            "text": [
+              "Im Familienchat ist die Meldung weg. Aber Onkel Ralf hat sie vorher schon an Kollegen geschickt – und weiß gar nicht, warum sie falsch war."
+            ],
+            "lernen": [
+              "Erklären, warum etwas falsch ist, hilft beim nächsten Mal."
+            ]
+          }
+        },
+        "ende-gewusst-aber-geschwiegen": {
+          "ende": {
+            "art": "teils",
+            "titel": "Gewusst, aber geschwiegen",
+            "text": [
+              "Du weißt, dass die Meldung falsch ist – deine Familie nicht. Tante Petra leitet sie weiter."
+            ],
+            "lernen": [
+              "Wissen hilft erst, wenn man es teilt – freundlich und mit Beleg."
+            ]
+          }
+        },
+        "ende-recht-aber-verloren": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Recht gehabt, Gespräch verloren",
+            "text": [
+              "Inhaltlich hast du recht. Aber wer sich angegriffen fühlt, verteidigt eher seine Meinung, als sie zu ändern. Die Meldung bleibt im Chat."
+            ],
+            "lernen": [
+              "Sachlich bleiben, auch wenn es schwerfällt.",
+              "Einen Ausweg lassen: „Kann jedem passieren.“"
+            ],
+            "hilfe": []
+          }
+        },
+        "ende-schneeball": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Der Schneeball rollt",
+            "text": [
+              "Die Meldung verbreitet sich weiter. Jugendliche aus dem Jugendzentrum werden auf der Straße beschimpft – wegen etwas, das nie passiert ist."
+            ],
+            "lernen": [
+              "Falschmeldungen über Gruppen treffen echte Menschen.",
+              "Nicht teilen und richtigstellen nimmt Hass den Treibstoff."
+            ],
+            "hilfe": []
+          }
+        }
+      },
+      "weiterlesen": [
+        {
+          "anbieter": "bpb",
+          "titel": "Ist diese Meldung ein Fake?",
+          "url": "https://www.bpb.de/themen/medien-journalismus/desinformation/519735/ist-diese-meldung-ein-fake/",
+          "kurz": "Prüffragen für Nachrichten."
+        },
+        {
+          "anbieter": "Handysektor",
+          "titel": "Fake News richtig erkennen",
+          "url": "https://www.handysektor.de/artikel/communityfrage-fake-news-richtig-erkennen/",
+          "kurz": "Tipps aus der Community."
+        },
+        {
+          "anbieter": "CORRECTIV",
+          "titel": "Wie erkenne ich Falschmeldungen?",
+          "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/",
+          "kurz": "Zehn Tipps der Faktencheck-Redaktion."
+        },
+        {
+          "anbieter": "CORRECTIV",
+          "titel": "So funktioniert die Bilderrückwärtssuche",
+          "url": "https://correctiv.org/faktencheck/hintergrund/2022/04/01/so-funktioniert-die-bilderrueckwaertssuche/",
+          "kurz": "Schritt für Schritt."
+        },
+        {
+          "anbieter": "Bad News",
+          "titel": "Bad News – deutsche Version",
+          "url": "https://www.getbadnews.com/de",
+          "kurz": "Lerne die Tricks von Fake-News-Macher:innen kennen."
+        }
+      ]
+    },
+    {
+      "id": "kettenbrief",
+      "titel": "Der gruselige Kettenbrief",
+      "rolle": "betroffen",
+      "alter": "8 bis 12 Jahre",
+      "dauer": 4,
+      "thema": "fake",
+      "kurz": "Du bekommst eine Nachricht mit einer Drohung: Wenn du sie nicht weiterschickst, passiert etwas Schlimmes. Was machst du?",
+      "lernpunkte": [
+        "Kettenbriefe sind erfunden. Es passiert nichts, wenn du sie löschst.",
+        "Wenn dir eine Nachricht Angst macht: Zeig sie einem Erwachsenen, dem du vertraust.",
+        "Nicht weiterschicken – sonst bekommen deine Freund:innen genauso Angst."
+      ],
+      "start": "start",
+      "szenen": {
+        "start": {
+          "ort": "Nach der Schule",
+          "chat": [
+            {
+              "von": "Unbekannte Nummer",
+              "text": "Schick das an 10 Leute. Sonst steht heute Nacht jemand an deinem Bett. Das ist kein Witz. 👻"
+            }
+          ],
+          "text": [],
+          "frage": "Dir wird ganz mulmig. Was machst du?",
+          "wahl": [
+            {
+              "text": "Ich schicke es schnell an 10 Freund:innen.",
+              "ziel": "weiter"
+            },
+            {
+              "text": "Ich zeige es Mama oder Papa.",
+              "ziel": "eltern"
+            },
+            {
+              "text": "Ich lösche es und sage niemandem etwas.",
+              "ziel": "geheim"
+            }
+          ]
+        },
+        "weiter": {
+          "ort": "Am Abend",
+          "text": [
+            "Deine Freundin Ella ruft an. Sie weint, weil sie Angst hat – und sie hat die Nachricht von dir."
+          ],
+          "frage": "Was sagst du ihr?",
+          "wahl": [
+            {
+              "text": "„Tut mir leid! Ich hatte auch Angst. Lass uns das deinen Eltern zeigen.“",
+              "ziel": "ende-wiedergutgemacht"
+            },
+            {
+              "text": "„Schick sie einfach auch weiter, dann passiert nichts.“",
+              "ziel": "ende-kette"
+            }
+          ]
+        },
+        "eltern": {
+          "ort": "Zu Hause",
+          "text": [
+            "Papa liest die Nachricht und lacht nicht. Er sagt: „Gut, dass du sie mir zeigst. Das ist ein Kettenbrief. Die sind ausgedacht, damit man Angst bekommt.“"
+          ],
+          "frage": "Was macht ihr?",
+          "wahl": [
+            {
+              "text": "Wir löschen die Nachricht und blockieren die Nummer.",
+              "ziel": "ende-sicher"
+            }
+          ]
+        },
+        "geheim": {
+          "ort": "In der Nacht",
+          "text": [
+            "Du kannst nicht einschlafen. Jedes Geräusch macht dir Angst."
+          ],
+          "frage": "Was machst du?",
+          "wahl": [
+            {
+              "text": "Ich gehe zu Mama und erzähle ihr davon.",
+              "ziel": "ende-mutig"
+            },
+            {
+              "text": "Ich bleibe wach und sage nichts.",
+              "ziel": "ende-angst"
+            }
+          ]
+        },
+        "ende-sicher": {
+          "ende": {
+            "art": "gut",
+            "titel": "Alles ist gut",
+            "text": [
+              "Die Nachricht ist weg, und nichts ist passiert. Papa sagt: „Wenn wieder so etwas kommt, zeig es mir einfach.“"
+            ],
+            "lernen": [
+              "Kettenbriefe sind erfunden.",
+              "Erwachsene helfen dir, wenn dir eine Nachricht Angst macht."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              }
+            ]
+          }
+        },
+        "ende-mutig": {
+          "ende": {
+            "art": "gut",
+            "titel": "Mutig erzählt",
+            "text": [
+              "Mama nimmt dich in den Arm und erklärt dir, dass es Kettenbriefe schon ganz lange gibt – und dass nie etwas passiert. Jetzt kannst du schlafen."
+            ],
+            "lernen": [
+              "Es ist nie zu spät, jemandem davon zu erzählen."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              }
+            ]
+          }
+        },
+        "ende-wiedergutgemacht": {
+          "ende": {
+            "art": "teils",
+            "titel": "Wiedergutgemacht",
+            "text": [
+              "Ellas Eltern beruhigen euch beide. Ihr schreibt den anderen acht, dass die Nachricht erfunden ist."
+            ],
+            "lernen": [
+              "Weiterschicken macht anderen Angst.",
+              "Wenn du einen Fehler gemacht hast: Sag es und hilf mit, ihn wiedergutzumachen."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              }
+            ]
+          }
+        },
+        "ende-kette": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Die Kette geht weiter",
+            "text": [
+              "Jetzt haben noch mehr Kinder Angst. Und es ist trotzdem nichts passiert – weil Kettenbriefe immer erfunden sind."
+            ],
+            "lernen": [
+              "Kettenbriefe nie weiterschicken.",
+              "Zeig sie lieber einem Erwachsenen."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              }
+            ]
+          }
+        },
+        "ende-angst": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Eine Nacht voller Angst",
+            "text": [
+              "Es ist nichts passiert. Aber du hattest eine schlimme Nacht – ganz allein. Das hätte nicht sein müssen."
+            ],
+            "lernen": [
+              "Du darfst immer Hilfe holen. Auch mitten in der Nacht.",
+              "Das Kinder- und Jugendtelefon erreichst du kostenlos unter 116 111."
+            ],
+            "hilfe": [
+              {
+                "titel": "Nummer gegen Kummer: 116 111",
+                "url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/"
+              }
+            ]
+          }
+        }
+      },
+      "weiterlesen": [
+        {
+          "anbieter": "klicksafe",
+          "titel": "Fake News – Aufklärung für Kinder",
+          "url": "https://www.klicksafe.de/desinformation-und-meinung/fake-news",
+          "kurz": "Für Kinder und Eltern erklärt."
+        },
+        {
+          "anbieter": "Internet-ABC",
+          "titel": "Fiese Tricks, Lügen und Betrug im Internet",
+          "url": "https://www.internet-abc.de/lehrkraefte/unterrichtsmaterialien-lernmodul-luegner-und-betrueger/",
+          "kurz": "Lernmodul für die Grundschule und Klasse 5/6."
+        },
+        {
+          "anbieter": "SWR",
+          "titel": "Fakefinder Kids – ab 8 Jahren",
+          "url": "https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-kids-100.html",
+          "kurz": "Ein Spiel zum Fakes-Erkennen."
+        }
+      ]
+    },
+    {
+      "id": "gegenrede-kommentare",
+      "titel": "Hass unter dem Nachrichtenpost",
+      "rolle": "zuschauer",
+      "alter": "ab 15 Jahren",
+      "dauer": 6,
+      "thema": "zivilcourage",
+      "kurz": "Unter einem Post über eine junge Fußballerin sammeln sich abwertende Kommentare. Du liest mit. Mischst du dich ein – und wenn ja, wie?",
+      "lernpunkte": [
+        "Die meisten Menschen lesen nur mit. Gegenrede richtet sich vor allem an sie – nicht an die Hassenden.",
+        "Sachlich, kurz und freundlich überzeugt die Mitlesenden eher als ein Wortgefecht.",
+        "Unterstützende Kommentare liken und die betroffene Person direkt stärken.",
+        "Strafbare Kommentare melden – und Beweise sichern, falls die Betroffene Anzeige erstatten will.",
+        "Auf dich selbst achten: Du musst nicht jede Diskussion führen."
+      ],
+      "start": "start",
+      "szenen": {
+        "start": {
+          "ort": "Kommentarspalte eines Nachrichtenportals",
+          "text": [
+            "Ein Post: „Lara Demir, 19, schießt das Siegtor im Pokalfinale.“ Darunter 300 Kommentare."
+          ],
+          "chat": [
+            {
+              "von": "@kickfan_1975",
+              "text": "Frauenfußball guckt doch keiner. Zurück in die Küche."
+            },
+            {
+              "von": "@deutschland_zuerst",
+              "text": "Und dann noch so eine. Typisch."
+            },
+            {
+              "von": "@mila.ok",
+              "text": "Krasses Tor! Glückwunsch!"
+            }
+          ],
+          "frage": "Was machst du?",
+          "wahl": [
+            {
+              "text": "Ich schreibe @kickfan_1975 direkt an und mache ihn fertig.",
+              "ziel": "wortgefecht"
+            },
+            {
+              "text": "Ich like den Kommentar von @mila.ok und schreibe selbst etwas Positives.",
+              "ziel": "positiv"
+            },
+            {
+              "text": "Ich melde die abwertenden Kommentare.",
+              "ziel": "melden"
+            },
+            {
+              "text": "Ich scrolle weiter.",
+              "ziel": "weiterscrollen"
+            }
+          ]
+        },
+        "wortgefecht": {
+          "ort": "Eine Stunde später",
+          "text": [
+            "Ihr schreibt euch 30 Kommentare hin und her. Andere steigen ein, der Ton wird immer schlimmer. Laras Tor ist kein Thema mehr."
+          ],
+          "frage": "Wie geht es weiter?",
+          "wahl": [
+            {
+              "text": "Ich höre auf und schreibe einen ruhigen Kommentar an alle, die mitlesen.",
+              "ziel": "positiv",
+              "folge": "Du schreibst nicht mehr an @kickfan_1975, sondern für die vielen, die still mitlesen."
+            },
+            {
+              "text": "Ich mache weiter, bis er aufgibt.",
+              "ziel": "ende-erschoepft"
+            }
+          ]
+        },
+        "positiv": {
+          "ort": "Kommentarspalte",
+          "chat": [
+            {
+              "von": "Du",
+              "ich": true,
+              "text": "Ein Tor im Pokalfinale mit 19 – stark! Abwertung wegen Geschlecht oder Herkunft hat hier nichts verloren."
+            },
+            {
+              "von": "@jojo_04",
+              "text": "Sehe ich genauso 👏"
+            }
+          ],
+          "text": [
+            "Dein Kommentar bekommt Likes. Ein paar weitere Leute schreiben Unterstützendes. Die abwertenden Kommentare rutschen nach unten."
+          ],
+          "frage": "Willst du noch mehr tun?",
+          "wahl": [
+            {
+              "text": "Ich melde die abwertenden Kommentare.",
+              "ziel": "melden"
+            },
+            {
+              "text": "Nein, das reicht für heute.",
+              "ziel": "ende-stimmung-gekippt"
+            }
+          ]
+        },
+        "melden": {
+          "ort": "Meldefunktion",
+          "text": [
+            "Du meldest die Kommentare wegen Hassrede. Einer verschwindet nach ein paar Stunden, einer bleibt stehen."
+          ],
+          "frage": "Was machst du mit dem Kommentar, der bleibt?",
+          "wahl": [
+            {
+              "text": "Ich sichere einen Screenshot und schreibe Laras Verein, dass es eine Beratungsstelle für Betroffene von Hass im Netz gibt.",
+              "ziel": "ende-mehr-als-mitlesen"
+            },
+            {
+              "text": "Ich schreibe zusätzlich einen unterstützenden Kommentar.",
+              "ziel": "positiv-nach-melden"
+            }
+          ]
+        },
+        "positiv-nach-melden": {
+          "ort": "Kommentarspalte",
+          "text": [
+            "Dein Kommentar ist kurz und freundlich. Andere schließen sich an."
+          ],
+          "frage": "Fertig?",
+          "wahl": [
+            {
+              "text": "Ja.",
+              "ziel": "ende-mehr-als-mitlesen"
+            }
+          ]
+        },
+        "weiterscrollen": {
+          "ort": "Später am Abend",
+          "text": [
+            "Du siehst den Post noch einmal. Jetzt stehen fast nur noch abwertende Kommentare darunter. Lara hat ihr Profil auf privat gestellt."
+          ],
+          "frage": "Und jetzt?",
+          "wahl": [
+            {
+              "text": "Ich schreibe doch noch etwas Positives und melde die schlimmsten Kommentare.",
+              "ziel": "melden"
+            },
+            {
+              "text": "Ich lasse es.",
+              "ziel": "ende-leiser"
+            }
+          ]
+        },
+        "ende-mehr-als-mitlesen": {
+          "ende": {
+            "art": "gut",
+            "titel": "Mehr als nur mitgelesen",
+            "text": [
+              "Du hast gemeldet, Beweise gesichert, unterstützt und auf Hilfe hingewiesen. Laras Verein bedankt sich und kümmert sich um die übrigen Kommentare."
+            ],
+            "lernen": [
+              "Melden, sichern, unterstützen – das ergänzt sich.",
+              "Betroffene profitieren von Hinweisen auf Beratung."
+            ]
+          }
+        },
+        "ende-stimmung-gekippt": {
+          "ende": {
+            "art": "gut",
+            "titel": "Die Stimmung ist gekippt",
+            "text": [
+              "Unter dem Post stehen jetzt vor allem Glückwünsche. Wer mitliest, sieht: Die Abwertung ist nicht die Meinung der Mehrheit."
+            ],
+            "lernen": [
+              "Gegenrede wirkt auf die Mitlesenden.",
+              "Positive Kommentare liken stärkt sie sichtbar."
+            ]
+          }
+        },
+        "ende-erschoepft": {
+          "ende": {
+            "art": "teils",
+            "titel": "Gewonnen? Erschöpft.",
+            "text": [
+              "Irgendwann hört @kickfan_1975 auf. Aber du bist ausgelaugt, und die Kommentarspalte ist ein Schlachtfeld. Wer mitliest, sieht vor allem Streit."
+            ],
+            "lernen": [
+              "Mit Hassenden zu diskutieren kostet viel Kraft und überzeugt selten.",
+              "Besser: einmal klar Stellung beziehen – für die Mitlesenden."
+            ]
+          }
+        },
+        "ende-leiser": {
+          "ende": {
+            "art": "schwer",
+            "titel": "Leiser geworden",
+            "text": [
+              "Lara zieht sich aus den sozialen Medien zurück. Die Abwertenden haben erreicht, was sie wollten: dass eine Stimme leiser wird."
+            ],
+            "lernen": [
+              "Wenn niemand widerspricht, wirkt Hass wie die Mehrheitsmeinung.",
+              "Schon ein Like unter einem unterstützenden Kommentar hilft."
+            ],
+            "hilfe": [
+              {
+                "titel": "HateAid-Beratung",
+                "url": "https://hateaid.org/betroffenenberatung/"
+              }
+            ]
+          }
+        }
+      },
+      "weiterlesen": [
+        {
+          "anbieter": "ichbinhier",
+          "titel": "Kopiervorlagen für digitale Zivilcourage",
+          "url": "https://www.ichbinhier.eu/bildung/digital-democracy-lab/level-3-neue-werkzeuge-der-digitalen-zivilcourage/kopiervorlagen-fuer-digitale-zivilcourage",
+          "kurz": "Formulierungen für gute Gegenrede."
+        },
+        {
+          "anbieter": "ichbinhier",
+          "titel": "Algorithmen verstärken Hass im Netz",
+          "url": "https://www.ichbinhier.eu/bildung/digital-democracy-lab/level-3-neue-werkzeuge-der-digitalen-zivilcourage/algorithmen-verstaerken-hass-im-netz-wie-du-dagegenhalten-kannst",
+          "kurz": "Warum Likes für gute Kommentare zählen."
+        },
+        {
+          "anbieter": "Amadeu Antonio Stiftung",
+          "titel": "Das können Sie gegen Hate Speech tun",
+          "url": "https://www.amadeu-antonio-stiftung.de/digitale-zivilgesellschaft/das-koennen-sie-tun/",
+          "kurz": "Gegenrede für die stillen Mitlesenden."
+        },
+        {
+          "anbieter": "Neue deutsche Medienmacher*innen",
+          "titel": "Tipps für Community-Arbeit",
+          "url": "https://www.neuemedienmacher.de/wissen-tools/gegen-hass-im-netz/tipps-fuer-community-arbeit",
+          "kurz": "Wie eine gute Kommentarkultur entsteht."
+        },
+        {
+          "anbieter": "Saferinternet.at",
+          "titel": "Was kann man gegen Hass im Netz tun?",
+          "url": "https://www.saferinternet.at/was-kann-man-gegen-hass-im-netz-tun",
+          "kurz": "Gegenrede und Selbstschutz."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!--meta {
+  "title": "Für Schüler:innen",
+  "description": "Hass im Netz verstehen und etwas dagegen tun: kurze Einheiten zum Selbstlernen und zwei Lernspiele für Schüler:innen ab 10 Jahren.",
+  "zielgruppe": "schueler"
+} -->
+<header class="bereich__kopf">
+  <h1>Für Schüler:innen</h1>
+  <p class="einleitung">Hier kannst du dich selbst informieren – zehn Minuten pro Einheit. Und du kannst in drei Spielen ausprobieren, was du gegen Hass und Fake News im Netz tun kannst.</p>
+</header>
+
+<div class="hinweis hinweis--hilfe" role="note" aria-label="Hilfe">
+  <svg class="icon" aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5"/><path d="M12 17.5h.01"/></svg>
+  <p><strong>Trifft es dich gerade selbst?</strong> Du bist nicht allein. <a href="beratung.html#sofort-hilfe">Hier findest du sofort Hilfe</a> – zum Beispiel beim Kinder- und Jugendtelefon unter <a href="tel:116111">116 111</a>, kostenlos und anonym. <!-- TEXT PRÜFEN --></p>
+</div>
+
+<form class="satz" action="schueler.html" method="get" data-konfigurator="schueler">
+  <p class="satz__text">Ich bin
+    <span class="wahl"><label class="vh" for="k-alter">Dein Alter</label><select id="k-alter" name="alter">
+      <option value="10">10 Jahre</option>
+      <option value="11">11 Jahre</option>
+      <option value="12">12 Jahre</option>
+      <option value="13" selected>13 Jahre</option>
+      <option value="14">14 Jahre</option>
+      <option value="15">15 Jahre</option>
+      <option value="16">16 Jahre</option>
+      <option value="17">17 Jahre</option>
+      <option value="18">18 Jahre</option>
+      <option value="19">19 Jahre</option>
+    </select></span>
+    alt. Mein Thema:
+    <span class="wahl"><label class="vh" for="k-thema">Thema</label><select id="k-thema" name="thema">
+      <option value="wissen" selected data-hinweis="Verstehen, worum es geht">Was ist Hate Speech?</option>
+      <option value="betroffen" data-hinweis="Was du tun kannst und wer dir hilft">Es trifft mich selbst</option>
+      <option value="helfen" data-hinweis="Wie du dich gut einmischst">Anderen helfen</option>
+      <option value="fake" data-hinweis="Prüfen, bevor du etwas teilst">Fake News erkennen</option>
+    </select></span>
+  </p>
+  <button class="knopf knopf--runter" type="submit">Los geht’s</button>
+</form>
+
+<section class="reihe" id="reihe" aria-labelledby="reihe-titel" tabindex="-1">
+  <h2 id="reihe-titel">Deine Auswahl</h2>
+  <div data-reihe-ausgabe>
+    <p class="leer">Wähl oben aus, was dich interessiert.</p>
+  </div>
+  <noscript><p>Die Auswahl braucht JavaScript. Alle Einheiten findest du unten.</p></noscript>
+</section>
+
+<section class="abschnitt" aria-labelledby="spiele-titel">
+  <h2 id="spiele-titel">Spiele</h2>
+  <ul class="zeilen zeilen--links">
+    <li class="zeile"><a class="zeile__link" href="spiel-moderation.html">
+      <span class="zeile__titel">Moderationsschicht</span>
+      <span class="zeile__meta">Entscheide bei acht Kommentaren, was du tust · etwa 5 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="spiel-einordnen.html">
+      <span class="zeile__titel">Meinung oder Hetze?</span>
+      <span class="zeile__meta">Ordne zehn Aussagen ein · etwa 4 Min.</span>
+    </a></li>
+    <li class="zeile"><a class="zeile__link" href="spiel-faktencheck.html">
+      <span class="zeile__titel">Erst prüfen, dann teilen</span>
+      <span class="zeile__meta">Entscheide bei acht Posts, ob du sie teilst · etwa 4 Min.</span>
+    </a></li>
+  </ul>
+</section>
+
+<section class="abschnitt" aria-labelledby="alle-titel">
+  <h2 id="alle-titel">Alle Einheiten</h2>
+  {{alle_einheiten:schueler}}
+</section>

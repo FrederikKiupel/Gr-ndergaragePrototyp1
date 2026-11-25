@@ -1,0 +1,738 @@
+{
+  "stand": "2026-11-06",
+  "hinweis_methodik": "Alle aufgeführten URLs wurden am 06.11.2026 abgerufen (WebFetch; bei für WebFetch gesperrten Domains wie br.de, swr.de und JS-Seiten per HTTP-Download geprüft). Tipps sind sinngemäß in eigenen Worten wiedergegeben. Wo nur Suchergebnisse vorlagen, steht das in status_notiz.",
+  "quellen": [
+    {
+      "name": "Medienhelden",
+      "traeger": "Freie Universität Berlin (Entwicklung, EU-DAPHNE-III-gefördert); Umsetzung in Bayern und Niedersachsen gefördert von der Mobil Krankenkasse",
+      "land": "DE",
+      "kategorie": "programm",
+      "url": "https://www.medienhelden.info/",
+      "status": "ok",
+      "status_notiz": "Manualisiertes Schulprogramm; Lehrkräfte/Schulsozialarbeit brauchen eine (meist dreitägige) Fortbildung, das Manual ist im Reinhardt-Verlag kostenpflichtig erhältlich. Fortbildungstermine auf der Programmseite beziehen sich auf 2023 und wirken veraltet. Kosten nennt die Seite nicht; laut Mobil Krankenkasse wird die Umsetzung in Bayern und Niedersachsen gefördert.",
+      "beschreibung": "Wissenschaftlich evaluiertes Präventionsprogramm gegen Cybermobbing für die Klassen 7 bis 10, das über Rollenspiele Perspektiven von Betroffenen, Täter:innen und Zuschauenden erfahrbar macht.",
+      "zielgruppen": ["lehrkraefte", "fachkraefte", "schueler", "eltern"],
+      "alter": "Klasse 7–10 (ca. 12–16 Jahre)",
+      "themen": ["cybermobbing", "zivilcourage", "unterricht", "eltern"],
+      "artikel": [
+        {"titel": "Das Programm", "url": "https://www.medienhelden.info/das-programm.html", "zielgruppe": "lehrkraefte", "alter": "Klasse 7–10", "themen": ["cybermobbing", "unterricht"], "kurz": "Beschreibt die zwei Varianten: ein 10-wöchiges Curriculum mit 8 Modulen à 90 Minuten oder einen kompakten Projekttag."},
+        {"titel": "PARENT MEDIA", "url": "https://www.medienhelden.info/parentmedia.html", "zielgruppe": "eltern", "alter": "Eltern von Kindern Klasse 7–10", "themen": ["eltern", "cybermobbing"], "kurz": "Ergänzendes Elternabend-Modul; Elternbroschüre und ein Notfallplan bei Cybermobbing sind frei herunterladbar."},
+        {"titel": "Prävention von Cybermobbing (Mobil Krankenkasse)", "url": "https://mobil-krankenkasse.de/lebenswelten/projekte-fuer-schulen/Medienhelden.html", "zielgruppe": "lehrkraefte", "alter": "Klasse 7–10", "themen": ["cybermobbing", "unterricht"], "kurz": "Krankenkassenseite zur Förderung des Programms in Bayern und Niedersachsen inkl. Fortbildung und Materialien."}
+      ],
+      "tipps": [
+        {"text": "Cybermobbing im Unterricht über Rollenwechsel bearbeiten: Schüler:innen spielen Situationen aus Sicht von Opfer, Täter:in und Zuschauenden nach, um Mitgefühl und Eingreifen zu üben.", "url": "https://mobil-krankenkasse.de/lebenswelten/projekte-fuer-schulen/Medienhelden.html"},
+        {"text": "Prävention dauerhaft anlegen: Das Programm empfiehlt, wenn möglich das mehrwöchige Curriculum statt nur eines einzelnen Projekttags zu nutzen.", "url": "https://www.medienhelden.info/das-programm.html"},
+        {"text": "Eltern aktiv einbinden, z. B. über einen von Schüler:innen mitgestalteten Elternabend; Prävention funktioniert laut Programm nur gemeinsam mit Eltern.", "url": "https://www.medienhelden.info/parentmedia.html"}
+      ]
+    },
+    {
+      "name": "Gemeinsam Klasse sein",
+      "traeger": "Techniker Krankenkasse (TK) mit der Beratungsstelle Gewaltprävention Hamburg (Behörde für Schule und Berufsbildung) und Landesministerien",
+      "land": "DE",
+      "kategorie": "programm",
+      "url": "https://www.tk.de/lebenswelten/gesunde-schule/gemeinsam-klasse-sein-2138192",
+      "status": "ok – Materialien nur mit Zugangscode",
+      "status_notiz": "Online-Plattform ist nach einer Fortbildung kostenfrei nutzbar; Lehrkräfte erhalten dann einen persönlichen Zugangscode. Die Interventionsseite der Plattform ist ohne Code nicht einsehbar (geprüft). Anmeldung über regionale Ansprechpersonen der Bundesländer.",
+      "beschreibung": "Anti-Mobbing-Programm mit fünf Projekttagen, das in Klasse 5 (teils bis 7) den Klassenzusammenhalt stärkt und Mobbing sowie Cybermobbing vorbeugt.",
+      "zielgruppen": ["lehrkraefte", "schueler", "eltern"],
+      "alter": "Klasse 5–7 (ca. 10–13 Jahre)",
+      "themen": ["cybermobbing", "zivilcourage", "unterricht", "eltern"],
+      "artikel": [
+        {"titel": "Gemeinsam Klasse sein (TK-Lebenswelten)", "url": "https://www.tk.de/lebenswelten/gesunde-schule/gemeinsam-klasse-sein-2138192", "zielgruppe": "lehrkraefte", "alter": "Klasse 5–7", "themen": ["cybermobbing", "unterricht"], "kurz": "Überblick zu Inhalten, Fortbildung und kostenfreier Plattformnutzung."},
+        {"titel": "Online-Plattform Anti-Mobbing", "url": "https://www.gemeinsam-klasse-sein.de/anti-mobbing", "zielgruppe": "lehrkraefte", "alter": "Klasse 5–7", "themen": ["unterricht", "cybermobbing"], "kurz": "Struktur der Projekttage 1–5, Übungspool, Arbeitsblätter und Leitfäden (Inhalte mit Zugangscode)."},
+        {"titel": "Gemeinsam Klasse sein (Schulministerium NRW)", "url": "https://www.schulministerium.nrw/gemeinsam-klasse-sein", "zielgruppe": "lehrkraefte", "alter": "Klasse 5", "themen": ["cybermobbing", "eltern", "unterricht"], "kurz": "Landesinfo zu Projekttagen, Rollenspielen, Erklärfilmen und Elternnachmittagen."},
+        {"titel": "Fast 400 Schulen engagieren sich gegen Mobbing (TK-Presse)", "url": "https://www.tk.de/presse/themen/praevention/gesund-leben/mobbing-gemeinsam-klasse-sein-2214796", "zielgruppe": "lehrkraefte", "alter": "Klasse 5–7", "themen": ["cybermobbing"], "kurz": "Aktuelle Pressemitteilung zur Verbreitung in Berlin und Brandenburg und zum Evaluationsbericht."}
+      ],
+      "tipps": [
+        {"text": "Mit der Klasse zuerst klären, worin sich Mobbing von einem normalen Streit unterscheidet und welche Besonderheiten Cybermobbing hat.", "url": "https://www.tk.de/lebenswelten/gesunde-schule/gemeinsam-klasse-sein-2138192"},
+        {"text": "Konstruktiven Umgang miteinander in Rollenspielen üben und Folgen für Betroffene über kurze Filme sichtbar machen.", "url": "https://www.schulministerium.nrw/gemeinsam-klasse-sein"},
+        {"text": "Eltern frühzeitig informieren und z. B. zu einem Nachmittag einladen, an dem die Klasse ihre Ergebnisse vorstellt.", "url": "https://www.tk.de/lebenswelten/gesunde-schule/gemeinsam-klasse-sein-2138192"}
+      ]
+    },
+    {
+      "name": "Digitale Helden",
+      "traeger": "Digitale Helden gGmbH, Frankfurt am Main",
+      "land": "DE",
+      "kategorie": "programm",
+      "url": "https://digitale-helden.de/",
+      "status": "nur über Suche bestätigt",
+      "status_notiz": "Startseite antwortet (HTTP 200, Titel „Digitale Helden“), ist aber eine reine JavaScript-App ohne auslesbaren Inhalt; Unterseiten lieferten wiederholt HTTP 429 (Rate-Limit). Inhalte (Mentorenprogramm Kl. 8–10, Online-Akademie, Elternwebinare, Blog z. B. „Zocken, chatten, haten“) nur über Suchergebnisse bestätigt – daher keine Unterseiten und Tipps aufgenommen. Bitte manuell im Browser prüfen.",
+      "beschreibung": "Gemeinnütziges Mentorenprogramm, bei dem ältere Schüler:innen zu Ansprechpersonen für jüngere bei Themen wie Cybermobbing ausgebildet werden, ergänzt um Elternwebinare.",
+      "zielgruppen": ["schueler", "lehrkraefte", "eltern"],
+      "alter": "Mentor:innen Klasse 8–10; Elternangebote für Eltern von Kindern und Jugendlichen",
+      "themen": ["cybermobbing", "hass", "eltern", "unterricht"],
+      "artikel": [],
+      "tipps": []
+    },
+    {
+      "name": "fobizz",
+      "traeger": "fobizz (Fortbildungsplattform, Hamburg)",
+      "land": "DE",
+      "kategorie": "programm",
+      "url": "https://fobizz.com/was-ist-fobizz",
+      "status": "kostenpflichtig/Lizenz",
+      "status_notiz": "Basic-Konto 0 €, volle Fortbildungen über Flatrates (Einzellizenz z. B. Fortbildungs-Flatrate 179 €/Jahr, Kombi 239 €/Jahr; Schullizenzen ab 500 €/Jahr; Stand Preisseite 06.11.2026). Einzelne Kursseiten liegen in einer JS-App (app.fobizz.com) und waren nicht auslesbar; Kursinhalte daher nur über Themen-Übersichtsseiten geprüft. Viele Inhalte stammen von Partnern (z. B. Adenauer Campus, ZDF goes Schule).",
+      "beschreibung": "Kommerzielle Plattform mit Online-Fortbildungen, KI-Tools und Materialien für Lehrkräfte, darunter Kurse zu Cybermobbing, digitaler Zivilcourage und Nachrichtenkompetenz.",
+      "zielgruppen": ["lehrkraefte", "fachkraefte"],
+      "alter": "Lehrkräfte aller Schularten",
+      "themen": ["cybermobbing", "zivilcourage", "fake", "unterricht"],
+      "artikel": [
+        {"titel": "Gewaltprävention in der Schule", "url": "https://fobizz.com/de/gewaltpraevention-schule/", "zielgruppe": "lehrkraefte", "alter": "alle Schulstufen", "themen": ["cybermobbing", "unterricht"], "kurz": "Übersicht zu Fortbildungen u. a. zu Cybermobbing-Intervention, Prävention und Cybergrooming."},
+        {"titel": "Demokratiebildung", "url": "https://fobizz.com/de/demokratiebildung/", "zielgruppe": "lehrkraefte", "alter": "Sek I/II", "themen": ["zivilcourage", "fake", "hass", "unterricht"], "kurz": "Listet Kurse wie „Digitale Zivilcourage“ und Nachrichtenkompetenz sowie Materialien zu Fake News und Deepfakes."},
+        {"titel": "Preise & Lizenzen", "url": "https://fobizz.com/preise/", "zielgruppe": "lehrkraefte", "alter": "-", "themen": ["unterricht"], "kurz": "Preisübersicht für Basic-, Einzel- und Schullizenzen."}
+      ],
+      "tipps": [
+        {"text": "Vor dem Kauf prüfen: Lehramtsstudierende und Referendar:innen nutzen fobizz laut Preisseite kostenfrei, Schulen können alle Angebote 15 Tage testen.", "url": "https://fobizz.com/preise/"},
+        {"text": "Für Cybermobbing-Fälle gezielt Fortbildungen zu konkreten Interventionsschritten wählen, nicht nur allgemeine Präventionskurse.", "url": "https://fobizz.com/de/gewaltpraevention-schule/"}
+      ]
+    },
+    {
+      "name": "Lie Detectors",
+      "traeger": "Lie Detectors (unabhängige gemeinnützige Organisation, Sitz Brüssel)",
+      "land": "DE",
+      "kategorie": "journalismus",
+      "url": "https://www.lie-detectors.org/",
+      "status": "ok",
+      "status_notiz": "Website überwiegend englisch; eine deutsche Startseite (/de/) existiert nicht (404). Klassenbesuche durch geschulte Journalist:innen sind kostenlos und finden u. a. in Deutschland, Österreich und der Schweiz statt. Konkrete Prüftipps stehen nicht auf der Website, sondern werden in den Workshops vermittelt.",
+      "beschreibung": "Organisation, die Profi-Journalist:innen in Schulklassen schickt, damit Kinder und Jugendliche Desinformation erkennen und Nachrichten kritisch bewerten lernen.",
+      "zielgruppen": ["schueler", "lehrkraefte"],
+      "alter": "10–15 Jahre (Workshops); Grundschule 6–12 Jahre im EU-Projekt PRiME",
+      "themen": ["fake", "unterricht"],
+      "artikel": [
+        {"titel": "Teachers", "url": "https://www.lie-detectors.org/teachers", "zielgruppe": "lehrkraefte", "alter": "10–15 Jahre", "themen": ["fake", "unterricht"], "kurz": "Kostenlose Klassenworkshops und Fortbildungen für Lehrkräfte; Präsenzbesuche u. a. in DE, AT, CH, online international."},
+        {"titel": "Welcome to PRiME – EU-Initiative für Medienbildung an Grundschulen", "url": "https://www.lie-detectors.org/whats-new/welcome-to-prime-an-eu-initiative-to-bring-media-literacy-into-more-primary-schools-cgy2d", "zielgruppe": "lehrkraefte", "alter": "6–12 Jahre", "themen": ["fake", "unterricht"], "kurz": "Zweijähriges EU-Projekt (u. a. AT und DE), das ein Toolkit für Medienkompetenz in der Primarstufe entwickelt."}
+      ],
+      "tipps": [
+        {"text": "Journalist:innen kostenlos in die Klasse holen: Eine Sitzung dient als Startpunkt, den die Lehrkraft mit eigenem Material vertieft.", "url": "https://www.lie-detectors.org/teachers"},
+        {"text": "Medienkompetenz schon in der Grundschule beginnen und dabei kritisches Denken sowie emotionale Aspekte nicht vernachlässigen.", "url": "https://www.lie-detectors.org/whats-new/welcome-to-prime-an-eu-initiative-to-bring-media-literacy-into-more-primary-schools-cgy2d"}
+      ]
+    },
+    {
+      "name": "CORRECTIV (Salon5, „What the Fakt?!“, Faktencheck-Tipps)",
+      "traeger": "CORRECTIV gGmbH; Salon5 = Jugendredaktion von CORRECTIV (anerkannter Träger der freien Jugendhilfe)",
+      "land": "DE",
+      "kategorie": "journalismus",
+      "url": "https://correctiv.org/medienbildung/",
+      "status": "ok",
+      "status_notiz": "Workshops vor allem in Bottrop, Chemnitz, Dortmund, Greifswald, Hamburg-Bergedorf sowie online; Kosten werden auf der Workshopseite nicht genannt (Anfrage: salon5@correctiv.org). Der Artikel zu KI-Inhalten verweist für konkrete Merkmale auf ein PDF und enthält selbst keine Checkliste.",
+      "beschreibung": "Gemeinnütziges Recherchezentrum mit Faktencheck-Redaktion, frei zugänglichen Prüftipps und Workshops seiner Jugendredaktion Salon5, in denen Jugendliche selbst zu Faktenchecker:innen werden.",
+      "zielgruppen": ["schueler", "lehrkraefte", "fachkraefte", "eltern"],
+      "alter": "Workshops 13–18 Jahre; Faktenchecker-Projekt 16–19 Jahre; Tipps für alle",
+      "themen": ["fake", "bilder", "unterricht"],
+      "artikel": [
+        {"titel": "Workshops bei Salon5 (u. a. „What the Fakt?!“)", "url": "https://correctiv.org/projekte/salon5/ueber-uns/workshops", "zielgruppe": "schueler", "alter": "13–18 Jahre", "themen": ["fake", "unterricht"], "kurz": "90-minütiger Workshop, in dem Jugendliche lernen, Fakes von glaubwürdigen Infos zu unterscheiden und Urheber:innen von Desinformation einzuordnen."},
+        {"titel": "Wie erkenne ich Falschmeldungen? (10 Tipps)", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/", "zielgruppe": "schueler", "alter": "ab 12 Jahren", "themen": ["fake", "bilder"], "kurz": "Zehn praxisnahe Prüfschritte von Autor:in über Impressum bis Gegencheck."},
+        {"titel": "So funktioniert die Bilderrückwärtssuche", "url": "https://correctiv.org/faktencheck/hintergrund/2022/04/01/so-funktioniert-die-bilderrueckwaertssuche/", "zielgruppe": "schueler", "alter": "ab 12 Jahren", "themen": ["bilder", "fake"], "kurz": "Schritt-für-Schritt-Anleitung mit Google, Bing, Yandex, TinEye, RevEye und Google Lens."},
+        {"titel": "Wie erkenne ich, ob eine Webseite seriös ist?", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/07/21/wie-erkenne-ich-ob-eine-webseite-serioes-ist/", "zielgruppe": "schueler", "alter": "ab 14 Jahren", "themen": ["fake"], "kurz": "Prüft Domain, Whois-Daten, Reputation und Impressum einer Seite."}
+      ],
+      "tipps": [
+        {"text": "Bei emotional aufgeladenen Posts mit dramatischen Bildcollagen innehalten – starke Gefühle sollen zum schnellen Klicken und Teilen verleiten.", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/"},
+        {"text": "Gegencheck machen: Berichten unabhängige, seriöse Medien nichts Vergleichbares, ist Vorsicht angebracht; vorhandene Faktenchecks (z. B. CORRECTIV, dpa, BR, Mimikama) nutzen.", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/"},
+        {"text": "Mehrere Rückwärts-Suchmaschinen kombinieren, weil sie unterschiedliche Treffer liefern; unterwegs eignet sich Google Lens.", "url": "https://correctiv.org/faktencheck/hintergrund/2022/04/01/so-funktioniert-die-bilderrueckwaertssuche/"},
+        {"text": "Die Webadresse genau lesen: Fälschungen ändern oft nur die Endung (z. B. eine andere Länderdomain) – Whois zeigt, ob die Seite erst kürzlich registriert wurde.", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/07/21/wie-erkenne-ich-ob-eine-webseite-serioes-ist/"}
+      ]
+    },
+    {
+      "name": "so geht MEDIEN",
+      "traeger": "ARD, ZDF und Deutschlandradio (federführend BR)",
+      "land": "DE",
+      "kategorie": "journalismus",
+      "url": "https://www.br.de/sogehtmedien/index.html",
+      "status": "ok",
+      "status_notiz": "Die Adresse so-geht-medien.de ist per HTTPS nicht erreichbar (Verbindung verweigert) und leitet per HTTP auf https://www.br.de/sogehtmedien/ um – diese Adresse verwenden. br.de ist für WebFetch gesperrt; Seiten und PDFs wurden per HTTP-Download geprüft (alle HTTP 200). Materialien kostenlos, Stand der Seiten 02.02.2025.",
+      "beschreibung": "Kostenloses Medienkompetenz-Angebot der Öffentlich-Rechtlichen mit Erklärvideos, Quiz, Arbeitsblättern und Stundenabläufen, u. a. zu Fakes, Deepfakes und Recherche.",
+      "zielgruppen": ["lehrkraefte", "schueler"],
+      "alter": "Grundschule bis Klasse 11 (Fake-Einheiten ab Klasse 5)",
+      "themen": ["fake", "bilder", "unterricht"],
+      "artikel": [
+        {"titel": "Stimmt das? Fakes entlarven (Themenübersicht)", "url": "https://www.br.de/sogehtmedien/stimmt-das/index.html", "zielgruppe": "lehrkraefte", "alter": "ab Klasse 5", "themen": ["fake", "unterricht"], "kurz": "Alle Unterrichtseinheiten zu Fakes, Deepfakes, Verschwörungsmythen und Extremismus im Netz."},
+        {"titel": "Unterrichtseinheit: Fakes und Desinformation im Netz erkennen", "url": "https://www.br.de/sogehtmedien/stimmt-das/luegen-erkennen/index.html", "zielgruppe": "lehrkraefte", "alter": "Klasse 5–10", "themen": ["fake", "unterricht"], "kurz": "Video, Quiz, Arbeitsblatt, Stundenablauf und Klassenplakat „Fakes erkennen – 4 Tipps“."},
+        {"titel": "Unterrichtseinheit: Deepfakes – Wie Videos gefälscht werden", "url": "https://www.br.de/sogehtmedien/stimmt-das/deepfakes/index.html", "zielgruppe": "lehrkraefte", "alter": "Klasse 6–11", "themen": ["bilder", "fake", "recht", "unterricht"], "kurz": "Einheit zu Herstellung, Erkennung, Wirkung und Ethik von Deepfakes inkl. Hintergrund-PDF."},
+        {"titel": "Unterrichtseinheit: Die Tricks von Fake News-Machern durchschauen", "url": "https://www.br.de/sogehtmedien/stimmt-das/fake-news-durchschauen/index.html", "zielgruppe": "lehrkraefte", "alter": "Klasse 6–10", "themen": ["fake", "unterricht"], "kurz": "Behandelt Manipulationsstrategien, Propaganda-Ziele und Filterblasen – passend für Prebunking."}
+      ],
+      "tipps": [
+        {"text": "Vier Schritte vor dem Teilen: Quelle checken, Fakten bei verlässlichen Seiten gegenprüfen, Bild/Stimme auf Stimmigkeit prüfen, Datum checken – dann erst teilen.", "url": "https://www.br.de/sogehtmedien/plakat-fakes-erkennen-100~attachment.pdf"},
+        {"text": "Für Referate dieselben Regeln wie im Journalismus anwenden: mindestens zwei unabhängige Quellen und ein Thema von verschiedenen Seiten beleuchten.", "url": "https://www.br.de/sogehtmedien/weiterfuehrende-schulen/recherche-so-klappt-der-faktencheck-100.html"},
+        {"text": "Bei Verdacht auf Deepfake auf unsaubere Übergänge am Gesichtsrand, unscharfe Mundpartie, unpassendes Licht, fehlendes Blinzeln oder Flackern achten – das sind Indizien, keine Beweise.", "url": "https://www.br.de/sogehtmedien/stimmt-das/deepfakes/unterrichtsmaterial-deepfake-vertiefende-information-download-100~attachment.pdf"},
+        {"text": "Schüler:innen nach der Einheit eigene Tipps für Jüngere formulieren lassen – so festigen sie das Gelernte.", "url": "https://www.br.de/sogehtmedien/stimmt-das/luegen-erkennen/index.html"}
+      ]
+    },
+    {
+      "name": "Journalismus macht Schule",
+      "traeger": "Journalismus macht Schule – Verein zur Förderung von Informations- und Nachrichtenkompetenz e. V., Potsdam",
+      "land": "DE",
+      "kategorie": "journalismus",
+      "url": "https://journalismus-macht-schule.org/",
+      "status": "ok",
+      "status_notiz": "Richtige Domain mit Bindestrichen; journalismusmachtschule.org liefert einen SSL-Fehler. Kosten für Schulbesuche werden nicht genannt. Anmeldung über jms-portal.de.",
+      "beschreibung": "Bundesweite Initiative, die Journalist:innen für Werkstattgespräche über Nachrichten und Desinformation in Schulen vermittelt und Lehrkräfte fortbildet.",
+      "zielgruppen": ["lehrkraefte", "schueler"],
+      "alter": "Sek I/II; Material „fit for news“ Klasse 5–8",
+      "themen": ["fake", "unterricht"],
+      "artikel": [
+        {"titel": "Journalist:innenbesuche", "url": "https://journalismus-macht-schule.org/journalistinnenbesuche/", "zielgruppe": "lehrkraefte", "alter": "Klasse 5–13", "themen": ["fake", "unterricht"], "kurz": "Ablauf der Besuche (präsent oder per Video) und Begleitmaterial „fit for news“ für Klasse 5–8."},
+        {"titel": "Materialsammlung", "url": "https://journalismus-macht-schule.org/materialsammlung/", "zielgruppe": "lehrkraefte", "alter": "Sek I/II", "themen": ["fake", "unterricht"], "kurz": "Kuratierte Liste von rund 30 Materialien zu Fake News/Desinformation verschiedener Anbieter mit Niveaustufen."}
+      ],
+      "tipps": [
+        {"text": "Ins Thema über ein Quiz einsteigen, um das Vorwissen der Klasse zu erfassen, und danach mit Tutorials und Arbeitsblättern vertiefen.", "url": "https://journalismus-macht-schule.org/materialsammlung/"},
+        {"text": "Eine Checkliste „Fake News erkennen“ als Werkzeug für eigene Prüfaufträge der Schüler:innen nutzen.", "url": "https://journalismus-macht-schule.org/materialsammlung/"},
+        {"text": "Den Besuch einer Journalistin oder eines Journalisten mit dem Baukasten „fit for news“ vor- und nachbereiten, der flexibel einsetzbar ist.", "url": "https://journalismus-macht-schule.org/journalistinnenbesuche/"}
+      ]
+    },
+    {
+      "name": "#UseTheNews",
+      "traeger": "Initiative von dpa, Stadt Hamburg, HAW Hamburg und Leibniz-Institut für Medienforschung | Hans-Bredow-Institut",
+      "land": "DE",
+      "kategorie": "journalismus",
+      "url": "https://usethenews.de/",
+      "status": "ok",
+      "status_notiz": "Materialdatenbank (196 Einträge) und Downloads kostenlos; Kosten für Workshops/Newscamps nicht angegeben.",
+      "beschreibung": "Allianz für Nachrichtenkompetenz mit einer kostenlosen Datenbank für Lehrmaterial, Workshops gegen Desinformation und Angeboten für junge Menschen.",
+      "zielgruppen": ["lehrkraefte", "schueler"],
+      "alter": "Grundschule bis Sek II; Community NewZee 14–25 Jahre; Workshop „Disinformation Self Defense“ Klasse 8–11",
+      "themen": ["fake", "hass", "unterricht"],
+      "artikel": [
+        {"titel": "Lehrmaterialien (Datenbank)", "url": "https://usethenews.de/de/lehrmaterialien", "zielgruppe": "lehrkraefte", "alter": "Grundschule–Sek II", "themen": ["fake", "hass", "unterricht"], "kurz": "Filterbare Sammlung kostenloser Materialien, u. a. „Desinformation und Fake News entdecken“ und „Hatespeech und Mobbing im Netz“."},
+        {"titel": "Disinformation Self Defense", "url": "https://usethenews.de/de/aktuelles/disinformation-self-defense-holistic-foundation", "zielgruppe": "schueler", "alter": "Klasse 8–11", "themen": ["fake", "unterricht"], "kurz": "Drei 90-Minuten-Module mit Methoden wie „Fake Bingo“ und einem Rollenspiel zu Gesprächen mit Verschwörungsgläubigen."},
+        {"titel": "Angebote für Lehrkräfte", "url": "https://usethenews.de/de/angebote/lehrkraefte", "zielgruppe": "lehrkraefte", "alter": "Sek I/II", "themen": ["fake", "unterricht"], "kurz": "Workshops, Nachrichtenkompetenz-Box, Quellenchecker und Newscamps."}
+      ],
+      "tipps": [
+        {"text": "Manipulationstechniken spielerisch zuordnen lassen: Beim „Fake Bingo“ ordnen Schüler:innen echte Beispiele den passenden Tricks zu.", "url": "https://usethenews.de/de/aktuelles/disinformation-self-defense-holistic-foundation"},
+        {"text": "In einem Rollenspiel erleben lassen, wie schwierig Diskussionen mit Menschen sind, die an Verschwörungserzählungen glauben.", "url": "https://usethenews.de/de/aktuelles/disinformation-self-defense-holistic-foundation"},
+        {"text": "In der Datenbank Thema, Altersstufe und Kompetenz kombinieren, um schnell passendes Material zu finden.", "url": "https://usethenews.de/de/lehrmaterialien"}
+      ]
+    },
+    {
+      "name": "SWR Fakefinder (inkl. Fakefinder Kids und Fakefinder school)",
+      "traeger": "Südwestrundfunk (SWR), Medienkompetenz",
+      "land": "DE",
+      "kategorie": "spiel",
+      "url": "https://swrfakefinder.de/",
+      "status": "ok",
+      "status_notiz": "Die alte Adresse swr.de/fakefinder liefert 404, eine frühere SWR-Seite 410 (gelöscht). Spiel läuft unter swrfakefinder.de (Web-App, Inhalt nur per JavaScript), Kids-Version unter kids.swrfakefinder.de; schule.swrfakefinder.de leitet auf swrfakefinder.de/#schule. Beschreibungen und Lehrkräfte-PDFs liegen auf swr.de (für WebFetch gesperrt, per Download geprüft). Kostenlos.",
+      "beschreibung": "Kostenloses Browserspiel, in dem Spieler:innen in simulierten Gruppenchats Posts als Fake, kein Fake oder Satire einordnen und dabei Recherchetechniken lernen.",
+      "zielgruppen": ["schueler", "lehrkraefte"],
+      "alter": "Fakefinder ab 14 Jahren (school: Kernzielgruppe Klasse 8–10); Fakefinder Kids ab 8 Jahren",
+      "themen": ["fake", "bilder", "unterricht"],
+      "artikel": [
+        {"titel": "SWR Fakefinder – deine News-Challenge", "url": "https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-deine-news-challenge-100.html", "zielgruppe": "schueler", "alter": "ab 14 Jahren", "themen": ["fake", "unterricht"], "kurz": "Spielbeschreibung (ca. 15 Minuten) und Hinweis auf den Lernraum „Fakefinder school“ für Klassen."},
+        {"titel": "Fakefinder Kids – ab 8 Jahren", "url": "https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-kids-100.html", "zielgruppe": "schueler", "alter": "ab 8 Jahren", "themen": ["fake", "bilder", "unterricht"], "kurz": "Vier Spielrunden zu Werbung, Bildtricks, Kettenbriefen und einem Superlevel, ca. 30 Minuten."},
+        {"titel": "Infobogen für Lehrkräfte: Fakefinder school (PDF)", "url": "https://www.swr.de/unternehmen/medienkompetenz/unterrichtseinheit-fakefinder-100.pdf", "zielgruppe": "lehrkraefte", "alter": "Klasse 8–10", "themen": ["fake", "unterricht"], "kurz": "Anleitung zum Anlegen eines Lernraums, Aufbau in drei Levels und Kompetenzbezüge."},
+        {"titel": "Infobogen für Lehrkräfte: Fakefinder Kids (PDF)", "url": "https://www.swr.de/unternehmen/medienkompetenz/fakefinder-kids-infobogen-100.pdf", "zielgruppe": "lehrkraefte", "alter": "Klasse 3–4", "themen": ["fake", "bilder", "unterricht"], "kurz": "Hintergrund zu Werbung, Bildtricks und Kettenbriefen auf YouTube, TikTok und WhatsApp."}
+      ],
+      "tipps": [
+        {"text": "Erst recherchieren, dann urteilen: Im Spiel prüfen Lernende u. a. das Impressum einer Seite und nutzen die Bilder-Rückwärtssuche, bevor sie entscheiden.", "url": "https://www.swr.de/unternehmen/medienkompetenz/unterrichtseinheit-fakefinder-100.pdf"},
+        {"text": "Mit Kindern besprechen, dass auch Fotos und Videos lügen können – durch Bildbearbeitung, Filter oder einen geschickt gewählten Ausschnitt.", "url": "https://www.swr.de/unternehmen/medienkompetenz/fakefinder-kids-infobogen-100.pdf"},
+        {"text": "Kettenbriefe als Druckmittel entlarven: Sie drohen oft mit Folgen, wenn man nicht weiterleitet – Kinder dürfen sie einfach löschen.", "url": "https://www.swr.de/unternehmen/medienkompetenz/fakefinder-kids-infobogen-100.pdf"},
+        {"text": "Im Klassenmodus legt die Lehrkraft Spieldauer und Themen fest und kann den Fortschritt der Lernenden verfolgen.", "url": "https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-deine-news-challenge-100.html"}
+      ]
+    },
+    {
+      "name": "Bad News (Prebunking-Spiel)",
+      "traeger": "Social Decision-Making Lab der University of Cambridge mit dem niederländischen Medienkollektiv DROG",
+      "land": "DE",
+      "kategorie": "spiel",
+      "url": "https://www.getbadnews.com/en",
+      "status": "ok",
+      "status_notiz": "Korrekte Adresse: getbadnews.com (Weiterleitung auf /en). Deutsche Version verifiziert unter https://www.getbadnews.com/de (Seitentitel „GERMAN – Bad News“, deutsche Kapitel- und Badge-Texte im Quelltext). ACHTUNG: getbadnews.de ist KEIN Teil des Spiels, sondern ein fremder Ratgeber-Blog – nicht verlinken. Zur Herkunft bestätigt durch Cambridge-Artikel.",
+      "beschreibung": "Browserspiel, in dem man selbst Desinformation verbreitet und so sechs typische Manipulationstechniken kennenlernt – nach dem Impf-Prinzip (Prebunking).",
+      "zielgruppen": ["schueler", "lehrkraefte"],
+      "alter": "Jugendliche und Erwachsene (Altersangabe auf der Seite nicht gefunden; Einsatz ab ca. 14 Jahren sinnvoll)",
+      "themen": ["fake", "unterricht"],
+      "artikel": [
+        {"titel": "Bad News – deutsche Version", "url": "https://www.getbadnews.com/de", "zielgruppe": "schueler", "alter": "ab ca. 14 Jahren", "themen": ["fake"], "kurz": "Deutschsprachige Spielfassung mit den Kapiteln Identitätsklau, Emotion, Polarisierung, Verschwörung, Diskreditieren und Trolling."},
+        {"titel": "Cambridge game ‘pre-bunks’ coronavirus conspiracies", "url": "https://www.cam.ac.uk/stories/goviral", "zielgruppe": "lehrkraefte", "alter": "-", "themen": ["fake"], "kurz": "Universitätsbericht, der Bad News (2018) als Vorläufer von Go Viral! beschreibt und Wirkungsbefunde nennt."}
+      ],
+      "tipps": [
+        {"text": "Auf Absender achten: Desinformation tarnt sich oft als offizielles Konto oder seriöse Nachrichtenquelle, weil viele kaum auf Quellen schauen (Technik „Identitätsklau“).", "url": "https://www.getbadnews.com/en"},
+        {"text": "Gefühle als Warnsignal nutzen: Inhalte, die Wut oder Angst auslösen, verbreiten sich besonders schnell – genau das nutzen Fake-Macher:innen aus.", "url": "https://www.getbadnews.com/de"},
+        {"text": "Polarisierung erkennen: Ein einzelner Post wird künstlich zum Skandal aufgeblasen, um Lager gegeneinander aufzubringen.", "url": "https://www.getbadnews.com/de"},
+        {"text": "Diskreditieren durchschauen: Wer bei Kritik nicht auf Argumente eingeht, sondern die Kritiker:innen angreift, nutzt eine typische Desinformationstechnik.", "url": "https://www.getbadnews.com/de"}
+      ]
+    },
+    {
+      "name": "Go Viral! (Prebunking-Spiel zu COVID-19)",
+      "traeger": "Social Decision-Making Lab der University of Cambridge, DROG und UK Cabinet Office",
+      "land": "DE",
+      "kategorie": "spiel",
+      "url": "https://www.cam.ac.uk/stories/goviral",
+      "status": "eingestellt/offline",
+      "status_notiz": "Die offizielle Spieladresse goviralgame.com (laut Cambridge-Artikel auch /de für Deutsch) ist nicht mehr erreichbar: per HTTPS Zeitüberschreitung, per HTTP nur eine Platzhalterseite des Domain-Hosters („coming soon“). Das Spiel ist damit aktuell nicht spielbar; als Ersatz Bad News (deutsch) nutzen. Nur der Cambridge-Bericht ist als Beleg verlinkbar.",
+      "beschreibung": "Fünf- bis siebenminütiges Spiel, in dem man Pandemie-Falschnachrichten verbreitet und dabei Angstmache, falsche Expert:innen und Verschwörungserzählungen kennenlernt.",
+      "zielgruppen": ["schueler", "lehrkraefte"],
+      "alter": "Jugendliche und Erwachsene",
+      "themen": ["fake"],
+      "artikel": [
+        {"titel": "Cambridge game ‘pre-bunks’ coronavirus conspiracies", "url": "https://www.cam.ac.uk/stories/goviral", "zielgruppe": "lehrkraefte", "alter": "-", "themen": ["fake"], "kurz": "Beschreibt Spielidee, Sprachen (u. a. Deutsch) und behandelte Manipulationstechniken."}
+      ],
+      "tipps": [
+        {"text": "Skeptisch werden, wenn angebliche Ärzt:innen oder Fachleute ohne nachprüfbare Qualifikation Zweifel säen – falsche Expert:innen sind eine Kerntechnik von Desinformation.", "url": "https://www.cam.ac.uk/stories/goviral"},
+        {"text": "Auf Angstmache achten: Sprache, die gezielt Furcht und Wut schürt, ist ein Hinweis auf Manipulation.", "url": "https://www.cam.ac.uk/stories/goviral"}
+      ]
+    },
+    {
+      "name": "Teachtoday",
+      "traeger": "Deutsche Telekom AG (Initiative; FSM als empfehlende Organisation genannt)",
+      "land": "DE",
+      "kategorie": "plattform",
+      "url": "https://www.teachtoday.de/",
+      "status": "ok",
+      "status_notiz": "Kostenlos. Unternehmensinitiative – Inhalte sind sachlich, Telekom-Kampagnen werden aber mitbeworben.",
+      "beschreibung": "Medienkompetenz-Portal mit Elternratgebern, Erste-Hilfe-Tipps bei Cybermobbing, interaktiven Lernmodulen und Themen zu digitaler Zivilcourage und Desinformation.",
+      "zielgruppen": ["eltern", "lehrkraefte", "schueler"],
+      "alter": "Kinder und Jugendliche ca. 8–18 Jahre sowie Erwachsene",
+      "themen": ["cybermobbing", "zivilcourage", "hass", "fake", "eltern", "hilfe"],
+      "artikel": [
+        {"titel": "Erste Hilfe bei Cybermobbing", "url": "https://www.teachtoday.de/Ratgeber/Sicherheit_Risiken/3952_Erste_Hilfe_bei_Cybermobbing.htm", "zielgruppe": "eltern", "alter": "Kinder 8–17", "themen": ["cybermobbing", "hilfe", "eltern"], "kurz": "Handlungsschritte für Eltern und Kinder inkl. Warnsignalen und Hinweis auf die Nummer gegen Kummer."},
+        {"titel": "Digitale Zivilcourage", "url": "https://www.teachtoday.de/Themen/Digitale_Gesellschaft/2921_Digitale_Zivilcourage.htm", "zielgruppe": "lehrkraefte", "alter": "ab ca. 12 Jahren", "themen": ["zivilcourage", "hass"], "kurz": "Themenseite mit Lernmodul zu Hassnachrichten und Projekt zur Reflexion eigener Kommentare."},
+        {"titel": "Desinformation und KI", "url": "https://www.teachtoday.de/Themen/Digitale_Gesellschaft/3778_Desinformation_und_KI.htm", "zielgruppe": "lehrkraefte", "alter": "ab ca. 12 Jahren", "themen": ["fake", "bilder"], "kurz": "Dossier zu Framing, Weglassen von Details und KI-Fakes."},
+        {"titel": "Kampagne „Gegen Hass im Netz“", "url": "https://www.teachtoday.de/Aktuelles/Aktionen/3464_Kampagne_Gegen_Hass_im_Netz.htm", "zielgruppe": "eltern", "alter": "-", "themen": ["hass", "fake"], "kurz": "Kampagnenüberblick zu Desinformation, Sharenting und Victim Blaming."}
+      ],
+      "tipps": [
+        {"text": "Als Eltern ruhig bleiben, zuhören und klarmachen, dass das Kind keine Strafe fürchten muss – sonst erzählt es beim nächsten Mal nichts.", "url": "https://www.teachtoday.de/Ratgeber/Sicherheit_Risiken/3952_Erste_Hilfe_bei_Cybermobbing.htm"},
+        {"text": "Beweise wie Chatverläufe sichern, aber niemals Nackt- oder Sexualbilder von Minderjährigen speichern – das kann selbst strafbar sein.", "url": "https://www.teachtoday.de/Ratgeber/Sicherheit_Risiken/3952_Erste_Hilfe_bei_Cybermobbing.htm"},
+        {"text": "Das Kind nicht zum Abmelden von Plattformen drängen, weil das die Isolation verstärken kann.", "url": "https://www.teachtoday.de/Ratgeber/Sicherheit_Risiken/3952_Erste_Hilfe_bei_Cybermobbing.htm"},
+        {"text": "Auf Framing achten: Desinformation hebt einzelne Aspekte hervor, lässt Details weg oder zeigt nur eine Perspektive.", "url": "https://www.teachtoday.de/Themen/Digitale_Gesellschaft/3778_Desinformation_und_KI.htm"}
+      ]
+    },
+    {
+      "name": "Medien in die Schule",
+      "traeger": "FSM e. V., FSF e. V. und Google (Herausgeber)",
+      "land": "DE",
+      "kategorie": "plattform",
+      "url": "https://medien-in-die-schule.de/",
+      "status": "ok",
+      "status_notiz": "Materialien unter freier Lizenz CC BY-SA 4.0 – frei nutz- und bearbeitbar. Klassenstufen werden auf den Modulseiten nicht genannt.",
+      "beschreibung": "Offene Unterrichtsmaterialien zu Medienkompetenz, u. a. eine Einheit „Hass in der Demokratie begegnen“ mit Modulen zu Hate Speech und Desinformation.",
+      "zielgruppen": ["lehrkraefte", "fachkraefte"],
+      "alter": "Sek I/II (keine genaue Angabe)",
+      "themen": ["hass", "fake", "zivilcourage", "unterricht"],
+      "artikel": [
+        {"titel": "Unterrichtseinheit „Hass in der Demokratie begegnen“", "url": "https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/", "zielgruppe": "lehrkraefte", "alter": "Sek I/II", "themen": ["hass", "unterricht"], "kurz": "Module zu Demokratie, Rechtsextremismus online, gruppenbezogener Menschenfeindlichkeit und Hate Speech, plus Zusatzeinheit Antisemitismus."},
+        {"titel": "Modul 5: Desinformation und Hate Speech", "url": "https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/modul-5-desinformation-und-hate-speech/", "zielgruppe": "lehrkraefte", "alter": "Sek I/II", "themen": ["hass", "fake", "zivilcourage", "unterricht"], "kurz": "Sieben kurze Einheiten (insgesamt ca. drei Stunden) zum Zusammenhang von Falschinformation und Hass sowie zu Handlungsmöglichkeiten."}
+      ],
+      "tipps": [
+        {"text": "Vor dem Thema Hate Speech Gruppendynamik und frühere Vorfälle der Klasse bedenken und gemeinsame Diskussionsregeln festlegen.", "url": "https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/modul-5-desinformation-und-hate-speech/"},
+        {"text": "Im Unterricht keine einzelnen Schüler:innen als Betroffene oder Täter:innen benennen.", "url": "https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/modul-5-desinformation-und-hate-speech/"},
+        {"text": "Bei Bedarf Schulsozialarbeit oder externe Fachkräfte hinzuziehen und die eigene Haltung als Lehrkraft vorher reflektieren.", "url": "https://www.medien-in-die-schule.de/unterrichtseinheiten/hass-in-der-demokratie-begegnen/modul-5-desinformation-und-hate-speech/"}
+      ]
+    },
+    {
+      "name": "TikTok Sicherheitszentrum",
+      "traeger": "TikTok (ByteDance)",
+      "land": "DE",
+      "kategorie": "plattform",
+      "url": "https://www.tiktok.com/safety/de-de/",
+      "status": "ok",
+      "status_notiz": "Startseite ist eine JS-App (Titel „Sicherheit | TikTok“); Unterseiten mit WebFetch abrufbar. Anbieterinformation – Menüpfade können sich ändern. Mindestalter laut TikTok 13 Jahre.",
+      "beschreibung": "Offizielle Sicherheits- und Elternseiten von TikTok mit Anleitungen zum Melden, zu Filtern und zum Begleiteten Modus.",
+      "zielgruppen": ["eltern", "schueler"],
+      "alter": "ab 13 Jahren (Nutzung), Eltern von Teens",
+      "themen": ["cybermobbing", "hass", "eltern", "hilfe"],
+      "artikel": [
+        {"titel": "Mobbing-Prävention", "url": "https://www.tiktok.com/safety/de-de/bullying-prevention", "zielgruppe": "schueler", "alter": "13–17", "themen": ["cybermobbing", "hilfe"], "kurz": "Melde-Pfade für Videos und Konten sowie Kommentar-, Nachrichten- und Duett-Einstellungen."},
+        {"titel": "Leitfaden für Erziehungsberechtigte", "url": "https://www.tiktok.com/safety/de-de/guardians-guide/", "zielgruppe": "eltern", "alter": "Eltern von 13–17-Jährigen", "themen": ["eltern"], "kurz": "Funktionen des Begleiteten Modus und Gesprächstipps für Eltern."},
+        {"titel": "Hassreden und hasserfülltem Verhalten entgegentreten", "url": "https://www.tiktok.com/safety/de-de/countering-hate/", "zielgruppe": "schueler", "alter": "13–17", "themen": ["hass", "zivilcourage", "hilfe"], "kurz": "Melden, Sicherheitstools und Hinweise für sichere Gegenrede."}
+      ],
+      "tipps": [
+        {"text": "Mobbing melden: Video gedrückt halten, „Melden“ wählen und unter „Hass und Belästigung“ die Kategorie Belästigung/Mobbing angeben; die gemeldete Person erfährt nicht, wer gemeldet hat.", "url": "https://www.tiktok.com/safety/de-de/bullying-prevention"},
+        {"text": "Im Begleiteten Modus verknüpfen Eltern ihr Konto mit dem des Teens und legen z. B. Bildschirmzeit pro Wochentag, Stichwortfilter und wer Nachrichten senden darf fest.", "url": "https://www.tiktok.com/safety/de-de/guardians-guide/"},
+        {"text": "Auch für andere melden: Wer sieht, dass jemand angegriffen wird, kann Hassinhalte stellvertretend melden.", "url": "https://www.tiktok.com/safety/de-de/countering-hate/"},
+        {"text": "Gegenrede nur, wenn man sich sicher fühlt – und lieber Gleichgesinnte suchen, als allein zu diskutieren.", "url": "https://www.tiktok.com/safety/de-de/countering-hate/"}
+      ]
+    },
+    {
+      "name": "Meta / Instagram – Sicherheitsbereich",
+      "traeger": "Meta Platforms (Instagram)",
+      "land": "DE",
+      "kategorie": "plattform",
+      "url": "https://about.instagram.com/de-de/safety",
+      "status": "ok",
+      "status_notiz": "Anbieterinformation. Funktionsnamen auf Deutsch: Einschränken, Blockieren, Unerwünschte Begriffe (entspricht „Hidden Words“), Limitieren, Kommentarwarnungen.",
+      "beschreibung": "Offizielle Instagram-Seiten zu Schutzfunktionen gegen Mobbing, Teen-Konten und Elternaufsicht über den Meta-Familienbereich.",
+      "zielgruppen": ["eltern", "schueler"],
+      "alter": "Nutzung ab 13 Jahren; Teen-Konten unter 16 bzw. 18",
+      "themen": ["cybermobbing", "hass", "eltern", "hilfe"],
+      "artikel": [
+        {"titel": "Gegen Mobbing", "url": "https://about.instagram.com/de-de/community/anti-bullying", "zielgruppe": "schueler", "alter": "13–17", "themen": ["cybermobbing", "hass", "hilfe"], "kurz": "Erklärt Einschränken, Blockieren, Unerwünschte Begriffe, Limitieren, Melden und Kommentarwarnungen."},
+        {"titel": "Eltern-Leitfaden", "url": "https://about.instagram.com/de-de/community/parents", "zielgruppe": "eltern", "alter": "Eltern von 13–17-Jährigen", "themen": ["eltern"], "kurz": "Elternaufsicht, Schutzvoreinstellungen der Teen-Konten und Gesprächsanregungen."}
+      ],
+      "tipps": [
+        {"text": "„Einschränken“ nutzen, wenn Blockieren die Lage verschärfen würde: Kommentare der Person sieht nur sie selbst, und sie merkt nicht, ob ihre Nachrichten gelesen wurden.", "url": "https://about.instagram.com/de-de/community/anti-bullying"},
+        {"text": "Bei einer plötzlichen Welle von Angriffen „Limitieren“ aktivieren: Kommentare und Anfragen von Nicht-Followern oder neuen Followern werden zeitweise verborgen.", "url": "https://about.instagram.com/de-de/community/anti-bullying"},
+        {"text": "Eine eigene Liste „Unerwünschte Begriffe“ anlegen, damit beleidigende Wörter und Emojis automatisch aus Kommentaren und Anfragen gefiltert werden.", "url": "https://about.instagram.com/de-de/community/anti-bullying"},
+        {"text": "Als Eltern Melde-, Blockier- und Kommentareinstellungen gemeinsam mit dem Kind durchgehen und erklären, warum sie sinnvoll sind.", "url": "https://about.instagram.com/de-de/community/parents"}
+      ]
+    },
+    {
+      "name": "Saferinternet.at",
+      "traeger": "Österreichisches Institut für angewandte Telekommunikation (ÖIAT) mit ISPA; gefördert von Bundesministerien, A1 und EU (Digital Europe)",
+      "land": "AT",
+      "kategorie": "ngo",
+      "url": "https://www.saferinternet.at/",
+      "status": "ok",
+      "status_notiz": "Kostenlos. Träger auf der Startseite nur über Förderlogos erkennbar. Keine eigene Themenseite „Fake News“, Inhalte unter „Informationskompetenz“.",
+      "beschreibung": "Zentrale österreichische Anlaufstelle für sichere Internetnutzung mit Ratgebern, Unterrichtsmaterial und Elternangeboten zu Cybermobbing, Hass im Netz, Fakes und Deepfakes.",
+      "zielgruppen": ["eltern", "lehrkraefte", "schueler", "fachkraefte"],
+      "alter": "Kinder ab ca. 3 Jahren (Elternbroschüren) bis Jugendliche; Material „Hass im Netz kontern“ ab 9 Jahren",
+      "themen": ["cybermobbing", "hass", "zivilcourage", "fake", "bilder", "hilfe", "recht", "eltern", "unterricht"],
+      "artikel": [
+        {"titel": "Cybermobbing", "url": "https://www.saferinternet.at/themen/cybermobbing", "zielgruppe": "eltern", "alter": "Kinder und Jugendliche", "themen": ["cybermobbing", "hilfe", "eltern"], "kurz": "Themenseite mit Tipps für Betroffene, Eltern, Schulen und Zuschauende plus Materialien."},
+        {"titel": "Was kann man gegen Hass im Netz tun?", "url": "https://www.saferinternet.at/was-kann-man-gegen-hass-im-netz-tun", "zielgruppe": "schueler", "alter": "ab ca. 12 Jahren", "themen": ["hass", "zivilcourage", "hilfe", "recht"], "kurz": "Konkrete Gegenrede-Regeln, Melden, Beweissicherung und Anzeige."},
+        {"titel": "Wie überprüft man Onlineinhalte?", "url": "https://www.saferinternet.at/wie-ueberprueft-man-onlineinhalte", "zielgruppe": "schueler", "alter": "ab ca. 12 Jahren", "themen": ["fake", "bilder"], "kurz": "Prüfschritte für Bilder, Videos, Audios sowie Datum und Kontext."},
+        {"titel": "Unterrichtsbeispiel „Hass im Netz kontern“", "url": "https://www.saferinternet.at/zielgruppen/schulen/unterrichtsbeispiele/hass-im-netz-kontern", "zielgruppe": "lehrkraefte", "alter": "ab 9 Jahren", "themen": ["hass", "zivilcourage", "unterricht"], "kurz": "Sechs Übungen, die Kinder ermutigen, gegen Hass aktiv zu werden."}
+      ],
+      "tipps": [
+        {"text": "Gegenrede richtet sich vor allem an die stillen Mitlesenden – nicht an überzeugte Hater:innen; ruhig bleiben, Hass klar benennen und beim Thema bleiben.", "url": "https://www.saferinternet.at/was-kann-man-gegen-hass-im-netz-tun"},
+        {"text": "Selbstschutz geht vor: Man muss nicht auf jeden Hasskommentar reagieren, Melden und Blockieren sind gleichwertige Optionen.", "url": "https://www.saferinternet.at/was-kann-man-gegen-hass-im-netz-tun"},
+        {"text": "Handy- oder Internetverbote nach Cybermobbing vermeiden – sie bestrafen das Opfer und sind laut Saferinternet.at eher kontraproduktiv.", "url": "https://www.saferinternet.at/themen/cybermobbing"},
+        {"text": "Bei Bildern prüfen, ob sie älter sind als behauptet: Rückwärtssuche (Google Lens, TinEye, Bing) und ggf. Metadaten zeigen den ursprünglichen Kontext.", "url": "https://www.saferinternet.at/wie-ueberprueft-man-onlineinhalte"}
+      ]
+    },
+    {
+      "name": "OeAD – „Extremismusprävention macht Schule“ (jetzt „Starke Schule, starke Gesellschaft“)",
+      "traeger": "OeAD (Agentur für Bildung und Internationalisierung) im Auftrag von Bildungs- und Sozialministerium; fachliche Prüfung durch oiip",
+      "land": "AT",
+      "kategorie": "staatlich",
+      "url": "https://oead.at/starkeschule",
+      "status": "umbenannt/fortgeführt",
+      "status_notiz": "„Extremismusprävention macht Schule (II)“ wird seit 1.10.2025 unter dem Namen „Starke Schule, starke Gesellschaft“ fortgeführt (erweitert um Mental Health). Workshops kostenlos, 3–4 Unterrichtseinheiten; Stand 06.11.2026 ist das Kontingent für das laufende Trimester ausgeschöpft, einzelne Plätze durch Stornos möglich.",
+      "beschreibung": "Staatlich finanzierte, kostenlose Workshops für Schulen zu Demokratie, Extremismus, Konflikten, digitalen Lebenswelten (u. a. Verschwörungstheorien, Cybermobbing) und psychischer Gesundheit.",
+      "zielgruppen": ["schueler", "lehrkraefte"],
+      "alter": "alle Schulstufen (Volksschule bis AHS/BHS, Berufsschule); AMS-Maßnahmen 15–25 Jahre",
+      "themen": ["hass", "fake", "cybermobbing", "zivilcourage", "unterricht"],
+      "artikel": [
+        {"titel": "Starke Schule, starke Gesellschaft", "url": "https://oead.at/starkeschule", "zielgruppe": "lehrkraefte", "alter": "alle Schulstufen", "themen": ["hass", "fake", "cybermobbing", "unterricht"], "kurz": "Programmseite mit Themenfeldern, Buchungsfristen und FAQ-Links."}
+      ],
+      "tipps": [
+        {"text": "Workshops früh buchen: Anfragen für ein Trimester öffnen zu festen Terminen, und das Kontingent ist schnell ausgeschöpft.", "url": "https://oead.at/starkeschule"},
+        {"text": "Für Fake-News- und Hass-Themen gezielt das Themenfeld „Digitale Lebenswelten“ wählen (u. a. Medienkompetenz, Verschwörungstheorien, Cybermobbing).", "url": "https://oead.at/starkeschule"}
+      ]
+    },
+    {
+      "name": "ZARA – Beratungsstelle #GegenHassimNetz",
+      "traeger": "ZARA – Zivilcourage und Anti-Rassismus-Arbeit (Verein), Wien",
+      "land": "AT",
+      "kategorie": "ngo",
+      "url": "https://zara.or.at/de/beratungsstellen",
+      "status": "ok",
+      "status_notiz": "Aktiv; Seite meldet derzeit hohe Auslastung. Kostenlos und vertraulich. Anonyme Meldungen möglich, dann aber keine Rückmeldung.",
+      "beschreibung": "Kostenlose juristische und psychosoziale Beratung für Betroffene und Zeug:innen von Hass im Netz, inklusive Löschanträgen und Rechtshilfefonds.",
+      "zielgruppen": ["schueler", "eltern", "fachkraefte"],
+      "alter": "alle Altersgruppen",
+      "themen": ["hass", "hilfe", "recht"],
+      "artikel": [
+        {"titel": "Beratung & Melden", "url": "https://zara.or.at/beratung/", "zielgruppe": "schueler", "alter": "alle", "themen": ["hass", "hilfe", "recht"], "kurz": "Meldeformular und Beschreibung, was ZARA mit Meldungen macht."}
+      ],
+      "tipps": [
+        {"text": "Vorfall mit Screenshot oder Link sowie Ort und Zeit möglichst genau beschreiben, damit ZARA die Rechtslage prüfen kann.", "url": "https://zara.or.at/beratung/"},
+        {"text": "Wer eine Antwort möchte, nicht anonym melden, sondern telefonisch, per verschlüsselter Mail oder Chat Kontakt aufnehmen.", "url": "https://zara.or.at/beratung/"},
+        {"text": "ZARA kann Hasspostings löschen lassen, zu Polizei oder Gericht begleiten und Zivilklagen über einen Rechtshilfefonds unterstützen.", "url": "https://zara.or.at/de/beratungsstellen"}
+      ]
+    },
+    {
+      "name": "Rat auf Draht 147",
+      "traeger": "Rat auf Draht gemeinnützige GmbH, getragen von SOS-Kinderdorf, Partner ORF",
+      "land": "AT",
+      "kategorie": "ngo",
+      "url": "https://www.rataufdraht.at/",
+      "status": "ok",
+      "status_notiz": "Notruf 147 rund um die Uhr, kostenlos und anonym; Chatzeiten auf der Startseite angegeben. Elternberatung separat über elternseite.at (Zeiten nicht verifiziert).",
+      "beschreibung": "Österreichs Notruf für Kinder, Jugendliche und Bezugspersonen mit Telefon-, Chat- und Online-Beratung sowie Ratgeberartikeln zu Cybermobbing.",
+      "zielgruppen": ["schueler", "eltern"],
+      "alter": "Kinder und Jugendliche (ca. 6–19 Jahre) und Bezugspersonen",
+      "themen": ["cybermobbing", "hass", "hilfe", "recht"],
+      "artikel": [
+        {"titel": "Was tun gegen Cyber-Mobbing?", "url": "https://www.rataufdraht.at/themenubersicht/handy-internet/was-tun-gegen-cyber-mobbing", "zielgruppe": "schueler", "alter": "10–19", "themen": ["cybermobbing", "hilfe", "recht"], "kurz": "Neun Schritte von Beweissicherung über Melden bis Anzeige und Unterlassungsauftrag."},
+        {"titel": "Mobbing in der WhatsApp Gruppe", "url": "https://www.rataufdraht.at/themenubersicht/handy-internet/mobbing-in-der-whatsapp-gruppe", "zielgruppe": "schueler", "alter": "10–19", "themen": ["cybermobbing", "zivilcourage"], "kurz": "Tipps speziell für Klassen- und Gruppenchats."}
+      ],
+      "tipps": [
+        {"text": "Screenshots vom ganzen Verlauf mit sichtbarem Datum und Profilnamen machen – das sind wichtige Beweise.", "url": "https://www.rataufdraht.at/themenubersicht/handy-internet/was-tun-gegen-cyber-mobbing"},
+        {"text": "Öffentliche Mobbing-Beiträge kann man über das Meldeformular von Rat auf Draht einreichen; ist der Inhalt illegal, leitet das Team ihn an die Plattform weiter.", "url": "https://www.rataufdraht.at/themenubersicht/handy-internet/was-tun-gegen-cyber-mobbing"},
+        {"text": "Bei WhatsApp schnell melden, weil nur die letzten fünf Nachrichten an WhatsApp übermittelt werden.", "url": "https://www.rataufdraht.at/themenubersicht/handy-internet/mobbing-in-der-whatsapp-gruppe"},
+        {"text": "Eine Anzeige in Österreich kann später nicht zurückgezogen werden – vorher gut überlegen und eine Vertrauensperson mitnehmen.", "url": "https://www.rataufdraht.at/themenubersicht/handy-internet/was-tun-gegen-cyber-mobbing"}
+      ]
+    },
+    {
+      "name": "Mimikama",
+      "traeger": "Mimikama – Verein zur Aufklärung über Internetmissbrauch (gegründet 2011, Österreich)",
+      "land": "AT",
+      "kategorie": "ngo",
+      "url": "https://www.mimikama.org/",
+      "status": "ok – Startseite mit Bot-Sperre",
+      "status_notiz": "Startseite liefert für automatische Abrufe HTTP 403; „Über uns“ und mehrere Ratgeberartikel waren abrufbar. Faktenchecks frei zugänglich, Mimikama Education (Vorträge/Workshops) kostenpflichtig.",
+      "beschreibung": "Österreichische Faktencheck-Organisation, die Falschmeldungen, Betrugsmaschen und Desinformation prüft und Ratgeber zum Erkennen von Fakes und KI-Inhalten veröffentlicht.",
+      "zielgruppen": ["schueler", "eltern", "lehrkraefte"],
+      "alter": "Jugendliche und Erwachsene",
+      "themen": ["fake", "bilder"],
+      "artikel": [
+        {"titel": "Über uns", "url": "https://www.mimikama.org/ueber-uns/", "zielgruppe": "lehrkraefte", "alter": "-", "themen": ["fake"], "kurz": "Selbstdarstellung mit Angeboten wie Faktenchecks, Meldeformular, Wikikama und Education-Bereich."},
+        {"titel": "KI-Bilder und KI-Videos erkennen", "url": "https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/", "zielgruppe": "schueler", "alter": "ab ca. 12 Jahren", "themen": ["bilder", "fake"], "kurz": "Checkliste zu Umfeld, Bilddetails, Bewegungen und Herkunft von KI-Inhalten."},
+        {"titel": "So erkennst du Fakes im Netz", "url": "https://www.mimikama.org/so-erkennst-du-fakes-im-netz/", "zielgruppe": "schueler", "alter": "ab ca. 12 Jahren", "themen": ["fake", "bilder"], "kurz": "Prüftipps zu Sprache, Zitaten, Bildern, Websites und Profilen."}
+      ],
+      "tipps": [
+        {"text": "Bei KI-Verdacht nie auf den Gesamteindruck verlassen: Erst mehrere Auffälligkeiten zusammen (Hände, Schrift, Schatten, Blinzeln) ergeben ein belastbares Bild.", "url": "https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/"},
+        {"text": "Kontoprofil und Beschreibung prüfen: Hinweise auf KI-Tools oder ein Account, der ständig ähnliche Inhalte postet, sind Warnzeichen.", "url": "https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/"},
+        {"text": "Fragen, warum etwas gerade jetzt geteilt wird und wem es nützt – starke Empörung oder Angst können gezielte Stimmungsmache sein.", "url": "https://www.mimikama.org/so-erkennst-du-fakes-im-netz/"},
+        {"text": "Zitate in eine Suchmaschine eingeben, um zu prüfen, ob sie wirklich so gesagt oder verdreht wurden.", "url": "https://www.mimikama.org/so-erkennst-du-fakes-im-netz/"}
+      ]
+    },
+    {
+      "name": "eEducation Austria",
+      "traeger": "Initiative des Bundesministeriums für Bildung (BMB), Österreich",
+      "land": "AT",
+      "kategorie": "staatlich",
+      "url": "https://eeducation.at/",
+      "status": "ok",
+      "status_notiz": "Schulnetzwerk für digitale Bildung; Materialien kostenlos. Keine eigenen Materialien ausdrücklich zu Cybermobbing; einzelne Materialseiten ließen sich nicht zuverlässig direkt verlinken (Parameter-URLs zeigten anderen Inhalt), daher nur Übersichtsseiten aufgenommen.",
+      "beschreibung": "Österreichisches Netzwerk für digitale Schulentwicklung mit prototypischen Aufgaben zur Medienbildung, u. a. zu Gerüchten, Propaganda und „Fact or Fake?“ in der Primarstufe.",
+      "zielgruppen": ["lehrkraefte"],
+      "alter": "Primarstufe und Sekundarstufe I",
+      "themen": ["fake", "unterricht"],
+      "artikel": [
+        {"titel": "Medienbildung (Ressourcen)", "url": "https://eeducation.at/ressourcen/materialien/medienbildung", "zielgruppe": "lehrkraefte", "alter": "Primar/Sek I", "themen": ["unterricht"], "kurz": "Einstieg zu Materialien und Praxisbeispielen der Medienbildung."},
+        {"titel": "Materialien Medienbildung", "url": "https://eeducation.at/ressourcen/materialien/medienbildung/materialien-medienbildung", "zielgruppe": "lehrkraefte", "alter": "Primar/Sek I", "themen": ["fake", "unterricht"], "kurz": "Liste u. a. mit „Ein Gerücht in die Welt setzen“, „PR und Propaganda“, „Die faire Debatte“ und „Fact or Fake?“."}
+      ],
+      "tipps": [
+        {"text": "Schon in der Volksschule spielerisch zwischen wahren und erfundenen Meldungen unterscheiden lassen (Aufgabe „Fact or Fake?“).", "url": "https://eeducation.at/ressourcen/materialien/medienbildung/materialien-medienbildung"},
+        {"text": "Diskussionskultur in Online-Foren gezielt üben, z. B. mit Aufgaben zu fairer Debatte und gewaltfreier Kommunikation.", "url": "https://eeducation.at/ressourcen/materialien/medienbildung/materialien-medienbildung"}
+      ]
+    },
+    {
+      "name": "Stopline",
+      "traeger": "Stopline c/o nic.at GmbH, Salzburg; gefördert von nic.at und Bundesministerium (BMWKMS)",
+      "land": "AT",
+      "kategorie": "ngo",
+      "url": "https://www.stopline.at/",
+      "status": "ok",
+      "status_notiz": "Meldestelle nur für sexuelle Missbrauchsdarstellungen Minderjähriger und NS-Wiederbetätigung, nicht für allgemeinen Hass oder Mobbing. Meldung anonym möglich (E-Mail optional).",
+      "beschreibung": "Österreichische Online-Meldestelle für Darstellungen sexuellen Kindesmissbrauchs und nationalsozialistische Wiederbetätigung im Internet.",
+      "zielgruppen": ["eltern", "fachkraefte", "lehrkraefte", "schueler"],
+      "alter": "alle",
+      "themen": ["hass", "hilfe", "recht"],
+      "artikel": [
+        {"titel": "Melden", "url": "https://www.stopline.at/de/melden", "zielgruppe": "eltern", "alter": "alle", "themen": ["hilfe", "recht"], "kurz": "Meldeformular: Quelle, Grund und URL angeben, E-Mail freiwillig."}
+      ],
+      "tipps": [
+        {"text": "Bei Missbrauchsdarstellungen oder NS-Inhalten die URL über das Stopline-Formular melden – eine Absenderadresse ist nicht nötig.", "url": "https://www.stopline.at/de/melden"},
+        {"text": "Statt „Kinderpornografie“ den Begriff „sexuelle Missbrauchsdarstellungen Minderjähriger“ verwenden, wie es Stopline seit 2018 tut.", "url": "https://www.stopline.at/"}
+      ]
+    },
+    {
+      "name": "Pro Juventute Medienprofis",
+      "traeger": "Stiftung Pro Juventute",
+      "land": "CH",
+      "kategorie": "programm",
+      "url": "https://www.projuventute.ch/de/medienprofis",
+      "status": "kostenpflichtig/Lizenz",
+      "status_notiz": "Schulworkshop CHF 650 pro Klasse (inkl. Spesen, Stand Seite 06.11.2026; Factsheet 2022 nannte noch CHF 550). Mindestens 8 Wochen Vorlauf. Förderung über éducation21 (BNE) möglich.",
+      "beschreibung": "Workshops für Schulklassen zu fairem Verhalten online, Schutz vor Sextortion und Cybergrooming sowie wählbaren Vertiefungen wie Cybermobbing.",
+      "zielgruppen": ["schueler", "lehrkraefte", "eltern"],
+      "alter": "3.–9. Klasse (ca. 8–15 Jahre)",
+      "themen": ["cybermobbing", "hilfe", "eltern", "unterricht"],
+      "artikel": [
+        {"titel": "Medienprofis – Schulworkshops", "url": "https://www.projuventute.ch/de/medienprofis", "zielgruppe": "lehrkraefte", "alter": "3.–9. Klasse", "themen": ["cybermobbing", "unterricht"], "kurz": "Aufbau, Kosten, Vertiefungsthemen und Elternveranstaltungen."},
+        {"titel": "Cybermobbing: schnelles Handeln ist nötig", "url": "https://www.projuventute.ch/de/eltern/medien-internet/10-tipps-cybermobbing", "zielgruppe": "eltern", "alter": "Eltern von Kindern 6–17", "themen": ["cybermobbing", "eltern", "hilfe"], "kurz": "Neun Tipps für Eltern mit Verweis auf Elternberatung und 147."},
+        {"titel": "Elternberatung 24/7", "url": "https://www.projuventute.ch/de/elternberatung", "zielgruppe": "eltern", "alter": "Eltern", "themen": ["hilfe", "eltern"], "kurz": "Kostenlose Beratung per Telefon, WhatsApp und E-Mail."}
+      ],
+      "tipps": [
+        {"text": "Im Workshop einen Übungsanruf bei der 147 einbauen, damit Kinder die Hemmschwelle zur Beratung abbauen.", "url": "https://www.projuventute.ch/de/medienprofis"},
+        {"text": "Kinder lernen, ruhig „Stopp“ zu sagen und nicht zurückzuschlagen – emotionale Reaktionen heizen Mobbing meist an.", "url": "https://www.projuventute.ch/de/eltern/medien-internet/10-tipps-cybermobbing"},
+        {"text": "Beweise auf dem Gerät aufbewahren und nicht weiterleiten, damit man sie bei einer Anzeige vorzeigen kann.", "url": "https://www.projuventute.ch/de/eltern/medien-internet/10-tipps-cybermobbing"},
+        {"text": "Bei häufigem Streit im Klassenchat das Modul „Gruppen- und Klassenchat“ nutzen, um gemeinsam Chatregeln zu vereinbaren.", "url": "https://www.projuventute.ch/de/medienprofis"}
+      ]
+    },
+    {
+      "name": "Beratung + Hilfe 147 (Pro Juventute)",
+      "traeger": "Stiftung Pro Juventute",
+      "land": "CH",
+      "kategorie": "ngo",
+      "url": "https://www.147.ch/de/",
+      "status": "ok",
+      "status_notiz": "Telefon 147 rund um die Uhr, kostenlos und vertraulich. HINWEIS: Die Seite zu Hate Speech nennt noch Netzcourage als Fachstelle – Netzcourage nimmt seit 2026 keine Anfragen mehr an (veralteter Verweis).",
+      "beschreibung": "Kostenlose, vertrauliche Beratung für Kinder und Jugendliche in der Schweiz per Telefon, WhatsApp, E-Mail und Peer-Chat, mit Ratgebern zu Mobbing und Hate Speech.",
+      "zielgruppen": ["schueler"],
+      "alter": "Kinder und Jugendliche (ca. bis 25 Jahre)",
+      "themen": ["cybermobbing", "hass", "zivilcourage", "hilfe", "recht"],
+      "artikel": [
+        {"titel": "Mobbing: Das kannst du tun", "url": "https://www.147.ch/de/article/cybermobbing-und-mobbing/mobbing-das-kannst-du-tun/", "zielgruppe": "schueler", "alter": "10–19", "themen": ["cybermobbing", "zivilcourage", "hilfe"], "kurz": "Tipps für Betroffene und Zuschauende."},
+        {"titel": "Tipps gegen Hass im Netz (Was ist Hate Speech?)", "url": "https://147.ch/de/digitales-leben/mobbing-im-internet/was-ist-hate-speech", "zielgruppe": "schueler", "alter": "10–19", "themen": ["hass", "hilfe", "recht"], "kurz": "Erklärt Hate Speech und Reaktionsmöglichkeiten; Fachstellenverweis teils veraltet."}
+      ],
+      "tipps": [
+        {"text": "Als Zuschauende nicht mitlachen und nichts weiterleiten – ein kurzer Satz wie „Lass das, das ist nicht okay“ kann die Dynamik schon stoppen.", "url": "https://www.147.ch/de/article/cybermobbing-und-mobbing/mobbing-das-kannst-du-tun/"},
+        {"text": "Erwachsene zu informieren ist kein Petzen, sondern Zivilcourage.", "url": "https://www.147.ch/de/article/cybermobbing-und-mobbing/mobbing-das-kannst-du-tun/"},
+        {"text": "Bei Hate Speech nicht zurückbeleidigen, Screenshots mit Plattform, Datum und Uhrzeit machen und dann App oder Seite schliessen.", "url": "https://147.ch/de/digitales-leben/mobbing-im-internet/was-ist-hate-speech"}
+      ]
+    },
+    {
+      "name": "Jugend und Medien",
+      "traeger": "Nationale Plattform des Bundesamts für Sozialversicherungen (BSV)",
+      "land": "CH",
+      "kategorie": "staatlich",
+      "url": "https://www.jugendundmedien.ch/",
+      "status": "ok",
+      "status_notiz": "Träger über die BSV-Seite bestätigt (die Plattform-Startseite selbst nennt ihn nicht). Neue Website seit Ende 2025; keine eigene Themenseite zu Hassrede oder Desinformation gefunden.",
+      "beschreibung": "Informationsplattform des Bundes zur Medienkompetenz mit Ratgebern nach Altersstufen und Themen, u. a. Cybermobbing und Meldewege der Plattformen.",
+      "zielgruppen": ["eltern", "lehrkraefte", "fachkraefte"],
+      "alter": "Babys bis Jugendliche ab 14 Jahren",
+      "themen": ["cybermobbing", "fake", "eltern", "hilfe"],
+      "artikel": [
+        {"titel": "Cybermobbing", "url": "https://www.jugendundmedien.ch/topics/cybermobbing", "zielgruppe": "eltern", "alter": "Kinder und Jugendliche", "themen": ["cybermobbing", "hilfe", "recht"], "kurz": "Vorgehen im Ernstfall, Prävention und Links zu Meldeseiten von WhatsApp, Snapchat, Instagram, TikTok, YouTube."},
+        {"titel": "Kinder und Jugendliche zwischen 10 und 14 Jahren", "url": "https://www.jugendundmedien.ch/milestones/kinder-und-jugendliche-zwischen-10-und-14-jahren", "zielgruppe": "eltern", "alter": "10–14", "themen": ["eltern", "cybermobbing", "fake"], "kurz": "Altersbezogene Elterntipps zu Mobbing, Fakes und Medienbegleitung."},
+        {"titel": "Nationale Plattform Jugend und Medien (BSV)", "url": "https://www.bsv.admin.ch/de/nationale-plattform-jugend-und-medien-jugendundmedien", "zielgruppe": "fachkraefte", "alter": "-", "themen": ["eltern"], "kurz": "Beschreibung der Aufgaben der Plattform durch das BSV."}
+      ],
+      "tipps": [
+        {"text": "Bei sexualisierten Darstellungen keine eigenen Screenshots machen, sondern mit dem Gerät direkt zur Polizei gehen.", "url": "https://www.jugendundmedien.ch/topics/cybermobbing"},
+        {"text": "Beweise sichern, bevor man blockiert – manche Plattformen löschen danach den Chatverlauf.", "url": "https://www.jugendundmedien.ch/milestones/kinder-und-jugendliche-zwischen-10-und-14-jahren"},
+        {"text": "Eine Strafanzeige gemeinsam mit Schulsozialarbeit oder einer Beratungsstelle abwägen, statt vorschnell zu handeln.", "url": "https://www.jugendundmedien.ch/topics/cybermobbing"},
+        {"text": "Kindern erklären, dass professionell gemachte Inhalte nicht automatisch seriös sind und viele Fotos und Videos bearbeitet sind.", "url": "https://www.jugendundmedien.ch/milestones/kinder-und-jugendliche-zwischen-10-und-14-jahren"}
+      ]
+    },
+    {
+      "name": "zischtig.ch",
+      "traeger": "Verein zischtig.ch",
+      "land": "CH",
+      "kategorie": "ngo",
+      "url": "https://www.zischtig.ch/",
+      "status": "ok",
+      "status_notiz": "Kosten werden auf den Angebotsseiten nicht genannt (Anfrage über Kontaktseite); ein Fokusabend zu Cybermobbing ist laut Elternseite gegen Aufpreis buchbar. Seiten enthalten eher Angebotsbeschreibungen als konkrete Tipps.",
+      "beschreibung": "Schweizer Verein für Medienbildung mit Workshops für Schulklassen, Elternabenden und Weiterbildungen für Lehr- und Fachpersonen.",
+      "zielgruppen": ["schueler", "eltern", "lehrkraefte", "fachkraefte"],
+      "alter": "Kindergarten bis Berufsbildung",
+      "themen": ["cybermobbing", "eltern", "unterricht"],
+      "artikel": [
+        {"titel": "Alle Angebote", "url": "https://zischtig.ch/alle_angebote/", "zielgruppe": "lehrkraefte", "alter": "Primar bis Sek II", "themen": ["cybermobbing", "unterricht"], "kurz": "Übersicht u. a. mit „Gewaltfrei Online“ (4.–9. Klasse) und „smart@phone“ (digitale Selbstverteidigung)."},
+        {"titel": "Ermutigung und Tipps (Elternarbeit)", "url": "https://zischtig.ch/ermutigung-und-tipps/", "zielgruppe": "eltern", "alter": "Eltern von Kindern 4–17", "themen": ["eltern", "cybermobbing"], "kurz": "Elternabende nach Altersstufen zu Regeln, Begleitung und Risiken wie Cybermobbing."}
+      ],
+      "tipps": [
+        {"text": "Bei Jugendlichen nicht nur Grenzen setzen, sondern lernen, Konflikte darüber handhabbar zu machen und die Stärken des Teens zu fördern.", "url": "https://zischtig.ch/ermutigung-und-tipps/"},
+        {"text": "Faire Kommunikation am Handy gezielt mit der Klasse trainieren, etwa im Programm „Gewaltfrei Online“ für die 4.–9. Klasse.", "url": "https://zischtig.ch/alle_angebote/"}
+      ]
+    },
+    {
+      "name": "NCBI Schweiz",
+      "traeger": "NCBI Schweiz (National Coalition Building Institute), Verein",
+      "land": "CH",
+      "kategorie": "ngo",
+      "url": "https://www.ncbi.ch/",
+      "status": "ok",
+      "status_notiz": "Kein ausdrückliches Schulangebot zu Hate Speech gefunden; relevant sind Peacemaker (Konfliktschlichtung/Zivilcourage) und Antisemitismus-/Vorurteils-Workshops. Preise nicht angegeben.",
+      "beschreibung": "Verein gegen Vorurteile, Rassismus und Diskriminierung mit Gewaltpräventionsprogrammen für Schulen wie Peacemaker und Workshops zu Antisemitismus und Islamfeindlichkeit.",
+      "zielgruppen": ["schueler", "lehrkraefte", "fachkraefte"],
+      "alter": "Primar- und Oberstufe (Lehrplan 21 Zyklen 2–3), Berufsschulen",
+      "themen": ["zivilcourage", "hass", "unterricht"],
+      "artikel": [
+        {"titel": "Peacemaker", "url": "https://ncbi.ch/gewaltpraevention/peacemaker/", "zielgruppe": "schueler", "alter": "ca. 8–15 Jahre", "themen": ["zivilcourage", "unterricht"], "kurz": "Gewählte Schüler:innen lernen, Konflikte auf dem Pausenplatz zu entschärfen; Evaluation zeigt weniger Streit und Mobbing."},
+        {"titel": "Antisemitismus", "url": "https://ncbi.ch/abbau-von-vorurteilen/antisemitismus/", "zielgruppe": "lehrkraefte", "alter": "Oberstufe/Gymnasium, Berufsschule", "themen": ["hass", "unterricht"], "kurz": "Workshops mit gemischten Leitungsteams und kostenlose Begegnungen mit Shoa-Überlebenden rund um den 27. Januar."}
+      ],
+      "tipps": [
+        {"text": "Streitschlichter:innen nach ihrer Bereitschaft, sich einzusetzen, auswählen – nicht nach Noten – und sie nicht überfordern.", "url": "https://ncbi.ch/gewaltpraevention/peacemaker/"},
+        {"text": "Gegen Vorurteile Begegnung nutzen: Workshops mit jüdischen und nicht-jüdischen Leitenden räumen Fehlinformationen aus.", "url": "https://ncbi.ch/abbau-von-vorurteilen/antisemitismus/"}
+      ]
+    },
+    {
+      "name": "Stop Hate Speech",
+      "traeger": "Public Discourse Foundation (gegründet von alliance F und ETH Zürich)",
+      "land": "CH",
+      "kategorie": "ngo",
+      "url": "https://stophatespeech.ch/",
+      "status": "ok",
+      "status_notiz": "Aktiv (neueste Beiträge Oktober 2026). Ausdrücklich keine Beratungsstelle, aber Vernetzung und Workshops.",
+      "beschreibung": "Projekt, das mit Forschung, dem Erkennungsalgorithmus „Bot Dog“ und Gegenrede-Strategien gegen Hass im Netz vorgeht und Betroffene unterstützt.",
+      "zielgruppen": ["schueler", "fachkraefte", "eltern"],
+      "alter": "Jugendliche und Erwachsene",
+      "themen": ["hass", "zivilcourage", "hilfe", "recht"],
+      "artikel": [
+        {"titel": "Wie auf Hate Speech reagieren?", "url": "https://stophatespeech.ch/pages/wie-auf-hate-speech-reagieren", "zielgruppe": "schueler", "alter": "ab ca. 14 Jahren", "themen": ["zivilcourage", "hass"], "kurz": "Empathiebasierte Gegenrede, gestützt auf Studien von ETH und Uni Zürich."},
+        {"titel": "Ich bin betroffen", "url": "https://stophatespeech.ch/pages/ich-bin-betroffen", "zielgruppe": "schueler", "alter": "ab ca. 14 Jahren", "themen": ["hilfe", "recht", "hass"], "kurz": "Sofortmassnahmen, Beweissicherung, Melden und digitaler Selbstschutz."}
+      ],
+      "tipps": [
+        {"text": "Mit Empathie kontern: Daran erinnern, wie verletzend solche Worte für die angegriffene Gruppe sind – das wirkt laut Studien besser als Aggression.", "url": "https://stophatespeech.ch/pages/wie-auf-hate-speech-reagieren"},
+        {"text": "Ziel der Gegenrede ist eine bessere Debatte und Schutz der Betroffenen, nicht der Angriff auf die hetzende Person.", "url": "https://stophatespeech.ch/pages/wie-auf-hate-speech-reagieren"},
+        {"text": "Als Betroffene:r Aufgaben wie Melden und Sichten an Vertrauenspersonen abgeben und danach Passwörter ändern sowie Zwei-Faktor-Schutz aktivieren.", "url": "https://stophatespeech.ch/pages/ich-bin-betroffen"}
+      ]
+    },
+    {
+      "name": "Kantonspolizei St. Gallen – Prävention Jugend",
+      "traeger": "Kantonspolizei St. Gallen (Jugenddienst)",
+      "land": "CH",
+      "kategorie": "polizei",
+      "url": "https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/jugend.html",
+      "status": "ok",
+      "status_notiz": "Seite „Jugend“ zuletzt aktualisiert 02.08.2021, Cybercrime-Seite 10.06.2024 – Inhalte teils älter; Präventionstipps zu Cybermobbing/Sextortion liegen laut Beschreibung auf weiteren Unterseiten. Jugenddienst zuständig für vier Polizeiregionen, nicht für die Stadt St. Gallen.",
+      "beschreibung": "Jugenddienst der Kantonspolizei, der Jugendliche, Eltern und Schulen berät und Präventionsvorträge an Schulen hält.",
+      "zielgruppen": ["eltern", "lehrkraefte", "schueler"],
+      "alter": "Kinder und Jugendliche (Schulalter)",
+      "themen": ["cybermobbing", "hilfe", "recht"],
+      "artikel": [
+        {"titel": "Jugend (Jugenddienst)", "url": "https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/jugend.html", "zielgruppe": "eltern", "alter": "Schulalter", "themen": ["cybermobbing", "hilfe", "recht"], "kurz": "Häufige Fragen zu Mobbing, unangemessenen Inhalten auf dem Handy und Jugendstrafregister."},
+        {"titel": "Cybercrime", "url": "https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/cybercrime.html", "zielgruppe": "eltern", "alter": "-", "themen": ["hilfe"], "kurz": "Einstieg zu Cybercrime-Prävention mit Kontaktdaten der Kantonspolizei."}
+      ],
+      "tipps": [
+        {"text": "Mobbing hört nicht von selbst auf – Fälle früh der Lehrperson, Schulsozialarbeit oder Schulleitung melden.", "url": "https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/jugend.html"},
+        {"text": "Unangemessene Inhalte auf dem Handy nicht weiterleiten, sondern löschen; betrifft es einen Klassenchat, die Schule informieren.", "url": "https://www.sg.ch/sicherheit/kantonspolizei/praevention--jugend--cybercrime/jugend.html"}
+      ]
+    },
+    {
+      "name": "#NetzCourage",
+      "traeger": "Verein #NetzCourage (Mitgründerin Jolanda Spiess)",
+      "land": "CH",
+      "kategorie": "ngo",
+      "url": "https://www.netzcourage.ch/",
+      "status": "eingestellt/aufgelöst",
+      "status_notiz": "Verifiziert: Der Verein löst sich auf und nimmt keine neuen Anfragen mehr an; Website bleibt als Dokumentation online, Kontaktmail nur noch befristet. SRF berichtete am 20.05.2026. Gründe laut SRF: Überforderung durch KI-gestützten Hass und Identitätsmissbrauch, Anfeindungen gegen Mitwirkende; zuvor hatte das Gleichstellungsbüro des Bundes Gelder gestrichen. Laut SRF fehlt der Schweiz damit eine nationale Fachstelle für digitale Gewalt. NICHT mehr als Anlaufstelle empfehlen.",
+      "beschreibung": "Ehemalige Schweizer Anlaufstelle für Betroffene von Hass, Cybermobbing und digitaler Gewalt, die 2026 ihre Tätigkeit beendet hat.",
+      "zielgruppen": ["fachkraefte"],
+      "alter": "-",
+      "themen": ["hass", "hilfe"],
+      "artikel": [
+        {"titel": "Kampf gegen Hass im Netz: Netzcourage hört auf – welche Anlaufstellen bleiben (SRF)", "url": "https://www.srf.ch/news/schweiz/kampf-gegen-hass-im-netz-netzcourage-hoert-auf-welche-anlaufstellen-bleiben", "zielgruppe": "fachkraefte", "alter": "-", "themen": ["hass", "hilfe"], "kurz": "Bericht vom 20.05.2026 zur Auflösung und zu verbleibenden Anlaufstellen (Opferhilfe, Pro Juventute)."}
+      ],
+      "tipps": [
+        {"text": "Statt Netzcourage verweist der Verein selbst auf die kantonale Opferhilfe, bei akuter Gefahr auf die Polizei (117) und auf die Meldestelle Cybercrime von fedpol.", "url": "https://www.netzcourage.ch/"},
+        {"text": "Kinder und Jugendliche können sich weiterhin niederschwellig an Pro Juventute (147) wenden, die auch an Opferhilfe oder Polizei weitervermittelt.", "url": "https://www.srf.ch/news/schweiz/kampf-gegen-hass-im-netz-netzcourage-hoert-auf-welche-anlaufstellen-bleiben"}
+      ]
+    }
+  ],
+  "pruefttipps": [
+    {"text": "Quelle checken: Herausfinden, woher Nachricht, Bild oder Video ursprünglich stammen; Bildquellen lassen sich mit Google Lens, TinEye oder Bing suchen.", "quelle": "so geht MEDIEN", "url": "https://www.br.de/sogehtmedien/plakat-fakes-erkennen-100~attachment.pdf"},
+    {"text": "Datum checken: Steht ein Datum dabei, und passt die Zeitangabe zum behaupteten Ereignis?", "quelle": "so geht MEDIEN", "url": "https://www.br.de/sogehtmedien/plakat-fakes-erkennen-100~attachment.pdf"},
+    {"text": "Bild und Stimme abgleichen: Passt der Text zum Bild, passen Lippen, Gesicht und Stimme zusammen, verhält sich die Person wie gewohnt?", "quelle": "so geht MEDIEN", "url": "https://www.br.de/sogehtmedien/plakat-fakes-erkennen-100~attachment.pdf"},
+    {"text": "Zwei-Quellen-Prinzip: Eine Information erst übernehmen, wenn mindestens zwei unabhängige Quellen sie bestätigen, und das Thema von mehreren Seiten betrachten.", "quelle": "so geht MEDIEN", "url": "https://www.br.de/sogehtmedien/weiterfuehrende-schulen/recherche-so-klappt-der-faktencheck-100.html"},
+    {"text": "Deepfake-Indizien: verschwommene Ränder am Gesicht, unscharfer Mund, zu gleichmäßige Zähne, unpassendes Licht, schlieriger Hintergrund, leerer Blick ohne Blinzeln, flackerndes Gesicht – jeweils nur Hinweise, kein Beweis.", "quelle": "so geht MEDIEN", "url": "https://www.br.de/sogehtmedien/stimmt-das/deepfakes/unterrichtsmaterial-deepfake-vertiefende-information-download-100~attachment.pdf"},
+    {"text": "Wer steckt dahinter? Per Klick aufs Profil prüfen, wer postet und welche Interessen die Person oder Seite verfolgt.", "quelle": "CORRECTIV", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/"},
+    {"text": "Bei Kettennachrichten ohne Quelle markante Textstellen in eine Suchmaschine kopieren – oft gibt es schon einen Faktencheck dazu.", "quelle": "CORRECTIV", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/"},
+    {"text": "Emotionalisierung als Warnsignal: Reißerische Texte und dramatische Bildcollagen sollen Gefühle wecken, damit schnell geteilt wird.", "quelle": "CORRECTIV", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/"},
+    {"text": "Vorsicht, wenn sich eine Behauptung nur auf Einzelmeinungen stützt statt auf seriöse, unabhängige Stellen – typisches Muster falscher Expert:innen.", "quelle": "CORRECTIV", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/05/01/wie-erkenne-ich-falschmeldungen-2/"},
+    {"text": "Bild-Rückwärtssuche: Bild speichern oder Screenshot machen, bei einer Bildersuchmaschine hochladen und mehrere Dienste (Google, Bing, Yandex, TinEye) vergleichen.", "quelle": "CORRECTIV", "url": "https://correctiv.org/faktencheck/hintergrund/2022/04/01/so-funktioniert-die-bilderrueckwaertssuche/"},
+    {"text": "Webseite prüfen: Domain genau lesen, per Whois Registrierungsdatum ansehen, Impressum und Betreiber unabhängig recherchieren – sehr junge Domains sind verdächtig.", "quelle": "CORRECTIV", "url": "https://correctiv.org/faktencheck/faktencheck-tipps/2023/07/21/wie-erkenne-ich-ob-eine-webseite-serioes-ist/"},
+    {"text": "Laterales Lesen (sinngemäß): Die Seite verlassen und in anderen Quellen nachschlagen, wer Autor:in und Herausgeber:in sind, wer auf die Seite verlinkt und wie seriös diese sind – dann erst zurückkehren.", "quelle": "Saferinternet.at", "url": "https://www.saferinternet.at/wie-ueberprueft-man-onlinequellen"},
+    {"text": "Absicht klären: Will der Inhalt informieren, unterhalten, beeinflussen oder verkaufen? Wer finanziert ihn?", "quelle": "Saferinternet.at", "url": "https://www.saferinternet.at/wie-ueberprueft-man-onlinequellen"},
+    {"text": "Wichtige oder umstrittene Infos mit mindestens zwei bis drei weiteren verlässlichen Quellen gegenprüfen.", "quelle": "Saferinternet.at", "url": "https://www.saferinternet.at/wie-ueberprueft-man-onlinequellen"},
+    {"text": "Kontext prüfen: Alte Bilder werden häufig mit aktuellen Ereignissen verknüpft – Rückwärtssuche und Metadaten (z. B. EXIF) helfen bei der zeitlichen Einordnung.", "quelle": "Saferinternet.at", "url": "https://www.saferinternet.at/wie-ueberprueft-man-onlineinhalte"},
+    {"text": "Sichtbare Deepfake-Merkmale (unnatürliches Gesicht, verschwommene Übergänge, fehlerhafter Schmuck, seltsame Hände oder Zähne) sind bei guten Fälschungen unzuverlässig – deshalb immer zusätzlich Quelle und Kontext prüfen.", "quelle": "Saferinternet.at", "url": "https://www.saferinternet.at/was-sind-deepfakes-und-was-kann-man-dagegen-tun"},
+    {"text": "KI-Videos: auf Hände, die beim Gestikulieren die Form ändern, auftauchenden und verschwindenden Schmuck, unpassende Lippenbewegungen und unnatürlich weiche Bewegungen achten.", "quelle": "Mimikama", "url": "https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/"},
+    {"text": "KI-Bilder: Schrift, Zahlen und Logos, die fast stimmen, aber verschwimmen, sowie Schatten ohne klare Lichtquelle sind typische Fehler.", "quelle": "Mimikama", "url": "https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/"},
+    {"text": "Fehlen unabhängige Berichte über ein angeblich großes Ereignis, ist Skepsis angebracht.", "quelle": "Mimikama", "url": "https://www.mimikama.org/woran-erkennst-du-ki-bilder-und-ki-videos/"},
+    {"text": "Auch echte Bilder oder Zitate können täuschen, wenn sie in einen falschen Zusammenhang gestellt werden.", "quelle": "Mimikama", "url": "https://www.mimikama.org/so-erkennst-du-fakes-im-netz/"},
+    {"text": "Bei Fake-Profilen Erstellungsdatum, echte Fotos und glaubwürdige Kontakte prüfen.", "quelle": "Mimikama", "url": "https://www.mimikama.org/so-erkennst-du-fakes-im-netz/"},
+    {"text": "Prebunking – Identitätsklau: Desinformation gibt sich als offizielles Konto oder echte Nachrichtenseite aus, weil viele kaum auf die Quelle achten.", "quelle": "Bad News (Uni Cambridge/DROG)", "url": "https://www.getbadnews.com/de"},
+    {"text": "Prebunking – Emotionalisierung: Inhalte, die mit Gefühlen spielen, gehen besonders oft viral.", "quelle": "Bad News (Uni Cambridge/DROG)", "url": "https://www.getbadnews.com/de"},
+    {"text": "Prebunking – Polarisierung: Aus einem einzelnen Post wird ein Skandal gemacht, der Gruppen in extreme Positionen treibt.", "quelle": "Bad News (Uni Cambridge/DROG)", "url": "https://www.getbadnews.com/de"},
+    {"text": "Prebunking – Verschwörung: Das Bedürfnis nach „der Wahrheit hinter allem“ wird ausgenutzt, um Menschen auf die eigene Seite zu ziehen.", "quelle": "Bad News (Uni Cambridge/DROG)", "url": "https://www.getbadnews.com/de"},
+    {"text": "Prebunking – Diskreditieren und Trolling: Kritik wird mit Gegenangriffen statt Argumenten beantwortet; gezielte Provokation soll Misstrauen und Chaos stiften.", "quelle": "Bad News (Uni Cambridge/DROG)", "url": "https://www.getbadnews.com/de"},
+    {"text": "Prebunking – falsche Expert:innen und Angstmache: Go Viral! zeigte, wie angebliche Ärzt:innen Zweifel säen und angstschürende Sprache Fakes verbreitet (Spiel inzwischen offline).", "quelle": "Go Viral! (Uni Cambridge)", "url": "https://www.cam.ac.uk/stories/goviral"},
+    {"text": "Im Fakefinder lernen Spieler:innen schrittweise, zuerst einzuschätzen, dann das Impressum zu prüfen und die Bilder-Rückwärtssuche einzusetzen, bevor sie entscheiden.", "quelle": "SWR Fakefinder", "url": "https://www.swr.de/unternehmen/medienkompetenz/unterrichtseinheit-fakefinder-100.pdf"},
+    {"text": "Für Kinder: Werbung ist bei Influencer:innen oft nur klein mit „Ad“ oder „Sponsored“ gekennzeichnet oder als Produktplatzierung versteckt.", "quelle": "SWR Fakefinder Kids", "url": "https://www.swr.de/unternehmen/medienkompetenz/fakefinder-kids-infobogen-100.pdf"},
+    {"text": "Neben „Fake“ und „kein Fake“ gibt es Satire – Lernende sollen auch Satire als solche erkennen.", "quelle": "SWR Fakefinder", "url": "https://www.swr.de/unternehmen/medienkompetenz/artikel-fakefinder-deine-news-challenge-100.html"},
+    {"text": "Workshop-Leitfragen für die Unterrichtsreihe: Wie unterscheide ich Glaubwürdiges von Fakes? Wie gegenchecke ich? Wer verbreitet Desinformation – und mit welchem Ziel?", "quelle": "CORRECTIV Salon5 („What the Fakt?!“)", "url": "https://correctiv.org/projekte/salon5/ueber-uns/workshops"},
+    {"text": "Rollenspiel-Idee: Schüler:innen erleben in einem Rollenspiel, wie schwer Gespräche mit Verschwörungsgläubigen sind; beim „Fake Bingo“ ordnen sie Beispiele Manipulationstechniken zu.", "quelle": "#UseTheNews", "url": "https://usethenews.de/de/aktuelles/disinformation-self-defense-holistic-foundation"}
+  ],
+  "hilfenummern": [
+    {"name": "Rat auf Draht – Notruf für Kinder, Jugendliche und Bezugspersonen", "nummer": "147 (ohne Vorwahl)", "erreichbarkeit": "Telefon rund um die Uhr, kostenlos, vertraulich und anonym. Chatberatung Mo, Di, Fr 18–19 Uhr sowie Mi, Do 18–20 Uhr; Themenchat Mo, Di, Fr 19–21 Uhr; Peer-Chat Mi 18–20 Uhr.", "land": "AT", "url": "https://www.rataufdraht.at/"},
+    {"name": "ZARA – Beratungsstelle #GegenHassimNetz", "nummer": "+43 1 929 13 99", "erreichbarkeit": "Mo–Mi 10–15 Uhr, Do 10–18 Uhr, Fr 10–15 Uhr; kostenlos und vertraulich; zusätzlich verschlüsselte Mail (beratung@zara.or.at über FTAPI), Chat und Meldeformular. Derzeit hohe Auslastung.", "land": "AT", "url": "https://zara.or.at/de/beratungsstellen"},
+    {"name": "147 – Beratung + Hilfe (Pro Juventute)", "nummer": "147", "erreichbarkeit": "Telefon rund um die Uhr, kostenlos, erscheint nicht auf der Telefonrechnung; WhatsApp täglich 7:30–22:00 Uhr (Antwort meist innerhalb 24 h); E-Mail beratung@147.ch; Peer-Chat Mo–Do 19–22 Uhr. Deutsch, Französisch, Italienisch.", "land": "CH", "url": "https://www.147.ch/de/"},
+    {"name": "Pro Juventute Elternberatung", "nummer": "058 261 61 61", "erreichbarkeit": "Telefon rund um die Uhr, kostenlos (spendenfinanziert); WhatsApp unter derselben Nummer täglich 7:30–22:00 Uhr; E-Mail elternberatung@projuventute.ch (Antwort meist innerhalb 48 h).", "land": "CH", "url": "https://www.projuventute.ch/de/elternberatung"},
+    {"name": "Beratung für Gewaltbetroffene (genannt von Stop Hate Speech)", "nummer": "142", "erreichbarkeit": "Laut Stop Hate Speech rund um die Uhr; bei unmittelbarer Gefahr Polizei 117.", "land": "CH", "url": "https://stophatespeech.ch/pages/ich-bin-betroffen"}
+  ]
+}
